@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "language": "python",
+  "language_name": "Python",
+  "content_language": "English",
+  "examples": [
+    {
+      "id": "PY-BAS-001",
+      "title": "Print a Greeting",
+      "topic": "Basics",
+      "difficulty": "Beginner",
+      "question": "Write a Python program that prints the text Hello, World!.",
+      "code": "print(\"Hello, World!\")\n",
+      "expected_output": "Hello, World!",
+      "explanation": "The print() function displays text in the console.",
+      "validation": "reviewed"
+    },
+    {
+      "id": "PY-BAS-002",
+      "title": "Add Two Numbers",
+      "topic": "Basics",
+      "difficulty": "Beginner",
+      "question": "Read two integers from the user and print their sum.",
+      "code": "first = int(input(\"First number: \"))\nsecond = int(input(\"Second number: \"))\nprint(\"Sum:\", first + second)\n",
+      "expected_output": "For inputs 4 and 6:\nFirst number: 4\nSecond number: 6\nSum: 10",
+      "explanation": "input() reads text, int() converts the text to an integer, and + adds the two values.",
+      "validation": "reviewed"
+    },
+    {
+      "id": "PY-BAS-003",
+      "title": "Convert Celsius to Fahrenheit",
+      "topic": "Basics",
+      "difficulty": "Beginner",
+      "question": "Read a temperature in Celsius and print its Fahrenheit equivalent.",
+      "code": "celsius = float(input(\"Celsius: \"))\nfahrenheit = (celsius * 9 / 5) + 32\nprint(f\"Fahrenheit: {fahrenheit:g}\")\n",
+      "expected_output": "For input 0:\nCelsius: 0\nFahrenheit: 32",
+      "explanation": "Use the formula Fahrenheit = (Celsius × 9 / 5) + 32.",
+      "validation": "reviewed"
+    },
+    {
+      "id": "PY-CF-001",
+      "title": "Check Even or Odd",
+      "topic": "Conditions",
+      "difficulty": "Beginner",
+      "question": "Read an integer and print Even if it is divisible by 2; otherwise print Odd.",
+      "code": "number = int(input(\"Enter an integer: \"))\nif number % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n",
+      "expected_output": "For input 7:\nEnter an integer: 7\nOdd",
+      "explanation": "The modulo operator (%) returns the remainder. An even integer has remainder 0 when divided by 2.",
+      "validation": "reviewed"
+    },
+    {
+      "id": "PY-LP-001",
+      "title": "Print Numbers from 1 to 5",
+      "topic": "Loops",
+      "difficulty": "Beginner",
+      "question": "Use a for loop to print the integers from 1 through 5, one per line.",
+      "code": "for number in range(1, 6):\n    print(number)\n",
+      "expected_output": "1\n2\n3\n4\n5",
+      "explanation": "range(1, 6) produces 1, 2, 3, 4, and 5 because the stop value is excluded.",
+      "validation": "reviewed"
+    }
+  ]
+}
