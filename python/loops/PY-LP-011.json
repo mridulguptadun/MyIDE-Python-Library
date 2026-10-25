@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-011",
+  "title": "Count Down to One",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a positive integer and count down to 1 using a for loop.",
+  "code": "number = int(input(\"Start number: \"))\nfor value in range(number, 0, -1):\n    print(value)\n",
+  "expected_output": "For input 5:\nStart number: 5\n5\n4\n3\n2\n1",
+  "explanation": "A negative step makes range() count downward; the stop value 0 is excluded.",
+  "validation": "reviewed"
+}

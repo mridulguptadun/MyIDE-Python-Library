@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-003",
+  "title": "Store and Display Personal Details",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Store a person's name and age in variables, then display both values.",
+  "code": "name = \"Ravi\"\nage = 21\nprint(\"Name:\", name)\nprint(\"Age:\", age)\n",
+  "expected_output": "Name: Ravi\nAge: 21",
+  "explanation": "Variables give names to values so they can be reused in a program.",
+  "validation": "reviewed"
+}

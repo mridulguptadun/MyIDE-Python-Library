@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-004",
+  "title": "Calculate a Bill After Discount",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Read a bill amount and discount percentage, then print the final amount after discount.",
+  "code": "amount = float(input(\"Bill amount: \"))\ndiscount = float(input(\"Discount percent: \"))\nfinal_amount = amount - (amount * discount / 100)\nprint(f\"Final amount: {final_amount:.2f}\")\n",
+  "expected_output": "For inputs 500 and 10:\nBill amount: 500\nDiscount percent: 10\nFinal amount: 450.00",
+  "explanation": "Calculate the discount as amount multiplied by percentage divided by 100, then subtract it from the bill.",
+  "validation": "reviewed"
+}

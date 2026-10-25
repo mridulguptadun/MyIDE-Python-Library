@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-012",
+  "title": "Check Whether a Year Is a Century Year",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read a year and report whether it is a century year (divisible by 100).",
+  "code": "year = int(input(\"Year: \"))\nif year % 100 == 0:\n    print(\"Century year\")\nelse:\n    print(\"Not a century year\")\n",
+  "expected_output": "For input 2000:\nYear: 2000\nCentury year",
+  "explanation": "A century year has no remainder when divided by 100.",
+  "validation": "reviewed"
+}

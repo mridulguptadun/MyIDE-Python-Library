@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-003",
+  "title": "Look Up a Value Safely",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Use dict.get() to look up a key that may be missing and provide a default value.",
+  "code": "student = {\"name\": \"Meera\", \"grade\": \"A\"}\nprint(student.get(\"name\", \"Unknown\"))\nprint(student.get(\"age\", \"Not provided\"))\n",
+  "expected_output": "Meera\nNot provided",
+  "explanation": "get() returns a key's value when present, or the supplied default when it is missing.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-004",
+  "title": "Exchange Values Using a Temporary Variable",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Swap two variable values by using a temporary variable.",
+  "code": "first = 10\nsecond = 20\ntemporary = first\nfirst = second\nsecond = temporary\nprint(\"First:\", first)\nprint(\"Second:\", second)\n",
+  "expected_output": "First: 20\nSecond: 10",
+  "explanation": "A temporary variable preserves one value while the other variable is updated.",
+  "validation": "reviewed"
+}
