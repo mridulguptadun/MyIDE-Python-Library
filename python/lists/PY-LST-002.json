@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-002",
+  "title": "Remove Duplicates",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read space-separated words and print unique words in their original order.",
+  "code": "words = input(\"Words: \").split()\nunique_words = list(dict.fromkeys(words))\nprint(\"Unique:\", \" \".join(unique_words))\n",
+  "expected_output": "For input red blue red green:\nWords: red blue red green\nUnique: red blue green",
+  "explanation": "A dictionary preserves insertion order, so repeated words can be removed while keeping first occurrence order.",
+  "validation": "reviewed"
+}
