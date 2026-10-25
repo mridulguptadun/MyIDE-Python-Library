@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-002",
+  "title": "Calculate Rectangle Area",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Read a rectangle's length and width, then print its area.",
+  "code": "length = float(input(\"Length: \"))\nwidth = float(input(\"Width: \"))\nprint(\"Area:\", length * width)\n",
+  "expected_output": "For inputs 5 and 3:\nLength: 5\nWidth: 3\nArea: 15.0",
+  "explanation": "The area of a rectangle is length multiplied by width.",
+  "validation": "reviewed"
+}
