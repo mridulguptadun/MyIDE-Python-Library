@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-001",
+  "title": "Count Word Frequencies",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Count how many times each word appears in a line of text, ignoring case.",
+  "code": "words = input(\"Text: \").lower().split()\ncounts = {}\nfor word in words:\n    counts[word] = counts.get(word, 0) + 1\nfor word, count in sorted(counts.items()):\n    print(f\"{word}: {count}\")\n",
+  "expected_output": "For input red blue red:\nText: red blue red\nblue: 1\nred: 2",
+  "explanation": "A dictionary stores each word's count; get() supplies zero for unseen words.",
+  "validation": "reviewed"
+}
