@@ -1,11 +1,11 @@
 {
   "id": "PY-AUTO-001",
-  "title": "Create a Directory",
+  "title": "Create a Temporary Directory",
   "topic": "Automation",
   "difficulty": "Intermediate",
-  "question": "Create a directory path safely if it does not exist.",
-  "code": "from pathlib import Path\np = Path('demo_output')\np.mkdir(parents=True, exist_ok=True)\nprint(p.is_dir())\np.rmdir()",
+  "question": "Create a temporary directory safely and check that it exists.",
+  "code": "import tempfile\nfrom pathlib import Path\nwith tempfile.TemporaryDirectory() as folder:\n    print(Path(folder).is_dir())",
   "expected_output": "True",
-  "explanation": "exist_ok avoids an error when the directory already exists.",
+  "explanation": "TemporaryDirectory creates a unique directory and cleans it up automatically.",
   "validation": "reviewed"
 }

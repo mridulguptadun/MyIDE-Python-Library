@@ -3,9 +3,9 @@
   "title": "Log an Exception",
   "topic": "Logging",
   "difficulty": "Intermediate",
-  "question": "Record an exception message safely.",
-  "code": "import logging\ntry:\n    int('abc')\nexcept ValueError:\n    print('Conversion failed')",
+  "question": "Handle a conversion exception and show a concise message.",
+  "code": "try:\n    int('abc')\nexcept ValueError:\n    print('Conversion failed')",
   "expected_output": "Conversion failed",
-  "explanation": "Use logger.exception() inside an exception handler to include a traceback in real logs.",
+  "explanation": "In real applications, logger.exception() inside the handler can record the traceback.",
   "validation": "reviewed"
 }

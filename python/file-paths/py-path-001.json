@@ -3,9 +3,9 @@
   "title": "Join Path Parts",
   "topic": "File Paths",
   "difficulty": "Intermediate",
-  "question": "Join path components with pathlib.",
-  "code": "from pathlib import Path\nprint(Path('data') / 'notes.txt')",
-  "expected_output": "data/notes.txt",
-  "explanation": "Path joining uses the platform's path conventions; display may differ by OS.",
+  "question": "Join path components with pathlib and check the resulting filename.",
+  "code": "from pathlib import Path\npath = Path('data') / 'notes.txt'\nprint(path.name)",
+  "expected_output": "notes.txt",
+  "explanation": "Path joining uses platform-specific separators while preserving path components.",
   "validation": "reviewed"
 }
