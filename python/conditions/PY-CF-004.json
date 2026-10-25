@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-004",
+  "title": "Assign a Grade",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read a score from 0 to 100 and print A, B, C, D, or F.",
+  "code": "score = int(input(\"Score (0-100): \"))\nif not 0 <= score <= 100:\n    print(\"Invalid score\")\nelif score >= 90:\n    print(\"Grade: A\")\nelif score >= 80:\n    print(\"Grade: B\")\nelif score >= 70:\n    print(\"Grade: C\")\nelif score >= 60:\n    print(\"Grade: D\")\nelse:\n    print(\"Grade: F\")\n",
+  "expected_output": "For input 86:\nScore (0-100): 86\nGrade: B",
+  "explanation": "The conditions are checked from the highest score range downward.",
+  "validation": "reviewed"
+}
