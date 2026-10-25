@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-003",
+  "title": "Check a Palindrome",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Check whether text is a palindrome, ignoring spaces and letter case.",
+  "code": "text = input(\"Text: \").lower()\ncleaned = \"\".join(char for char in text if char.isalnum())\nprint(\"Palindrome\" if cleaned == cleaned[::-1] else \"Not a palindrome\")\n",
+  "expected_output": "For input Never odd or even:\nText: Never odd or even\nPalindrome",
+  "explanation": "The program removes non-alphanumeric characters and compares the text with its reverse.",
+  "validation": "reviewed"
+}
