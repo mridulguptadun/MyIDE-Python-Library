@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-002",
+  "title": "Count Vowels",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Count the vowels a, e, i, o, and u in a line of text.",
+  "code": "text = input(\"Text: \").lower()\ncount = sum(1 for char in text if char in \"aeiou\")\nprint(\"Vowels:\", count)\n",
+  "expected_output": "For input Education:\nText: Education\nVowels: 5",
+  "explanation": "Lowercasing lets one set of vowel characters match uppercase and lowercase input.",
+  "validation": "reviewed"
+}
