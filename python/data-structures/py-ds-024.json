@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-024",
+  "title": "Named Tuple",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Store named fields in an immutable tuple.",
+  "code": "from collections import namedtuple\nPoint = namedtuple('Point', ['x', 'y'])\np = Point(3, 4)\nprint(p.x, p.y)",
+  "expected_output": "3 4",
+  "explanation": "Named tuples provide readable field names.",
+  "validation": "reviewed"
+}

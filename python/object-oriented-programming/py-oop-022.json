@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-022",
+  "title": "Class Attribute",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Count created instances with a class attribute.",
+  "code": "class Counter:\n    created = 0\n    def __init__(self): Counter.created += 1\nCounter(); Counter()\nprint(Counter.created)",
+  "expected_output": "2",
+  "explanation": "Class attributes are shared by instances.",
+  "validation": "reviewed"
+}

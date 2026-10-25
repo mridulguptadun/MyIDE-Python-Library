@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-029",
+  "title": "Static Utility Method",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Put a utility function inside a class.",
+  "code": "class MathTools:\n    @staticmethod\n    def square(n): return n * n\nprint(MathTools.square(6))",
+  "expected_output": "36",
+  "explanation": "A static method does not automatically receive self or cls.",
+  "validation": "reviewed"
+}

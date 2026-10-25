@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-036",
+  "title": "Least Common Multiple",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the LCM of two integers.",
+  "code": "import math\na, b = 12, 18\nprint(abs(a * b) // math.gcd(a, b) if a and b else 0)",
+  "expected_output": "36",
+  "explanation": "LCM equals the absolute product divided by the GCD.",
+  "validation": "reviewed"
+}

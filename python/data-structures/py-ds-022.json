@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-022",
+  "title": "Deque as Queue",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Use a deque as a first-in-first-out queue.",
+  "code": "from collections import deque\nq = deque(['first', 'second'])\nq.append('third')\nprint(q.popleft())\nprint(q.popleft())",
+  "expected_output": "first\nsecond",
+  "explanation": "popleft() removes the oldest queued item.",
+  "validation": "reviewed"
+}

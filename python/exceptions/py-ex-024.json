@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-024",
+  "title": "Custom Exception",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Define and catch a custom exception.",
+  "code": "class AgeError(Exception): pass\ntry:\n    raise AgeError('Age is not valid')\nexcept AgeError as error:\n    print(error)",
+  "expected_output": "Age is not valid",
+  "explanation": "Custom exceptions represent application-specific errors.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-028",
+  "title": "Check a Subset",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Check whether all required permissions are granted.",
+  "code": "required = {'read', 'write'}\ngranted = {'read', 'write', 'share'}\nprint(required.issubset(granted))",
+  "expected_output": "True",
+  "explanation": "issubset() checks membership of every required item.",
+  "validation": "reviewed"
+}

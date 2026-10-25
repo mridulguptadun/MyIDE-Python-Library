@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-023",
+  "title": "Days Between Dates",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Calculate days between two dates.",
+  "code": "from datetime import date\nprint((date(2026, 1, 10) - date(2026, 1, 1)).days)",
+  "expected_output": "9",
+  "explanation": "Subtracting dates produces a timedelta.",
+  "validation": "reviewed"
+}

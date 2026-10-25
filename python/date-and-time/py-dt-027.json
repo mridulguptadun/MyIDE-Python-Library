@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-027",
+  "title": "Measure Elapsed Time",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Measure duration with a monotonic clock.",
+  "code": "from time import monotonic\nstart = monotonic()\ntotal = sum(range(10000))\nprint(total > 0, monotonic() - start >= 0)",
+  "expected_output": "True True",
+  "explanation": "monotonic() is designed for measuring elapsed durations.",
+  "validation": "reviewed"
+}

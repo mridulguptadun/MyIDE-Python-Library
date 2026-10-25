@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-031",
+  "title": "Binary Search",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find a target index in a sorted list, or -1.",
+  "code": "nums = list(map(int, input().split()))\ntarget = int(input())\nleft, right, answer = 0, len(nums) - 1, -1\nwhile left <= right:\n    mid = (left + right) // 2\n    if nums[mid] == target: answer = mid; break\n    if nums[mid] < target: left = mid + 1\n    else: right = mid - 1\nprint(answer)",
+  "expected_output": "2",
+  "explanation": "Binary search halves the search interval each step.",
+  "validation": "reviewed"
+}

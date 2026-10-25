@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-026",
+  "title": "K Smallest Values",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Find three smallest values using heapq.",
+  "code": "import heapq\nprint(heapq.nsmallest(3, [8, 3, 6, 1, 9, 2]))",
+  "expected_output": "[1, 2, 3]",
+  "explanation": "nsmallest() returns the requested smallest items.",
+  "validation": "reviewed"
+}

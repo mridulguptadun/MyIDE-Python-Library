@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-025",
+  "title": "Assert a Condition",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Assert that a calculated value is non-negative.",
+  "code": "result = 5 * 5\nassert result >= 0\nprint(result)",
+  "expected_output": "25",
+  "explanation": "assert raises AssertionError when its condition is false.",
+  "validation": "reviewed"
+}

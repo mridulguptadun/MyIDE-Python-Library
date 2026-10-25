@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-026",
+  "title": "Implement __str__",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Set the readable text representation of a book.",
+  "code": "class Book:\n    def __init__(self, title): self.title = title\n    def __str__(self): return self.title\nprint(Book('Dune'))",
+  "expected_output": "Dune",
+  "explanation": "print() uses __str__ for a readable object representation.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-030",
+  "title": "Rotate a Deque",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Rotate a deque right by two positions.",
+  "code": "from collections import deque\nitems = deque([1, 2, 3, 4])\nitems.rotate(2)\nprint(list(items))",
+  "expected_output": "[3, 4, 1, 2]",
+  "explanation": "A positive rotation moves items from right to left.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-033",
+  "title": "Selection Sort",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Sort numbers using selection sort.",
+  "code": "nums = list(map(int, input().split()))\nfor i in range(len(nums)):\n    smallest = min(range(i, len(nums)), key=nums.__getitem__)\n    nums[i], nums[smallest] = nums[smallest], nums[i]\nprint(*nums)",
+  "expected_output": "1 2 4 5",
+  "explanation": "Each pass puts the smallest remaining value into place.",
+  "validation": "reviewed"
+}

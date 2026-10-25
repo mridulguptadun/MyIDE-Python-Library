@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-024",
+  "title": "Use super()",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Extend a parent initializer with super().",
+  "code": "class Person:\n    def __init__(self, name): self.name = name\nclass Student(Person):\n    def __init__(self, name, grade):\n        super().__init__(name); self.grade = grade\ns = Student('Ava', 10)\nprint(s.name, s.grade)",
+  "expected_output": "Ava 10",
+  "explanation": "super() calls the next implementation in the method resolution order.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-023",
+  "title": "Raise ValueError",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Reject a score outside the range zero to one hundred.",
+  "code": "def validate(score):\n    if not 0 <= score <= 100: raise ValueError('Invalid score')\n    return score\nprint(validate(85))",
+  "expected_output": "85",
+  "explanation": "raise signals that an input violates a rule.",
+  "validation": "reviewed"
+}

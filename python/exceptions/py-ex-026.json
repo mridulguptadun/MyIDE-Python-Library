@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-026",
+  "title": "Try Else Clause",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Run else only when integer conversion succeeds.",
+  "code": "try:\n    value = int(input())\nexcept ValueError:\n    print('Invalid integer')\nelse:\n    print('Double:', value * 2)",
+  "expected_output": "Double: 10",
+  "explanation": "The else block runs only when try completes without an exception.",
+  "validation": "reviewed"
+}

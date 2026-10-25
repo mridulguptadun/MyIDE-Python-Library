@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-028",
+  "title": "Suppress Missing File",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Ignore FileNotFoundError while deleting an optional file.",
+  "code": "from contextlib import suppress\nfrom pathlib import Path\nwith suppress(FileNotFoundError):\n    Path('optional.tmp').unlink()\nprint('Finished')",
+  "expected_output": "Finished",
+  "explanation": "suppress() ignores only specified exception types.",
+  "validation": "reviewed"
+}

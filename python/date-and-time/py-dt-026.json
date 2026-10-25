@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-026",
+  "title": "Compare Times",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Check which time comes first.",
+  "code": "from datetime import time\nprint(time(9, 30) < time(14, 0))",
+  "expected_output": "True",
+  "explanation": "Time objects can be compared when timezone handling is compatible.",
+  "validation": "reviewed"
+}

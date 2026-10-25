@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-029",
+  "title": "Safe Integer Parsing",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Return None when integer conversion fails.",
+  "code": "def parse_integer(text):\n    try: return int(text)\n    except ValueError: return None\nprint(parse_integer('42'))\nprint(parse_integer('hello'))",
+  "expected_output": "42\nNone",
+  "explanation": "None can signal that conversion failed.",
+  "validation": "reviewed"
+}

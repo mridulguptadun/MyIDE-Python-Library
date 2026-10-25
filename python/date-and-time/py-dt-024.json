@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-024",
+  "title": "Add Days to Date",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Add seven days to a date.",
+  "code": "from datetime import date, timedelta\nprint(date(2026, 1, 1) + timedelta(days=7))",
+  "expected_output": "2026-01-08",
+  "explanation": "timedelta represents a duration.",
+  "validation": "reviewed"
+}

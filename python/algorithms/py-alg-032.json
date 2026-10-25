@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-032",
+  "title": "Linear Search",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the first index of a target value.",
+  "code": "nums = list(map(int, input().split()))\ntarget = int(input())\nprint(nums.index(target) if target in nums else -1)",
+  "expected_output": "1",
+  "explanation": "Linear search checks items until the target is found.",
+  "validation": "reviewed"
+}

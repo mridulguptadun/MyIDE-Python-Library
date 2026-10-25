@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-029",
+  "title": "Most Common Item",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Find the most frequent word.",
+  "code": "from collections import Counter\nwords = 'red blue red green blue red'.split()\nprint(Counter(words).most_common(1))",
+  "expected_output": "[('red', 3)]",
+  "explanation": "Counter counts items and most_common returns the highest counts.",
+  "validation": "reviewed"
+}

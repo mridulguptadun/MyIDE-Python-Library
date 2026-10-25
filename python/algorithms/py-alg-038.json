@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-038",
+  "title": "Prime Number Test",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Check whether an integer is prime.",
+  "code": "n = int(input())\nprime = n >= 2\nfor d in range(2, int(n ** 0.5) + 1):\n    if n % d == 0: prime = False; break\nprint(prime)",
+  "expected_output": "True",
+  "explanation": "Only divisors up to the square root need checking.",
+  "validation": "reviewed"
+}

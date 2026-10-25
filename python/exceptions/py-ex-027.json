@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-027",
+  "title": "Require Positive Number",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Raise an error for non-positive input.",
+  "code": "def require_positive(number):\n    if number <= 0: raise ValueError('Must be positive')\n    return number\nprint(require_positive(7))",
+  "expected_output": "7",
+  "explanation": "Validation prevents invalid values from proceeding.",
+  "validation": "reviewed"
+}

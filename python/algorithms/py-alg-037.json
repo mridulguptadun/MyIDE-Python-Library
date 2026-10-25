@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-037",
+  "title": "Iterative Fibonacci",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Print the first n Fibonacci numbers.",
+  "code": "n = int(input())\na, b = 0, 1\nresult = []\nfor _ in range(max(0, n)):\n    result.append(a); a, b = b, a + b\nprint(*result)",
+  "expected_output": "0 1 1 2 3 5 8",
+  "explanation": "Update both sequence values on each iteration.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-021",
+  "title": "Format a Date",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Format a date as day-month-year.",
+  "code": "from datetime import date\nprint(date(2026, 1, 5).strftime('%d-%m-%Y'))",
+  "expected_output": "05-01-2026",
+  "explanation": "strftime() formats date and time values.",
+  "validation": "reviewed"
+}

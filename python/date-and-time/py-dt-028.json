@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-028",
+  "title": "Format Duration",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Convert seconds to hours, minutes, and seconds.",
+  "code": "seconds = 3671\nhours, remainder = divmod(seconds, 3600)\nminutes, secs = divmod(remainder, 60)\nprint(f'{hours:02}:{minutes:02}:{secs:02}')",
+  "expected_output": "01:01:11",
+  "explanation": "divmod() returns quotient and remainder.",
+  "validation": "reviewed"
+}

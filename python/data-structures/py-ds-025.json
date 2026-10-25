@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-025",
+  "title": "Min Heap",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Retrieve the smallest value from a heap.",
+  "code": "import heapq\nheap = [7, 2, 9, 1]\nheapq.heapify(heap)\nprint(heapq.heappop(heap))",
+  "expected_output": "1",
+  "explanation": "A min-heap keeps its smallest value at the root.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-023",
+  "title": "Group with defaultdict",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Group words by their first letter.",
+  "code": "from collections import defaultdict\ngroups = defaultdict(list)\nfor word in ['apple', 'ant', 'berry']:\n    groups[word[0]].append(word)\nprint(dict(groups))",
+  "expected_output": "{'a': ['apple', 'ant'], 'b': ['berry']}",
+  "explanation": "defaultdict(list) creates a list for a new key.",
+  "validation": "reviewed"
+}

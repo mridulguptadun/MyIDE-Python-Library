@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-025",
+  "title": "Property Validation",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Validate a value through a property setter.",
+  "code": "class Temperature:\n    def __init__(self, value): self.celsius = value\n    @property\n    def celsius(self): return self._celsius\n    @celsius.setter\n    def celsius(self, value):\n        if value < -273.15: raise ValueError('Below absolute zero')\n        self._celsius = value\nprint(Temperature(25).celsius)",
+  "expected_output": "25",
+  "explanation": "Properties allow validation during attribute assignment.",
+  "validation": "reviewed"
+}

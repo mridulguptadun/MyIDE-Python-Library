@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-027",
+  "title": "Unique Sorted Values",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Remove duplicates and sort the values.",
+  "code": "print(sorted(set([4, 2, 4, 1, 2])))",
+  "expected_output": "[1, 2, 4]",
+  "explanation": "A set stores each distinct value once.",
+  "validation": "reviewed"
+}

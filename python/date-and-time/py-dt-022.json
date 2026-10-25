@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-022",
+  "title": "Parse a Date",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Parse a date string and display another format.",
+  "code": "from datetime import datetime\nvalue = datetime.strptime('2026-04-09', '%Y-%m-%d')\nprint(value.strftime('%d/%m/%Y'))",
+  "expected_output": "09/04/2026",
+  "explanation": "strptime() parses text using a format pattern.",
+  "validation": "reviewed"
+}

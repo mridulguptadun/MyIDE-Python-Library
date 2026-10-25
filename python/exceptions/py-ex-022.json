@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-022",
+  "title": "Finally Cleanup",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Demonstrate that finally runs after try.",
+  "code": "try:\n    print('Working')\nfinally:\n    print('Cleanup')",
+  "expected_output": "Working\nCleanup",
+  "explanation": "finally runs when control leaves the try statement.",
+  "validation": "reviewed"
+}

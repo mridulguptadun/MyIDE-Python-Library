@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-030",
+  "title": "Operator Equality",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Compare two objects using their stored values.",
+  "code": "class Box:\n    def __init__(self, value): self.value = value\n    def __eq__(self, other):\n        if not isinstance(other, Box): return NotImplemented\n        return self.value == other.value\nprint(Box(5) == Box(5))",
+  "expected_output": "True",
+  "explanation": "__eq__ defines how equality comparison works.",
+  "validation": "reviewed"
+}

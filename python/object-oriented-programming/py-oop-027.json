@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-027",
+  "title": "Use a Dataclass",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Create a data class with generated methods.",
+  "code": "from dataclasses import dataclass\n@dataclass\nclass Point:\n    x: int\n    y: int\nprint(Point(3, 4))",
+  "expected_output": "Point(x=3, y=4)",
+  "explanation": "dataclass generates common methods such as initialization and representation.",
+  "validation": "reviewed"
+}

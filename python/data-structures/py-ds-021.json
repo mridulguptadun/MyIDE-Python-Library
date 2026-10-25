@@ -1,0 +1,11 @@
+{
+  "id": "PY-DS-021",
+  "title": "List as Stack",
+  "topic": "Data Structures",
+  "difficulty": "Intermediate",
+  "question": "Use a list as a last-in-first-out stack.",
+  "code": "stack = []\nstack.append('first'); stack.append('second')\nprint(stack.pop())\nprint(stack.pop())",
+  "expected_output": "second\nfirst",
+  "explanation": "append() pushes and pop() removes the newest item.",
+  "validation": "reviewed"
+}

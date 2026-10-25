@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-030",
+  "title": "Chain an Exception",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Raise a clearer conversion error while preserving its cause.",
+  "code": "def parse_count(text):\n    try: return int(text)\n    except ValueError as error: raise ValueError('Count must be an integer') from error\ntry: parse_count('many')\nexcept ValueError as error: print(error)",
+  "expected_output": "Count must be an integer",
+  "explanation": "raise ... from preserves the original exception as the cause.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-021",
+  "title": "Instance Method",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Create a class with a greeting method.",
+  "code": "class Greeter:\n    def __init__(self, name): self.name = name\n    def greet(self): return f'Hello, {self.name}!'\nprint(Greeter('Ava').greet())",
+  "expected_output": "Hello, Ava!",
+  "explanation": "Instance methods use self to access object data.",
+  "validation": "reviewed"
+}

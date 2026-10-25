@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-030",
+  "title": "Days in a Month",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Find the number of days in February 2024.",
+  "code": "import calendar\nprint(calendar.monthrange(2024, 2)[1])",
+  "expected_output": "29",
+  "explanation": "monthrange() returns the number of days in a month.",
+  "validation": "reviewed"
+}

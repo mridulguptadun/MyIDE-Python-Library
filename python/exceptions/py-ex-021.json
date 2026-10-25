@@ -1,0 +1,11 @@
+{
+  "id": "PY-EX-021",
+  "title": "Handle Common Exceptions",
+  "topic": "Exceptions",
+  "difficulty": "Intermediate",
+  "question": "Handle invalid numbers and division by zero.",
+  "code": "try:\n    a, b = float(input()), float(input())\n    print(a / b)\nexcept ValueError:\n    print('Invalid number')\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')",
+  "expected_output": "2.0",
+  "explanation": "Different handlers provide useful feedback for different failures.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-028",
+  "title": "Class Method Constructor",
+  "topic": "Object Oriented Programming",
+  "difficulty": "Intermediate",
+  "question": "Build an object from an email address.",
+  "code": "class User:\n    def __init__(self, name): self.name = name\n    @classmethod\n    def from_email(cls, email): return cls(email.split('@')[0])\nprint(User.from_email('ava@example.com').name)",
+  "expected_output": "ava",
+  "explanation": "A class method receives the class through cls.",
+  "validation": "reviewed"
+}

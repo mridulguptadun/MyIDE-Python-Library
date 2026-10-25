@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-039",
+  "title": "Sieve of Eratosthenes",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Print all primes up to n.",
+  "code": "n = int(input())\nprime = [True] * (n + 1)\nif n >= 0: prime[0] = False\nif n >= 1: prime[1] = False\nfor p in range(2, int(n ** 0.5) + 1):\n    if prime[p]:\n        for k in range(p * p, n + 1, p): prime[k] = False\nprint(*[i for i in range(2, n + 1) if prime[i]])",
+  "expected_output": "2 3 5 7",
+  "explanation": "The sieve marks multiples of each prime as composite.",
+  "validation": "reviewed"
+}

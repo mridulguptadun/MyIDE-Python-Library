@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-035",
+  "title": "Greatest Common Divisor",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the GCD of two integers.",
+  "code": "import math\nprint(math.gcd(48, 18))",
+  "expected_output": "6",
+  "explanation": "math.gcd() calculates the greatest common divisor.",
+  "validation": "reviewed"
+}

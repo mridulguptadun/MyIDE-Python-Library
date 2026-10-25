@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-040",
+  "title": "Digital Root",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the digital root of an integer.",
+  "code": "n = abs(int(input()))\nprint(0 if n == 0 else 1 + (n - 1) % 9)",
+  "expected_output": "9",
+  "explanation": "Positive integers follow a modulo-nine digital-root pattern.",
+  "validation": "reviewed"
+}

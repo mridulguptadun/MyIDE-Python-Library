@@ -1,0 +1,11 @@
+{
+  "id": "PY-DT-029",
+  "title": "UTC Datetime",
+  "topic": "Date and Time",
+  "difficulty": "Intermediate",
+  "question": "Create a timezone-aware UTC datetime.",
+  "code": "from datetime import datetime, timezone\nvalue = datetime(2026, 1, 1, 12, tzinfo=timezone.utc)\nprint(value.isoformat())",
+  "expected_output": "2026-01-01T12:00:00+00:00",
+  "explanation": "Timezone-aware values include an explicit UTC offset.",
+  "validation": "reviewed"
+}
