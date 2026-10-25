@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-001",
+  "title": "Reverse a String",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a line of text and print it in reverse order.",
+  "code": "text = input(\"Text: \")\nprint(\"Reversed:\", text[::-1])\n",
+  "expected_output": "For input hello:\nText: hello\nReversed: olleh",
+  "explanation": "The slice [::-1] traverses a string from end to start.",
+  "validation": "reviewed"
+}
