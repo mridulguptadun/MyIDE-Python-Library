@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-005",
+  "title": "Inheritance basics",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Make a Cat class inherit a method from Animal.",
+  "code": "class Animal:\n    def speak(self):\n        return \"Sound\"\n\nclass Cat(Animal):\n    pass\n\nprint(Cat().speak())",
+  "expected_output": "Sound",
+  "explanation": "Cat inherits the speak method from Animal.",
+  "validation": "reviewed"
+}

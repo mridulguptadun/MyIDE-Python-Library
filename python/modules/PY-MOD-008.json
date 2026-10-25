@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-008",
+  "title": "Use itertools count",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print the first three values from itertools.count starting at 5.",
+  "code": "from itertools import count\ncounter = count(5)\nprint(next(counter))\nprint(next(counter))\nprint(next(counter))",
+  "expected_output": "5\n6\n7",
+  "explanation": "count creates an iterator that increases by one by default.",
+  "validation": "reviewed"
+}

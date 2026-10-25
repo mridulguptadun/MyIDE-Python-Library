@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-001",
+  "title": "Create a simple class",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Create a Dog class and print a dog's name.",
+  "code": "class Dog:\n    def __init__(self, name):\n        self.name = name\n\ndog = Dog(\"Milo\")\nprint(dog.name)",
+  "expected_output": "Milo",
+  "explanation": "The initializer stores the name on each Dog object.",
+  "validation": "reviewed"
+}

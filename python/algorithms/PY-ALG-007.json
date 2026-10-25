@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-007",
+  "title": "Merge two sorted lists",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Merge two sorted lists into one sorted list using sorted().",
+  "code": "a = [1, 4, 7]\nb = [2, 3, 8]\nprint(sorted(a + b))",
+  "expected_output": "[1, 2, 3, 4, 7, 8]",
+  "explanation": "Combine the lists and sort the result.",
+  "validation": "reviewed"
+}

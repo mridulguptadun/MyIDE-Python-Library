@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-008",
+  "title": "Find maximum recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Find the largest number in [4, 9, 2, 7] using recursion.",
+  "code": "def maximum(values):\n    if len(values) == 1:\n        return values[0]\n    rest_max = maximum(values[1:])\n    return values[0] if values[0] > rest_max else rest_max\n\nprint(maximum([4, 9, 2, 7]))",
+  "expected_output": "9",
+  "explanation": "Compare the first item with the maximum of the remaining list.",
+  "validation": "reviewed"
+}

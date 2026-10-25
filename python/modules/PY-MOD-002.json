@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-002",
+  "title": "Round with math ceil and floor",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print the ceiling and floor of 4.3.",
+  "code": "import math\nprint(math.ceil(4.3))\nprint(math.floor(4.3))",
+  "expected_output": "5\n4",
+  "explanation": "ceil rounds up to an integer; floor rounds down.",
+  "validation": "reviewed"
+}

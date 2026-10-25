@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-002",
+  "title": "Sum numbers recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Calculate the sum of numbers from 1 to 4 using recursion.",
+  "code": "def total(n):\n    if n == 0:\n        return 0\n    return n + total(n - 1)\n\nprint(total(4))",
+  "expected_output": "10",
+  "explanation": "Each call adds n to the sum of smaller numbers.",
+  "validation": "reviewed"
+}

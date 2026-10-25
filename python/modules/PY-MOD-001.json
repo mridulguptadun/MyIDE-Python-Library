@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-001",
+  "title": "Use the math module",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print the square root of 81 using the math module.",
+  "code": "import math\nprint(math.sqrt(81))",
+  "expected_output": "9.0",
+  "explanation": "Import math to use its square-root function.",
+  "validation": "reviewed"
+}

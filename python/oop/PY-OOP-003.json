@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-003",
+  "title": "Track object state",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Create a counter object that increases its value twice.",
+  "code": "class Counter:\n    def __init__(self):\n        self.value = 0\n\n    def increase(self):\n        self.value += 1\n\ncounter = Counter()\ncounter.increase()\ncounter.increase()\nprint(counter.value)",
+  "expected_output": "2",
+  "explanation": "Each object stores its own value attribute.",
+  "validation": "reviewed"
+}

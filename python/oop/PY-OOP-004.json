@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-004",
+  "title": "Class attribute",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Print a shared class attribute from two objects.",
+  "code": "class User:\n    role = \"member\"\n\na = User()\nb = User()\nprint(a.role)\nprint(b.role)",
+  "expected_output": "member\nmember",
+  "explanation": "A class attribute is shared through the class unless shadowed on an instance.",
+  "validation": "reviewed"
+}

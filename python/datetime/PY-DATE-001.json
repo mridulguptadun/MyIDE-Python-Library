@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-001",
+  "title": "Format a fixed date",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Format a fixed date as day/month/year.",
+  "code": "from datetime import date\nvalue = date(2025, 4, 9)\nprint(value.strftime(\"%d/%m/%Y\"))",
+  "expected_output": "09/04/2025",
+  "explanation": "strftime formats date values using format directives.",
+  "validation": "reviewed"
+}

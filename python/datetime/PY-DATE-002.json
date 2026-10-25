@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-002",
+  "title": "Add days to a date",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Print the date seven days after 2025-01-28.",
+  "code": "from datetime import date, timedelta\nvalue = date(2025, 1, 28) + timedelta(days=7)\nprint(value.isoformat())",
+  "expected_output": "2025-02-04",
+  "explanation": "timedelta represents a duration that can be added to a date.",
+  "validation": "reviewed"
+}

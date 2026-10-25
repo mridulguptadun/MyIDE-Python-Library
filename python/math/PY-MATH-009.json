@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-009",
+  "title": "Calculate a simple interest",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Calculate simple interest for principal 1000, rate 5 percent, and 2 years.",
+  "code": "principal, rate, years = 1000, 5, 2\ninterest = principal * rate * years / 100\nprint(interest)",
+  "expected_output": "100.0",
+  "explanation": "Simple interest equals principal times rate times time divided by 100.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-006",
+  "title": "Check a leap year",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Check whether 2024 is a leap year.",
+  "code": "import calendar\nprint(calendar.isleap(2024))",
+  "expected_output": "True",
+  "explanation": "calendar.isleap applies the Gregorian leap-year rules.",
+  "validation": "reviewed"
+}

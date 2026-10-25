@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-006",
+  "title": "Override a method",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Override a parent method in a child class.",
+  "code": "class Animal:\n    def speak(self):\n        return \"Sound\"\n\nclass Dog(Animal):\n    def speak(self):\n        return \"Woof\"\n\nprint(Dog().speak())",
+  "expected_output": "Woof",
+  "explanation": "A child method with the same name replaces the inherited behavior.",
+  "validation": "reviewed"
+}

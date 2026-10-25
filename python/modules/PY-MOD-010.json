@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-010",
+  "title": "Use enumerate from itertools",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print the first three squares with their zero-based index.",
+  "code": "squares = [x * x for x in range(3)]\nfor index, value in enumerate(squares):\n    print(index, value)",
+  "expected_output": "0 0\n1 1\n2 4",
+  "explanation": "enumerate pairs each item with its index.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-007",
+  "title": "Use super",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Use super to add a child-specific message to a parent method.",
+  "code": "class Person:\n    def describe(self):\n        return \"Person\"\n\nclass Student(Person):\n    def describe(self):\n        return super().describe() + \" and student\"\n\nprint(Student().describe())",
+  "expected_output": "Person and student",
+  "explanation": "super() calls the parent implementation according to the method resolution order.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-006",
+  "title": "Count word frequencies",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Count the words in a short sentence.",
+  "code": "from collections import Counter\nwords = \"red blue red green blue red\".split()\nprint(dict(Counter(words)))",
+  "expected_output": "{'red': 3, 'blue': 2, 'green': 1}",
+  "explanation": "Counter counts occurrences; dict shows the frequency mapping.",
+  "validation": "reviewed"
+}

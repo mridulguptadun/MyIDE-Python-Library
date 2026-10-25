@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-010",
+  "title": "Generate a multiplication table",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Print the multiplication table of 3 from 1 to 5.",
+  "code": "for i in range(1, 6):\n    print(f\"3 x {i} = {3 * i}\")",
+  "expected_output": "3 x 1 = 3\n3 x 2 = 6\n3 x 3 = 9\n3 x 4 = 12\n3 x 5 = 15",
+  "explanation": "A loop repeats the multiplication for each number.",
+  "validation": "reviewed"
+}

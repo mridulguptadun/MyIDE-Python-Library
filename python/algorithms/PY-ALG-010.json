@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-010",
+  "title": "Find the greatest common divisor",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Find the greatest common divisor of 48 and 18 using Euclid's algorithm.",
+  "code": "a, b = 48, 18\nwhile b:\n    a, b = b, a % b\nprint(a)",
+  "expected_output": "6",
+  "explanation": "Repeated remainders lead to the greatest common divisor.",
+  "validation": "reviewed"
+}

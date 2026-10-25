@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-001",
+  "title": "Linear search",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Find the index of 7 in a list without using index().",
+  "code": "values = [3, 5, 7, 9]\nfound = -1\nfor i, value in enumerate(values):\n    if value == 7:\n        found = i\n        break\nprint(found)",
+  "expected_output": "2",
+  "explanation": "Linear search checks each item until it finds a match.",
+  "validation": "reviewed"
+}

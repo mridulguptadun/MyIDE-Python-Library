@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-003",
+  "title": "Bubble sort",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Sort [5, 2, 4, 1] using bubble sort.",
+  "code": "values = [5, 2, 4, 1]\nfor end in range(len(values) - 1, 0, -1):\n    for i in range(end):\n        if values[i] > values[i + 1]:\n            values[i], values[i + 1] = values[i + 1], values[i]\nprint(values)",
+  "expected_output": "[1, 2, 4, 5]",
+  "explanation": "Bubble sort swaps adjacent items that are out of order.",
+  "validation": "reviewed"
+}

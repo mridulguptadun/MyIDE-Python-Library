@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-007",
+  "title": "Reverse an integer",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Reverse the digits of positive integer 12340.",
+  "code": "n = 12340\nreversed_number = int(str(n)[::-1])\nprint(reversed_number)",
+  "expected_output": "4321",
+  "explanation": "Reversing a string and converting it back to int drops leading zeroes.",
+  "validation": "reviewed"
+}

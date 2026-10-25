@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-002",
+  "title": "Calculate a rectangle area",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Calculate the area of a rectangle with width 6 and height 4.",
+  "code": "width, height = 6, 4\nprint(width * height)",
+  "expected_output": "24",
+  "explanation": "Rectangle area equals width multiplied by height.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-001",
+  "title": "Countdown with recursion",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Write a recursive function that prints numbers from 3 down to 1.",
+  "code": "def countdown(n):\n    if n == 0:\n        return\n    print(n)\n    countdown(n - 1)\n\ncountdown(3)",
+  "expected_output": "3\n2\n1",
+  "explanation": "The base case stops recursion at zero. Each call reduces n by one.",
+  "validation": "reviewed"
+}

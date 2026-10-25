@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-009",
+  "title": "Use collections Counter",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Count how often each letter appears in 'banana'.",
+  "code": "from collections import Counter\ncounts = Counter(\"banana\")\nprint(counts[\"a\"])\nprint(counts[\"n\"])",
+  "expected_output": "3\n2",
+  "explanation": "Counter builds a frequency mapping for values.",
+  "validation": "reviewed"
+}

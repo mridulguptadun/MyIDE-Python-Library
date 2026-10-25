@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-006",
+  "title": "Count digits recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Count the digits in the integer 5832 using recursion.",
+  "code": "def digit_count(n):\n    if n < 10:\n        return 1\n    return 1 + digit_count(n // 10)\n\nprint(digit_count(5832))",
+  "expected_output": "4",
+  "explanation": "Integer division by ten removes the last digit.",
+  "validation": "reviewed"
+}

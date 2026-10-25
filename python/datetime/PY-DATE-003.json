@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-003",
+  "title": "Find the number of days between dates",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Calculate days between 2025-01-01 and 2025-01-10.",
+  "code": "from datetime import date\nstart = date(2025, 1, 1)\nend = date(2025, 1, 10)\nprint((end - start).days)",
+  "expected_output": "9",
+  "explanation": "Subtracting dates returns a timedelta.",
+  "validation": "reviewed"
+}

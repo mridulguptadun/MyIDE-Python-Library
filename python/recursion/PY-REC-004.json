@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-004",
+  "title": "Power using recursion",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Calculate 2 raised to power 4 recursively.",
+  "code": "def power(base, exponent):\n    if exponent == 0:\n        return 1\n    return base * power(base, exponent - 1)\n\nprint(power(2, 4))",
+  "expected_output": "16",
+  "explanation": "The base case returns one for exponent zero.",
+  "validation": "reviewed"
+}

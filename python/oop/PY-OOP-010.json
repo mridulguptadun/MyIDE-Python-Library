@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-010",
+  "title": "Use a property",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Use a property to expose a circle's diameter.",
+  "code": "class Circle:\n    def __init__(self, radius):\n        self.radius = radius\n\n    @property\n    def diameter(self):\n        return self.radius * 2\n\nprint(Circle(4).diameter)",
+  "expected_output": "8",
+  "explanation": "A property lets an attribute-style access run a method.",
+  "validation": "reviewed"
+}

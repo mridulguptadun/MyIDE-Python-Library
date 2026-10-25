@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-010",
+  "title": "Build a datetime object",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Create and print a fixed date and time in ISO format.",
+  "code": "from datetime import datetime\nvalue = datetime(2025, 7, 4, 9, 30)\nprint(value.isoformat(sep=\" \"))",
+  "expected_output": "2025-07-04 09:30:00",
+  "explanation": "isoformat formats a datetime in a standard representation.",
+  "validation": "reviewed"
+}

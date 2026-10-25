@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-008",
+  "title": "Compare two dates",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Check whether 2025-06-01 comes after 2025-05-31.",
+  "code": "from datetime import date\na = date(2025, 6, 1)\nb = date(2025, 5, 31)\nprint(a > b)",
+  "expected_output": "True",
+  "explanation": "Date objects support chronological comparisons.",
+  "validation": "reviewed"
+}

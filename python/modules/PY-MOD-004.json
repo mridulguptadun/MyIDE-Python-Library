@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-004",
+  "title": "Get current date",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print today's date in ISO format. The output depends on the day the program runs.",
+  "code": "from datetime import date\nprint(date.today().isoformat())",
+  "expected_output": "Current date in YYYY-MM-DD format",
+  "explanation": "date.today returns the local system date.",
+  "validation": "reviewed"
+}

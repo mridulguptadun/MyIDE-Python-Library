@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-005",
+  "title": "Calculate a percentage",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Calculate what percentage 35 is of 50.",
+  "code": "part, whole = 35, 50\nprint(f\"{part / whole * 100:.0f}%\")",
+  "expected_output": "70%",
+  "explanation": "Percentage is part divided by whole, multiplied by 100.",
+  "validation": "reviewed"
+}

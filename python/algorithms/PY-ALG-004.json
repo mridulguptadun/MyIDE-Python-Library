@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-004",
+  "title": "Selection sort",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Sort [6, 3, 8, 2] using selection sort.",
+  "code": "values = [6, 3, 8, 2]\nfor i in range(len(values)):\n    smallest = i\n    for j in range(i + 1, len(values)):\n        if values[j] < values[smallest]:\n            smallest = j\n    values[i], values[smallest] = values[smallest], values[i]\nprint(values)",
+  "expected_output": "[2, 3, 6, 8]",
+  "explanation": "Selection sort selects the smallest remaining item for each position.",
+  "validation": "reviewed"
+}

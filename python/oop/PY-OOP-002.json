@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-002",
+  "title": "Add an instance method",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Create a Greeter class whose greet method returns a message.",
+  "code": "class Greeter:\n    def greet(self, name):\n        return f\"Hello, {name}!\"\n\nprint(Greeter().greet(\"Asha\"))",
+  "expected_output": "Hello, Asha!",
+  "explanation": "Instance methods use self to access the current object.",
+  "validation": "reviewed"
+}

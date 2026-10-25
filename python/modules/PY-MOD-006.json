@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-006",
+  "title": "Use statistics mean",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Calculate the mean of 2, 4, and 9.",
+  "code": "import statistics\nprint(statistics.mean([2, 4, 9]))",
+  "expected_output": "5",
+  "explanation": "statistics.mean calculates the arithmetic average.",
+  "validation": "reviewed"
+}

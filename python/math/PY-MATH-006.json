@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-006",
+  "title": "Sum digits of a number",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Find the sum of digits in 583.",
+  "code": "n = 583\ntotal = 0\nwhile n:\n    total += n % 10\n    n //= 10\nprint(total)",
+  "expected_output": "16",
+  "explanation": "Modulo gets the last digit; integer division removes it.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-005",
+  "title": "Parse a date string",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Parse 2025-12-31 into a date and print the month name.",
+  "code": "from datetime import datetime\nvalue = datetime.strptime(\"2025-12-31\", \"%Y-%m-%d\")\nprint(value.strftime(\"%B\"))",
+  "expected_output": "December",
+  "explanation": "strptime converts a formatted string to a datetime object.",
+  "validation": "reviewed"
+}

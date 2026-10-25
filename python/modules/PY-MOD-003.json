@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-003",
+  "title": "Use the random module",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Choose a random item from a fixed list. The exact output may vary.",
+  "code": "import random\nitems = [\"red\", \"blue\", \"green\"]\nprint(random.choice(items))",
+  "expected_output": "One of: red, blue, green",
+  "explanation": "random.choice returns one item from a non-empty sequence.",
+  "validation": "reviewed"
+}

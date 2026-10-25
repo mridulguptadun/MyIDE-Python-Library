@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-008",
+  "title": "Check a perfect square",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Check whether 144 is a perfect square.",
+  "code": "import math\nn = 144\nroot = math.isqrt(n)\nprint(root * root == n)",
+  "expected_output": "True",
+  "explanation": "isqrt returns the integer square root without floating-point rounding.",
+  "validation": "reviewed"
+}

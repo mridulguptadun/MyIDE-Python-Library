@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-001",
+  "title": "Check even or odd with modulo",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Print whether 14 is even or odd.",
+  "code": "n = 14\nprint(\"Even\" if n % 2 == 0 else \"Odd\")",
+  "expected_output": "Even",
+  "explanation": "An even integer has remainder zero when divided by two.",
+  "validation": "reviewed"
+}

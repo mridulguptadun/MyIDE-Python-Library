@@ -1,0 +1,11 @@
+{
+  "id": "PY-MATH-003",
+  "title": "Calculate a circle circumference",
+  "topic": "Math and Number Problems",
+  "difficulty": "Beginner",
+  "question": "Calculate the circumference of a circle with radius 2 to two decimal places.",
+  "code": "import math\nradius = 2\nprint(f\"{2 * math.pi * radius:.2f}\")",
+  "expected_output": "12.57",
+  "explanation": "Circumference equals two times pi times radius.",
+  "validation": "reviewed"
+}

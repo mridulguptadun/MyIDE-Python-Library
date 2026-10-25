@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-009",
+  "title": "Check a prime number",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Check whether 29 is prime using trial division.",
+  "code": "n = 29\nis_prime = n > 1\nfor divisor in range(2, int(n ** 0.5) + 1):\n    if n % divisor == 0:\n        is_prime = False\n        break\nprint(is_prime)",
+  "expected_output": "True",
+  "explanation": "Only divisors up to the square root need to be checked.",
+  "validation": "reviewed"
+}

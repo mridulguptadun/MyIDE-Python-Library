@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-005",
+  "title": "Fibonacci value recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Print the fifth Fibonacci value using a simple recursive function where F(0)=0 and F(1)=1.",
+  "code": "def fib(n):\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\nprint(fib(5))",
+  "expected_output": "5",
+  "explanation": "Each Fibonacci value is the sum of the previous two values.",
+  "validation": "reviewed"
+}

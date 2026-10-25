@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-007",
+  "title": "Reverse a string recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Reverse the word 'code' using recursion.",
+  "code": "def reverse_text(text):\n    if text == \"\":\n        return text\n    return reverse_text(text[1:]) + text[0]\n\nprint(reverse_text(\"code\"))",
+  "expected_output": "edoc",
+  "explanation": "The function reverses the remaining text before adding the first character.",
+  "validation": "reviewed"
+}

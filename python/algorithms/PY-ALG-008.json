@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-008",
+  "title": "Find the second largest unique value",
+  "topic": "Algorithms",
+  "difficulty": "Beginner",
+  "question": "Find the second largest unique number in a list.",
+  "code": "values = [4, 9, 4, 7, 9, 2]\nunique = sorted(set(values))\nprint(unique[-2])",
+  "expected_output": "7",
+  "explanation": "Convert to a set to remove duplicates, then sort.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-003",
+  "title": "Factorial recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Find the factorial of 5 with a recursive function.",
+  "code": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(5))",
+  "expected_output": "120",
+  "explanation": "Factorial multiplies n by the factorial of n minus one.",
+  "validation": "reviewed"
+}

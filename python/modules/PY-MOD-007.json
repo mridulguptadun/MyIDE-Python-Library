@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-007",
+  "title": "Use string constants",
+  "topic": "Modules",
+  "difficulty": "Beginner",
+  "question": "Print lowercase ASCII letters using string constants.",
+  "code": "import string\nprint(string.ascii_lowercase)",
+  "expected_output": "abcdefghijklmnopqrstuvwxyz",
+  "explanation": "string.ascii_lowercase contains the English lowercase letters.",
+  "validation": "reviewed"
+}

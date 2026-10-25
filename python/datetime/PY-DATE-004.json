@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-004",
+  "title": "Format a time",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Format 14:05 as a 12-hour clock string.",
+  "code": "from datetime import time\nvalue = time(14, 5)\nprint(value.strftime(\"%I:%M %p\"))",
+  "expected_output": "02:05 PM",
+  "explanation": "%I is the 12-hour clock and %p is AM or PM.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-008",
+  "title": "Represent an object with repr",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Define a useful __repr__ for a Point object.",
+  "code": "class Point:\n    def __init__(self, x, y):\n        self.x = x\n        self.y = y\n\n    def __repr__(self):\n        return f\"Point({self.x}, {self.y})\"\n\nprint(repr(Point(2, 3)))",
+  "expected_output": "Point(2, 3)",
+  "explanation": "__repr__ provides a developer-oriented string representation.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATE-007",
+  "title": "Get weekday name",
+  "topic": "Date and Time",
+  "difficulty": "Beginner",
+  "question": "Print the weekday for 2025-01-01.",
+  "code": "from datetime import date\nprint(date(2025, 1, 1).strftime(\"%A\"))",
+  "expected_output": "Wednesday",
+  "explanation": "strftime with %A returns the full weekday name.",
+  "validation": "reviewed"
+}

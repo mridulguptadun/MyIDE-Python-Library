@@ -1,0 +1,11 @@
+{
+  "id": "PY-REC-010",
+  "title": "Convert decimal to binary recursively",
+  "topic": "Recursion",
+  "difficulty": "Beginner",
+  "question": "Convert decimal number 10 to binary using recursion.",
+  "code": "def to_binary(n):\n    if n < 2:\n        return str(n)\n    return to_binary(n // 2) + str(n % 2)\n\nprint(to_binary(10))",
+  "expected_output": "1010",
+  "explanation": "Repeated division by two builds the binary digits from left to right.",
+  "validation": "reviewed"
+}

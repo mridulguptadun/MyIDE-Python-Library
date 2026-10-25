@@ -1,0 +1,11 @@
+{
+  "id": "PY-OOP-009",
+  "title": "Compare objects with equality",
+  "topic": "Object-Oriented Programming",
+  "difficulty": "Beginner",
+  "question": "Implement equality for two Point objects.",
+  "code": "class Point:\n    def __init__(self, x, y):\n        self.x, self.y = x, y\n\n    def __eq__(self, other):\n        if not isinstance(other, Point):\n            return NotImplemented\n        return (self.x, self.y) == (other.x, other.y)\n\nprint(Point(1, 2) == Point(1, 2))",
+  "expected_output": "True",
+  "explanation": "__eq__ defines how == compares two objects.",
+  "validation": "reviewed"
+}
