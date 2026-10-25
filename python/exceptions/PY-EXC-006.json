@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-006",
+  "title": "Handle Multiple Exception Types",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Convert the text zero to an integer and handle ValueError or TypeError.",
+  "code": "text = \"zero\"\ntry:\n    number = int(text)\n    print(number)\nexcept (ValueError, TypeError):\n    print(\"Invalid input\")\n",
+  "expected_output": "Invalid input",
+  "explanation": "An except clause can list multiple exception classes.",
+  "validation": "reviewed"
+}

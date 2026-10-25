@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-018",
+  "title": "Count Words in a Sentence",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Count the words in the sentence Python is easy to learn.",
+  "code": "sentence = \"Python is easy to learn\"\nprint(len(sentence.split()))\n",
+  "expected_output": "5",
+  "explanation": "split() creates a list of words and len() counts them.",
+  "validation": "reviewed"
+}

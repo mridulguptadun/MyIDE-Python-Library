@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-020",
+  "title": "Calculate Simple Interest",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Calculate simple interest for principal 1000, rate 5 percent, and time 2 years.",
+  "code": "principal = 1000\nrate = 5\ntime = 2\ninterest = principal * rate * time / 100\nprint(interest)\n",
+  "expected_output": "100.0",
+  "explanation": "Simple interest is principal multiplied by rate and time, divided by 100.",
+  "validation": "reviewed"
+}

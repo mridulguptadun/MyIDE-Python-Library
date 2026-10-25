@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-022",
+  "title": "Calculate Average of Three Marks",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Calculate and print the average of marks 70, 80, and 90.",
+  "code": "marks = [70, 80, 90]\naverage = sum(marks) / len(marks)\nprint(average)\n",
+  "expected_output": "80.0",
+  "explanation": "sum() adds the marks and len() counts them; dividing gives the average.",
+  "validation": "reviewed"
+}

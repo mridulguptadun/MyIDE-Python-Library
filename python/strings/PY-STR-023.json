@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-023",
+  "title": "Count a Specific Character",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Count how many times a appears in banana.",
+  "code": "word = \"banana\"\nprint(word.count(\"a\"))\n",
+  "expected_output": "3",
+  "explanation": "count() returns the number of occurrences of a substring.",
+  "validation": "reviewed"
+}

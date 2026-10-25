@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-007",
+  "title": "Handle an Invalid List Index",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Access an invalid list index and handle IndexError.",
+  "code": "items = [\"a\", \"b\"]\ntry:\n    print(items[5])\nexcept IndexError:\n    print(\"Index out of range\")\n",
+  "expected_output": "Index out of range",
+  "explanation": "IndexError occurs when a sequence index is outside its valid range.",
+  "validation": "reviewed"
+}

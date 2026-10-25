@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-011",
+  "title": "Update a Dictionary Value",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Change a score from 70 to 85 and print the updated value.",
+  "code": "student = {\"score\": 70}\nstudent[\"score\"] = 85\nprint(student[\"score\"])\n",
+  "expected_output": "85",
+  "explanation": "Assigning to an existing key updates its value.",
+  "validation": "reviewed"
+}

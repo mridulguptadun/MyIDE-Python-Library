@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-007",
+  "title": "Append a Line to a File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Write Start to a file, append Finish on a new line, then print the contents.",
+  "code": "with open(\"log.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Start\\n\")\nwith open(\"log.txt\", \"a\", encoding=\"utf-8\") as file:\n    file.write(\"Finish\\n\")\nwith open(\"log.txt\", \"r\", encoding=\"utf-8\") as file:\n    print(file.read(), end=\"\")\n",
+  "expected_output": "Start\nFinish\n",
+  "explanation": "Mode a appends text without replacing existing content.",
+  "validation": "reviewed"
+}

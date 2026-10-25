@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-019",
+  "title": "Select the First Three Items",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Print the first three items from a list of five numbers.",
+  "code": "numbers = [10, 20, 30, 40, 50]\nprint(numbers[:3])\n",
+  "expected_output": "[10, 20, 30]",
+  "explanation": "The slice [:3] selects items up to, but not including, index 3.",
+  "validation": "reviewed"
+}

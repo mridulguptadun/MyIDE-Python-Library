@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-018",
+  "title": "Combine Two Lists",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Combine two lists of numbers and print the result.",
+  "code": "first = [1, 2]\nsecond = [3, 4]\nprint(first + second)\n",
+  "expected_output": "[1, 2, 3, 4]",
+  "explanation": "The + operator concatenates two lists.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-024",
+  "title": "Calculate Rectangle Perimeter",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Calculate the perimeter of a rectangle with length 8 and width 3.",
+  "code": "length = 8\nwidth = 3\nperimeter = 2 * (length + width)\nprint(perimeter)\n",
+  "expected_output": "22",
+  "explanation": "The perimeter is twice the sum of length and width.",
+  "validation": "reviewed"
+}

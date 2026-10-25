@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-010",
+  "title": "Compare Two Values",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Check whether 10 is greater than 7 and print the result.",
+  "code": "print(10 > 7)\n",
+  "expected_output": "True",
+  "explanation": "The > operator returns True when the left value is greater.",
+  "validation": "reviewed"
+}

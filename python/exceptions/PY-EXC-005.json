@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-005",
+  "title": "Handle a Missing Dictionary Key",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Access a missing dictionary key and handle KeyError with a message.",
+  "code": "person = {\"name\": \"Asha\"}\ntry:\n    print(person[\"age\"])\nexcept KeyError:\n    print(\"Key not found\")\n",
+  "expected_output": "Key not found",
+  "explanation": "A missing dictionary key raises KeyError.",
+  "validation": "reviewed"
+}

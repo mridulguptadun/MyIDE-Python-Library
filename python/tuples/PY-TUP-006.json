@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-006",
+  "title": "Count an Item in a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Count how many times 2 appears in a tuple.",
+  "code": "numbers = (1, 2, 2, 3, 2)\nprint(numbers.count(2))\n",
+  "expected_output": "3",
+  "explanation": "count() returns the number of occurrences of a value.",
+  "validation": "reviewed"
+}

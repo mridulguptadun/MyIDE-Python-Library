@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-020",
+  "title": "Classify a Number",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Classify the number -4 as positive, negative, or zero.",
+  "code": "number = -4\nif number > 0:\n    print(\"Positive\")\nelif number < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")\n",
+  "expected_output": "Negative",
+  "explanation": "if and elif test conditions in order; else handles the remaining case.",
+  "validation": "reviewed"
+}

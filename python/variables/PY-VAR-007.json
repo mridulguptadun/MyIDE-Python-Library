@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-007",
+  "title": "Build a Sentence with an F-String",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Use name and age variables to print a sentence with an f-string.",
+  "code": "name = \"Asha\"\nage = 16\nprint(f\"{name} is {age} years old.\")\n",
+  "expected_output": "Asha is 16 years old.",
+  "explanation": "An f-string inserts variable values inside curly braces.",
+  "validation": "reviewed"
+}

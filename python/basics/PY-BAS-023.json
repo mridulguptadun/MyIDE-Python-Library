@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-023",
+  "title": "Format a Name in Uppercase",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Store the name Python Learner and print it in uppercase.",
+  "code": "name = \"Python Learner\"\nprint(name.upper())\n",
+  "expected_output": "PYTHON LEARNER",
+  "explanation": "upper() returns a copy of a string with letters converted to uppercase.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-005",
+  "title": "Remove an Item from a Set",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Remove 2 from a set and print the remaining values in sorted order.",
+  "code": "numbers = {1, 2, 3}\nnumbers.remove(2)\nprint(sorted(numbers))\n",
+  "expected_output": "[1, 3]",
+  "explanation": "remove() deletes an existing item and raises KeyError if it is missing.",
+  "validation": "reviewed"
+}

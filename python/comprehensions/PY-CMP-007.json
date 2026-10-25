@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-007",
+  "title": "Create a Dictionary with a Comprehension",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a dictionary comprehension to map numbers 1 through 3 to their squares.",
+  "code": "squares = {number: number ** 2 for number in range(1, 4)}\nprint(squares)\n",
+  "expected_output": "{1: 1, 2: 4, 3: 9}",
+  "explanation": "A dictionary comprehension creates key-value pairs from an iterable.",
+  "validation": "reviewed"
+}

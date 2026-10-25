@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-021",
+  "title": "Convert Kilometers to Meters",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Convert 3.5 kilometers to meters and print the result.",
+  "code": "kilometers = 3.5\nmeters = kilometers * 1000\nprint(meters)\n",
+  "expected_output": "3500.0",
+  "explanation": "One kilometer equals 1000 meters.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-021",
+  "title": "Check Voting Eligibility",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Print whether a person aged 20 is eligible to vote using 18 as the minimum age.",
+  "code": "age = 20\nif age >= 18:\n    print(\"Eligible\")\nelse:\n    print(\"Not eligible\")\n",
+  "expected_output": "Eligible",
+  "explanation": "The >= operator checks whether age is at least 18.",
+  "validation": "reviewed"
+}

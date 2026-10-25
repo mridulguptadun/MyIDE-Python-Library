@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-007",
+  "title": "Join Two Tuples",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Join two tuples and print the combined tuple.",
+  "code": "first = (1, 2)\nsecond = (3, 4)\nprint(first + second)\n",
+  "expected_output": "(1, 2, 3, 4)",
+  "explanation": "The + operator concatenates tuples.",
+  "validation": "reviewed"
+}

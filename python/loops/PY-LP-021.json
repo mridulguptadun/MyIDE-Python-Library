@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-021",
+  "title": "Print Odd Numbers from 1 to 9",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Use a loop to print odd numbers from 1 through 9.",
+  "code": "for number in range(1, 10, 2):\n    print(number)\n",
+  "expected_output": "1\n3\n5\n7\n9",
+  "explanation": "The step value 2 skips every even number.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-023",
+  "title": "Assign a Grade from Marks",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Print the grade for 82 marks: A for 80 or more, B for 60 or more, otherwise C.",
+  "code": "marks = 82\nif marks >= 80:\n    grade = \"A\"\nelif marks >= 60:\n    grade = \"B\"\nelse:\n    grade = \"C\"\nprint(grade)\n",
+  "expected_output": "A",
+  "explanation": "The first matching condition determines the grade.",
+  "validation": "reviewed"
+}

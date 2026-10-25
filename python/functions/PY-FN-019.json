@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-019",
+  "title": "Return an Absolute Value",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns the absolute value of -12.",
+  "code": "def absolute_value(number):\n    return abs(number)\n\nprint(absolute_value(-12))\n",
+  "expected_output": "12",
+  "explanation": "abs() returns a number's non-negative magnitude.",
+  "validation": "reviewed"
+}

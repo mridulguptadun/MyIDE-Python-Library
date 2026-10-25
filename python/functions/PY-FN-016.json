@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-016",
+  "title": "Count List Items",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns the number of items in a list.",
+  "code": "def item_count(items):\n    return len(items)\n\nprint(item_count([\"pen\", \"book\", \"bag\"]))\n",
+  "expected_output": "3",
+  "explanation": "len() returns the number of items in a list.",
+  "validation": "reviewed"
+}

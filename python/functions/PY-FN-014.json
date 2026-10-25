@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-014",
+  "title": "Calculate a Square",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns the square of a number and print the square of 6.",
+  "code": "def square(number):\n    return number ** 2\n\nprint(square(6))\n",
+  "expected_output": "36",
+  "explanation": "The function uses ** 2 to square the input.",
+  "validation": "reviewed"
+}

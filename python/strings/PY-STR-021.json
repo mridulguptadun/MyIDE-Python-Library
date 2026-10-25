@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-021",
+  "title": "Find a Character Position",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Print the index of the first letter t in Python.",
+  "code": "word = \"Python\"\nprint(word.find(\"t\"))\n",
+  "expected_output": "2",
+  "explanation": "find() returns the zero-based index of the first match.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-020",
+  "title": "Count Down from Five",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Print the numbers 5 down to 1, each on a new line.",
+  "code": "for number in range(5, 0, -1):\n    print(number)\n",
+  "expected_output": "5\n4\n3\n2\n1",
+  "explanation": "A negative step makes range() count downward.",
+  "validation": "reviewed"
+}

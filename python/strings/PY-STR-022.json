@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-022",
+  "title": "Repeat a String",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Print Go three times with spaces between repetitions.",
+  "code": "print(\" \".join([\"Go\"] * 3))\n",
+  "expected_output": "Go Go Go",
+  "explanation": "String repetition with * creates copies; join() places spaces between them.",
+  "validation": "reviewed"
+}

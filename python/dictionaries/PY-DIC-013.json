@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-013",
+  "title": "Remove a Dictionary Entry",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Remove age from a dictionary and print the remaining dictionary.",
+  "code": "person = {\"name\": \"Asha\", \"age\": 16}\ndel person[\"age\"]\nprint(person)\n",
+  "expected_output": "{'name': 'Asha'}",
+  "explanation": "del removes the selected key-value pair.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-010",
+  "title": "Safely Get a Dictionary Value",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Get age from a dictionary, using 0 as a fallback if missing.",
+  "code": "person = {\"name\": \"Asha\", \"age\": 16}\nprint(person.get(\"age\", 0))\n",
+  "expected_output": "16",
+  "explanation": "get() returns a value or a fallback if the key is missing.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-006",
+  "title": "Filter Long Words with a Comprehension",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to keep only words longer than three characters.",
+  "code": "words = [\"cat\", \"tiger\", \"owl\", \"horse\"]\nlong_words = [word for word in words if len(word) > 3]\nprint(long_words)\n",
+  "expected_output": "['tiger', 'horse']",
+  "explanation": "The if clause filters items before they are included.",
+  "validation": "reviewed"
+}

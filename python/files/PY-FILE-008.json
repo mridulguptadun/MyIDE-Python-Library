@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-008",
+  "title": "Check Whether a File Exists",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Create a file and use pathlib to check whether it exists.",
+  "code": "from pathlib import Path\npath = Path(\"sample.txt\")\npath.write_text(\"hello\", encoding=\"utf-8\")\nprint(path.exists())\n",
+  "expected_output": "True",
+  "explanation": "Path.exists() returns True when the path exists.",
+  "validation": "reviewed"
+}

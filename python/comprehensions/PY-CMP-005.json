@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-005",
+  "title": "Create a List of Word Initials",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to collect the first letter of each word.",
+  "code": "words = [\"apple\", \"banana\", \"cherry\"]\ninitials = [word[0] for word in words]\nprint(initials)\n",
+  "expected_output": "['a', 'b', 'c']",
+  "explanation": "word[0] selects the first character of each word.",
+  "validation": "reviewed"
+}

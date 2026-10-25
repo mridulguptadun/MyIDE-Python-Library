@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-015",
+  "title": "Join First and Last Name",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that joins a first name and last name with one space.",
+  "code": "def full_name(first, last):\n    return first + \" \" + last\n\nprint(full_name(\"Asha\", \"Verma\"))\n",
+  "expected_output": "Asha Verma",
+  "explanation": "The function combines both strings with a space between them.",
+  "validation": "reviewed"
+}

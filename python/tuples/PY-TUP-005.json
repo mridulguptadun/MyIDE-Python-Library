@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-005",
+  "title": "Unpack a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Unpack a tuple of two values and print each value.",
+  "code": "person = (\"Asha\", 16)\nname, age = person\nprint(name)\nprint(age)\n",
+  "expected_output": "Asha\n16",
+  "explanation": "Tuple unpacking assigns each item to a corresponding variable.",
+  "validation": "reviewed"
+}

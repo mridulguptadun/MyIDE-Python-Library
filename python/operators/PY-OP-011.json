@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-011",
+  "title": "Use the Not Operator",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Use not to print the opposite of True.",
+  "code": "is_ready = True\nprint(not is_ready)\n",
+  "expected_output": "False",
+  "explanation": "The not operator reverses a Boolean value.",
+  "validation": "reviewed"
+}

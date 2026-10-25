@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-024",
+  "title": "Validate Triangle Sides",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Check whether side lengths 3, 4, and 5 can form a triangle.",
+  "code": "a, b, c = 3, 4, 5\nif a + b > c and a + c > b and b + c > a:\n    print(\"Valid triangle\")\nelse:\n    print(\"Invalid triangle\")\n",
+  "expected_output": "Valid triangle",
+  "explanation": "Each pair of sides must add up to more than the remaining side.",
+  "validation": "reviewed"
+}

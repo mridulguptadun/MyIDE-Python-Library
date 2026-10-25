@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-020",
+  "title": "Remove an Item from a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Remove 2 from a list and print the updated list.",
+  "code": "numbers = [1, 2, 3]\nnumbers.remove(2)\nprint(numbers)\n",
+  "expected_output": "[1, 3]",
+  "explanation": "remove() deletes the first matching value.",
+  "validation": "reviewed"
+}

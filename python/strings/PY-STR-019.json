@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-019",
+  "title": "Trim Surrounding Spaces",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Remove spaces at the start and end of a string and print it inside brackets.",
+  "code": "text = \"   hello   \"\nprint(\"[\" + text.strip() + \"]\")\n",
+  "expected_output": "[hello]",
+  "explanation": "strip() removes whitespace from both ends of a string.",
+  "validation": "reviewed"
+}

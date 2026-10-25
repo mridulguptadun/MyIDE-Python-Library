@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-006",
+  "title": "Find Items in Either Set",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Find all unique numbers from either of two sets and print them sorted.",
+  "code": "first = {1, 2}\nsecond = {2, 3}\nprint(sorted(first | second))\n",
+  "expected_output": "[1, 2, 3]",
+  "explanation": "The | operator returns the union of two sets.",
+  "validation": "reviewed"
+}

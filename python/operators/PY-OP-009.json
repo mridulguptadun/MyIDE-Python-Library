@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-009",
+  "title": "Use the Exponent Operator",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Calculate 2 raised to the power of 5.",
+  "code": "print(2 ** 5)\n",
+  "expected_output": "32",
+  "explanation": "The ** operator raises a number to a power.",
+  "validation": "reviewed"
+}

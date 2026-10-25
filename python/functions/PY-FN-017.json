@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-017",
+  "title": "Return the Smaller Number",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns the smaller of two numbers.",
+  "code": "def smaller(a, b):\n    return min(a, b)\n\nprint(smaller(8, 3))\n",
+  "expected_output": "3",
+  "explanation": "min() returns the smallest comparable value.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-006",
+  "title": "Use a Boolean Variable",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Store a login state as a Boolean and print it.",
+  "code": "is_logged_in = True\nprint(is_logged_in)\n",
+  "expected_output": "True",
+  "explanation": "Boolean values are True and False.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-023",
+  "title": "Reverse the Digits of a Number",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Reverse the digits of 1234 using a while loop and print the result.",
+  "code": "number = 1234\nreversed_number = 0\nwhile number > 0:\n    digit = number % 10\n    reversed_number = reversed_number * 10 + digit\n    number //= 10\nprint(reversed_number)\n",
+  "expected_output": "4321",
+  "explanation": "The remainder gives the last digit; repeated multiplication builds the reversed number.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-022",
+  "title": "Count Digits in a Number",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Count the digits in integer 5832 using a loop and print the count.",
+  "code": "number = 5832\ncount = 0\nwhile number > 0:\n    number //= 10\n    count += 1\nprint(count)\n",
+  "expected_output": "4",
+  "explanation": "Integer division by 10 removes the last digit each time.",
+  "validation": "reviewed"
+}

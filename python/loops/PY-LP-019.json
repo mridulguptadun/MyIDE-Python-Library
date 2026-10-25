@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-019",
+  "title": "Sum Numbers from 1 to 10",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Use a loop to calculate the sum of numbers from 1 through 10.",
+  "code": "total = 0\nfor number in range(1, 11):\n    total += number\nprint(total)\n",
+  "expected_output": "55",
+  "explanation": "range(1, 11) produces 1 through 10; the loop adds each number.",
+  "validation": "reviewed"
+}

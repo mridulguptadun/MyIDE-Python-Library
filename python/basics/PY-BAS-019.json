@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-019",
+  "title": "Convert Minutes to Hours and Minutes",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Convert 135 minutes into hours and remaining minutes, then print both values.",
+  "code": "total_minutes = 135\nhours = total_minutes // 60\nminutes = total_minutes % 60\nprint(hours)\nprint(minutes)\n",
+  "expected_output": "2\n15",
+  "explanation": "// gives whole hours and % gives remaining minutes.",
+  "validation": "reviewed"
+}

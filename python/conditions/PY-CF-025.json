@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-025",
+  "title": "Check Multiple of Five",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Check whether 35 is a multiple of 5 and print the result.",
+  "code": "number = 35\nif number % 5 == 0:\n    print(\"Multiple of five\")\nelse:\n    print(\"Not a multiple of five\")\n",
+  "expected_output": "Multiple of five",
+  "explanation": "A number is divisible by five when its remainder is zero.",
+  "validation": "reviewed"
+}

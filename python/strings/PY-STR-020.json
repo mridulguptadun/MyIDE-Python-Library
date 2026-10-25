@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-020",
+  "title": "Check a Palindrome Word",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Check whether the word level reads the same backward and forward.",
+  "code": "word = \"level\"\nprint(word == word[::-1])\n",
+  "expected_output": "True",
+  "explanation": "Slicing with [::-1] creates a reversed string.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-007",
+  "title": "Check Set Membership",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Check whether 3 is in a set and print the result.",
+  "code": "numbers = {1, 2, 3}\nprint(3 in numbers)\n",
+  "expected_output": "True",
+  "explanation": "The in operator checks membership in a set.",
+  "validation": "reviewed"
+}

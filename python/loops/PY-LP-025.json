@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-025",
+  "title": "Stop a Loop with Break",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Print numbers from 1 upward and stop before printing 4 using break.",
+  "code": "for number in range(1, 6):\n    if number == 4:\n        break\n    print(number)\n",
+  "expected_output": "1\n2\n3",
+  "explanation": "break exits the loop when the condition becomes true.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-018",
+  "title": "Use a Keyword Argument",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Define a function that prints a city and call it using a keyword argument.",
+  "code": "def show_city(city):\n    print(city)\n\nshow_city(city=\"Agra\")\n",
+  "expected_output": "Agra",
+  "explanation": "A keyword argument names the parameter receiving the value.",
+  "validation": "reviewed"
+}

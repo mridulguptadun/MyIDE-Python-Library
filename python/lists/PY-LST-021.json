@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-021",
+  "title": "Find the Index of an Item",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Print the index of mango in a list of fruits.",
+  "code": "fruits = [\"apple\", \"mango\", \"orange\"]\nprint(fruits.index(\"mango\"))\n",
+  "expected_output": "1",
+  "explanation": "index() returns the zero-based position of the first matching item.",
+  "validation": "reviewed"
+}

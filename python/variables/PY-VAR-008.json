@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-008",
+  "title": "Convert Text to an Integer",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Convert text 42 into an integer and print the value plus 8.",
+  "code": "number = int(\"42\")\nprint(number + 8)\n",
+  "expected_output": "50",
+  "explanation": "int() converts a valid integer string to an integer.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-012",
+  "title": "Loop Through Dictionary Items",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Print each key and value from a dictionary in insertion order.",
+  "code": "person = {\"name\": \"Asha\", \"age\": 16}\nfor key, value in person.items():\n    print(f\"{key}: {value}\")\n",
+  "expected_output": "name: Asha\nage: 16",
+  "explanation": "items() yields each key-value pair in insertion order.",
+  "validation": "reviewed"
+}

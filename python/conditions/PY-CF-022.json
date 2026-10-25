@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-022",
+  "title": "Check a Character Type",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Check whether the character A is an uppercase letter.",
+  "code": "character = \"A\"\nif character.isupper():\n    print(\"Uppercase\")\nelse:\n    print(\"Not uppercase\")\n",
+  "expected_output": "Uppercase",
+  "explanation": "isupper() returns True when a string contains uppercase cased letters.",
+  "validation": "reviewed"
+}

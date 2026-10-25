@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-017",
+  "title": "Append to a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Add 4 to the end of a list and print it.",
+  "code": "numbers = [1, 2, 3]\nnumbers.append(4)\nprint(numbers)\n",
+  "expected_output": "[1, 2, 3, 4]",
+  "explanation": "append() adds one item to the end of a list.",
+  "validation": "reviewed"
+}
