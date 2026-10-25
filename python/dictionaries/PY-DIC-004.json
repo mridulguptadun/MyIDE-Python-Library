@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-004",
+  "title": "Count Items in a Dictionary",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Create a dictionary of subject scores and print the number of subjects.",
+  "code": "scores = {\"Math\": 88, \"English\": 91, \"Science\": 85}\nprint(\"Subjects:\", len(scores))\n",
+  "expected_output": "Subjects: 3",
+  "explanation": "len() returns the number of key-value pairs in a dictionary.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-006",
+  "title": "Check Even or Odd with a Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Define a function that returns 'Even' or 'Odd' for an integer.",
+  "code": "def even_or_odd(number):\n    if number % 2 == 0:\n        return \"Even\"\n    return \"Odd\"\n\nprint(even_or_odd(9))\n",
+  "expected_output": "Odd",
+  "explanation": "The modulo operator checks the remainder after division by two; zero means the number is even.",
+  "validation": "reviewed"
+}

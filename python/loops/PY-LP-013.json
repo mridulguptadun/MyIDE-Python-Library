@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-013",
+  "title": "Print Even Numbers up to N",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a positive integer and print all even numbers from 2 up to that value.",
+  "code": "limit = int(input(\"Limit: \"))\nfor number in range(2, limit + 1, 2):\n    print(number)\n",
+  "expected_output": "For input 10:\nLimit: 10\n2\n4\n6\n8\n10",
+  "explanation": "Starting at 2 and using a step of 2 generates even numbers only.",
+  "validation": "reviewed"
+}

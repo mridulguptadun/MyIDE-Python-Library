@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-014",
+  "title": "Check Whether a Number Is Within a Range",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read an integer and check whether it is between 1 and 100 inclusive.",
+  "code": "number = int(input(\"Number: \"))\nif 1 <= number <= 100:\n    print(\"In range\")\nelse:\n    print(\"Out of range\")\n",
+  "expected_output": "For input 42:\nNumber: 42\nIn range",
+  "explanation": "Chained comparisons check that the number is at least 1 and at most 100.",
+  "validation": "reviewed"
+}

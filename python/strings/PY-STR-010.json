@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-010",
+  "title": "Check Whether a String Starts with a Prefix",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a string and check whether it starts with the prefix 'Py'.",
+  "code": "text = input(\"Text: \")\nif text.startswith(\"Py\"):\n    print(\"Prefix found\")\nelse:\n    print(\"Prefix not found\")\n",
+  "expected_output": "For input Python:\nText: Python\nPrefix found",
+  "explanation": "startswith() returns True when a string begins with the specified prefix.",
+  "validation": "reviewed"
+}

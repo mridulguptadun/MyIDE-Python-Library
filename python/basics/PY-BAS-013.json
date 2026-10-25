@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-013",
+  "title": "Convert Kilograms to Grams",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a weight in kilograms and convert it to grams.",
+  "code": "kilograms = float(input(\"Kilograms: \"))\ngrams = kilograms * 1000\nprint(f\"Grams: {grams:g}\")\n",
+  "expected_output": "For input 1.25:\nKilograms: 1.25\nGrams: 1250",
+  "explanation": "One kilogram equals 1,000 grams, so multiply the kilogram value by 1,000.",
+  "validation": "reviewed"
+}
