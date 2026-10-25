@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-003",
+  "title": "Convert Celsius to Fahrenheit",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a temperature in Celsius and print its Fahrenheit equivalent.",
+  "code": "celsius = float(input(\"Celsius: \"))\nfahrenheit = (celsius * 9 / 5) + 32\nprint(f\"Fahrenheit: {fahrenheit:g}\")\n",
+  "expected_output": "For input 0:\nCelsius: 0\nFahrenheit: 32",
+  "explanation": "Use the formula Fahrenheit = (Celsius × 9 / 5) + 32.",
+  "validation": "reviewed"
+}
