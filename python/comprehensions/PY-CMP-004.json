@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-004",
+  "title": "Get Word Lengths with a Comprehension",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to create a list containing the length of each word.",
+  "code": "words = [\"cat\", \"tiger\", \"owl\"]\nlengths = [len(word) for word in words]\nprint(lengths)\n",
+  "expected_output": "[3, 5, 3]",
+  "explanation": "A list comprehension can calculate a value for each item and collect those values into a new list.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-003",
+  "title": "Convert Words to Uppercase",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to convert each word in a list to uppercase.",
+  "code": "words = [\"hello\", \"python\", \"world\"]\nupper_words = [word.upper() for word in words]\nprint(upper_words)\n",
+  "expected_output": "['HELLO', 'PYTHON', 'WORLD']",
+  "explanation": "The expression before for is evaluated for each word; upper() converts each word to uppercase.",
+  "validation": "reviewed"
+}

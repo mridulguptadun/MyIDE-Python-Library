@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-004",
+  "title": "Use Finally for Cleanup",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Show that a finally block runs after a try block by printing two messages.",
+  "code": "try:\n    print(\"Working\")\nfinally:\n    print(\"Finished\")\n",
+  "expected_output": "Working\nFinished",
+  "explanation": "The finally block runs whether or not an exception occurs, making it useful for cleanup tasks.",
+  "validation": "reviewed"
+}

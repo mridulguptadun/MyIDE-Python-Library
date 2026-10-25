@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-004",
+  "title": "Find Common Items in Two Sets",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Find and print the numbers that appear in both sets.",
+  "code": "first = {1, 2, 3}\nsecond = {2, 3, 4}\nprint(sorted(first & second))\n",
+  "expected_output": "[2, 3]",
+  "explanation": "The & operator returns the intersection: items present in both sets.",
+  "validation": "reviewed"
+}

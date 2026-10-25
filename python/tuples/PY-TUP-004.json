@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-004",
+  "title": "Check Whether an Item Is in a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Check whether the number 20 is in a tuple and print the result.",
+  "code": "numbers = (10, 20, 30)\nprint(20 in numbers)\n",
+  "expected_output": "True",
+  "explanation": "The in operator checks whether a value is present in a tuple.",
+  "validation": "reviewed"
+}

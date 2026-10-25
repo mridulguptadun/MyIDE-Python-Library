@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-003",
+  "title": "Add an Item to a Set",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Create a set of two colors, add blue, and print the sorted set.",
+  "code": "colors = {\"red\", \"green\"}\ncolors.add(\"blue\")\nprint(sorted(colors))\n",
+  "expected_output": "['blue', 'green', 'red']",
+  "explanation": "The add() method inserts one item into a set. Sorting makes the displayed order predictable.",
+  "validation": "reviewed"
+}

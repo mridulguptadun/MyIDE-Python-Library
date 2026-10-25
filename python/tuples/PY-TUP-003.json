@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-003",
+  "title": "Find the Length of a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Create a tuple of four numbers and print how many items it contains.",
+  "code": "numbers = (10, 20, 30, 40)\nprint(len(numbers))\n",
+  "expected_output": "4",
+  "explanation": "len() returns the number of items in a tuple.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-003",
+  "title": "Use an Else Block with Try",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Convert the text 42 to an integer and print a success message using try and else.",
+  "code": "text = \"42\"\ntry:\n    number = int(text)\nexcept ValueError:\n    print(\"Invalid number.\")\nelse:\n    print(\"Converted:\", number)\n",
+  "expected_output": "Converted: 42",
+  "explanation": "The else block runs only when the try block finishes without raising an exception.",
+  "validation": "reviewed"
+}
