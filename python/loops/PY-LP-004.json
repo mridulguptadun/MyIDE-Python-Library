@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-004",
+  "title": "Count Digits",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a whole number and count its decimal digits.",
+  "code": "number = input(\"Whole number: \").strip()\nif number.startswith(\"-\"):\n    number = number[1:]\nif number.isdigit():\n    print(\"Digits:\", len(number))\nelse:\n    print(\"Invalid whole number\")\n",
+  "expected_output": "For input -204:\nWhole number: -204\nDigits: 3",
+  "explanation": "The sign is removed before counting the digit characters.",
+  "validation": "reviewed"
+}
