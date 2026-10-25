@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-002",
+  "title": "Add Two Numbers",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read two integers from the user and print their sum.",
+  "code": "first = int(input(\"First number: \"))\nsecond = int(input(\"Second number: \"))\nprint(\"Sum:\", first + second)\n",
+  "expected_output": "For inputs 4 and 6:\nFirst number: 4\nSecond number: 6\nSum: 10",
+  "explanation": "input() reads text, int() converts the text to an integer, and + adds the two values.",
+  "validation": "reviewed"
+}
