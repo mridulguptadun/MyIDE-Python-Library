@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-017",
+  "title": "Split a Sentence into Words",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Split a short sentence into words and print the resulting list.",
+  "code": "sentence = \"Python makes coding fun\"\nprint(sentence.split())\n",
+  "expected_output": "['Python', 'makes', 'coding', 'fun']",
+  "explanation": "split() separates a string at whitespace by default and returns a list of parts.",
+  "validation": "reviewed"
+}

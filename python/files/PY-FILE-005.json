@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-005",
+  "title": "Read Text from a File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Create a file containing Python is fun, read its contents, and print the text.",
+  "code": "with open(\"message.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Python is fun\")\n\nwith open(\"message.txt\", \"r\", encoding=\"utf-8\") as file:\n    content = file.read()\nprint(content)\n",
+  "expected_output": "Python is fun",
+  "explanation": "Mode w writes the sample content and mode r reads it. Using with ensures each file is closed automatically.",
+  "validation": "reviewed"
+}

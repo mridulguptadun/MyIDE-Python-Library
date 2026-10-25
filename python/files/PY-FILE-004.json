@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-004",
+  "title": "Write Text to a File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Write the text Hello from Python to a file named message.txt and print a confirmation.",
+  "code": "with open(\"message.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Hello from Python\")\nprint(\"File written\")\n",
+  "expected_output": "File written",
+  "explanation": "open() with mode w creates or replaces a file. The with statement closes the file automatically when the block ends.",
+  "validation": "reviewed"
+}

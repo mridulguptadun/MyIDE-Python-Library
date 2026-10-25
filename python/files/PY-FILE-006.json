@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-006",
+  "title": "Count Lines in a File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Write three lines to a text file and print the number of lines in it.",
+  "code": "lines = [\"First line\", \"Second line\", \"Third line\"]\nwith open(\"notes.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"\\n\".join(lines))\n\nwith open(\"notes.txt\", \"r\", encoding=\"utf-8\") as file:\n    print(len(file.readlines()))\n",
+  "expected_output": "3",
+  "explanation": "readlines() returns the file's lines as a list. len() counts how many lines were read.",
+  "validation": "reviewed"
+}

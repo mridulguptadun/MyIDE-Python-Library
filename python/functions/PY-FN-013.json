@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-013",
+  "title": "Return Multiple Values from a Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns both the sum and product of two numbers, then print both results.",
+  "code": "def calculate(a, b):\n    return a + b, a * b\n\ntotal, product = calculate(3, 4)\nprint(total)\nprint(product)\n",
+  "expected_output": "7\n12",
+  "explanation": "A function can return multiple values separated by commas. Python packs them into a tuple that can be unpacked into variables.",
+  "validation": "reviewed"
+}

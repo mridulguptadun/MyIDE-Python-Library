@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-012",
+  "title": "Use a Default Function Parameter",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a greeting function with a default name of Friend, then call it with and without a name.",
+  "code": "def greet(name=\"Friend\"):\n    print(f\"Hello, {name}!\")\n\ngreet()\ngreet(\"Asha\")\n",
+  "expected_output": "Hello, Friend!\nHello, Asha!",
+  "explanation": "A default parameter value is used when the caller does not supply an argument for that parameter.",
+  "validation": "reviewed"
+}

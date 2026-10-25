@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-016",
+  "title": "Sort a List in Ascending Order",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Sort a list of numbers from smallest to largest and print the result.",
+  "code": "numbers = [5, 2, 8, 1]\nnumbers.sort()\nprint(numbers)\n",
+  "expected_output": "[1, 2, 5, 8]",
+  "explanation": "sort() changes the list in place and orders its items in ascending order by default.",
+  "validation": "reviewed"
+}

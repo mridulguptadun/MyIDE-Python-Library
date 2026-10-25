@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-016",
+  "title": "Check Whether Text Starts with a Prefix",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Check whether the word Python starts with Py and print the result.",
+  "code": "word = \"Python\"\nprint(word.startswith(\"Py\"))\n",
+  "expected_output": "True",
+  "explanation": "startswith() returns True when a string begins with the specified prefix.",
+  "validation": "reviewed"
+}
