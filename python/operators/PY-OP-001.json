@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-001",
+  "title": "Calculate Quotient and Remainder",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Read two integers and print their quotient and remainder.",
+  "code": "a = int(input(\"First integer: \"))\nb = int(input(\"Second integer: \"))\nif b != 0:\n    print(\"Quotient:\", a // b)\n    print(\"Remainder:\", a % b)\nelse:\n    print(\"Cannot divide by zero\")\n",
+  "expected_output": "For inputs 17 and 5:\nFirst integer: 17\nSecond integer: 5\nQuotient: 3\nRemainder: 2",
+  "explanation": "// gives the integer quotient and % gives the remainder. The program checks for zero.",
+  "validation": "reviewed"
+}
