@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-004",
+  "title": "Find the Minimum and Maximum",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read space-separated integers and print the minimum and maximum values.",
+  "code": "numbers = list(map(int, input(\"Numbers: \").split()))\nprint(\"Minimum:\", min(numbers))\nprint(\"Maximum:\", max(numbers))\n",
+  "expected_output": "For input 8 2 11 5:\nNumbers: 8 2 11 5\nMinimum: 2\nMaximum: 11",
+  "explanation": "split() separates the input, map(int, ...) converts values to integers, and min()/max() find the extremes.",
+  "validation": "reviewed"
+}

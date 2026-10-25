@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-005",
+  "title": "Find the Largest of Three Numbers",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read three numbers and print the largest number.",
+  "code": "a = float(input(\"First: \"))\nb = float(input(\"Second: \"))\nc = float(input(\"Third: \"))\nprint(\"Largest:\", max(a, b, c))\n",
+  "expected_output": "For inputs 4, 9, and 6:\nFirst: 4\nSecond: 9\nThird: 6\nLargest: 9.0",
+  "explanation": "The built-in max() function returns the largest value from the supplied arguments.",
+  "validation": "reviewed"
+}

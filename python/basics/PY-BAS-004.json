@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-004",
+  "title": "Swap Two Variables",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read two values and swap them without using a temporary variable.",
+  "code": "first = input(\"First value: \")\nsecond = input(\"Second value: \")\nfirst, second = second, first\nprint(\"First:\", first)\nprint(\"Second:\", second)\n",
+  "expected_output": "For inputs apple and orange:\nFirst value: apple\nSecond value: orange\nFirst: orange\nSecond: apple",
+  "explanation": "Python tuple unpacking assigns the values in the opposite order.",
+  "validation": "reviewed"
+}

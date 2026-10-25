@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-004",
+  "title": "Count Vowels in a String",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a line of text and count the English vowels a, e, i, o, and u without case sensitivity.",
+  "code": "text = input(\"Text: \")\nvowels = \"aeiou\"\ncount = sum(1 for char in text.lower() if char in vowels)\nprint(\"Vowels:\", count)\n",
+  "expected_output": "For input MyIDE Library:\nText: MyIDE Library\nVowels: 5",
+  "explanation": "lower() makes matching case-insensitive, and the generator counts characters found in the vowel string.",
+  "validation": "reviewed"
+}

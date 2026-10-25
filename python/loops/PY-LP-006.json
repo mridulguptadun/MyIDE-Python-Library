@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-006",
+  "title": "Print a Multiplication Table",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read an integer and print its multiplication table from 1 to 10.",
+  "code": "number = int(input(\"Number: \"))\nfor multiplier in range(1, 11):\n    print(f\"{number} x {multiplier} = {number * multiplier}\")\n",
+  "expected_output": "For input 3:\nNumber: 3\n3 x 1 = 3\n3 x 2 = 6\n3 x 3 = 9\n3 x 4 = 12\n3 x 5 = 15\n3 x 6 = 18\n3 x 7 = 21\n3 x 8 = 24\n3 x 9 = 27\n3 x 10 = 30",
+  "explanation": "range(1, 11) supplies multipliers 1 through 10; each product is formatted into a line.",
+  "validation": "reviewed"
+}
