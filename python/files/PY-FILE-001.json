@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-001",
+  "title": "Write and Read a Text File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Write a line to a text file, then read and print it.",
+  "code": "file_name = \"myide_sample.txt\"\nwith open(file_name, \"w\", encoding=\"utf-8\") as file:\n    file.write(\"Hello from MyIDE!\\n\")\nwith open(file_name, \"r\", encoding=\"utf-8\") as file:\n    print(file.read(), end=\"\")\n",
+  "expected_output": "Hello from MyIDE!",
+  "explanation": "The with statement closes the file automatically after writing or reading.",
+  "validation": "reviewed"
+}
