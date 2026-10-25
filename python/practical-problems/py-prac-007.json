@@ -4,7 +4,7 @@
   "topic": "Practical Problems",
   "difficulty": "Intermediate",
   "question": "Apply a ten-percent discount to a price.",
-  "code": "price = 250\n discount = price * 0.10\nprint(price - discount)",
+  "code": "price = 250\ndiscount = price * 0.10\nprint(price - discount)",
   "expected_output": "225.0",
   "explanation": "A percentage can be converted to a decimal multiplier.",
   "validation": "reviewed"
