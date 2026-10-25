@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-006",
+  "title": "Running Total Generator",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Yield cumulative totals for a sequence.",
+  "code": "def running_total(values):\n    total = 0\n    for value in values:\n        total += value\n        yield total\nprint(list(running_total([2, 3, 4])))",
+  "expected_output": "[2, 5, 9]",
+  "explanation": "Keep state between yields to calculate running totals.",
+  "validation": "reviewed"
+}

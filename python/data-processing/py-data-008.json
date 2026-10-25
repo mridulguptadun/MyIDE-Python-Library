@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-008",
+  "title": "Normalize Text",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Trim and lowercase a list of names.",
+  "code": "names = [' Ava ', 'BEN', '  Mia']\nprint([name.strip().lower() for name in names])",
+  "expected_output": "['ava', 'ben', 'mia']",
+  "explanation": "strip() removes surrounding whitespace and lower() normalizes case.",
+  "validation": "reviewed"
+}

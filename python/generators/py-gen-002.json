@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-002",
+  "title": "Generator Expression",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Square numbers lazily with a generator expression.",
+  "code": "squares = (n * n for n in range(1, 4))\nprint(list(squares))",
+  "expected_output": "[1, 4, 9]",
+  "explanation": "Generator expressions calculate values as they are requested.",
+  "validation": "reviewed"
+}

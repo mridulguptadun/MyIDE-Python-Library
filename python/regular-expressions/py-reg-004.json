@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-004",
+  "title": "Validate a Simple Identifier",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Check that a name starts with a letter or underscore.",
+  "code": "import re\nprint(bool(re.fullmatch(r'[A-Za-z_]\\w*', '_user7')))",
+  "expected_output": "True",
+  "explanation": "fullmatch() requires the entire string to match.",
+  "validation": "reviewed"
+}

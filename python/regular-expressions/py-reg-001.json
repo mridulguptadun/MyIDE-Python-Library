@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-001",
+  "title": "Find a Number in Text",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Find the first integer in a sentence.",
+  "code": "import re\nmatch = re.search(r'\\d+', 'Room 204 is ready')\nprint(match.group())",
+  "expected_output": "204",
+  "explanation": "re.search() finds the first match of a pattern.",
+  "validation": "reviewed"
+}

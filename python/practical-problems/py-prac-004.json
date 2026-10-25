@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-004",
+  "title": "Second Largest Unique Number",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Find the second largest distinct number.",
+  "code": "values = [5, 1, 5, 3, 4]\nunique = sorted(set(values))\nprint(unique[-2])",
+  "expected_output": "4",
+  "explanation": "Remove duplicates before selecting the second largest value.",
+  "validation": "reviewed"
+}

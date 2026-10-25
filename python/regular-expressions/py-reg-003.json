@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-003",
+  "title": "Replace Multiple Spaces",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Replace runs of whitespace with one space.",
+  "code": "import re\nprint(re.sub(r'\\s+', ' ', 'hello   there\\nfriend').strip())",
+  "expected_output": "hello there friend",
+  "explanation": "\\s+ matches one or more whitespace characters.",
+  "validation": "reviewed"
+}

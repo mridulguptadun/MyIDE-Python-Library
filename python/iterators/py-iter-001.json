@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-001",
+  "title": "Use iter and next",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Get successive values from an iterator.",
+  "code": "items = iter(['red', 'blue'])\nprint(next(items))\nprint(next(items))",
+  "expected_output": "red\nblue",
+  "explanation": "iter() creates an iterator and next() retrieves its next value.",
+  "validation": "reviewed"
+}

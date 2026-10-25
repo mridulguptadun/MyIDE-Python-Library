@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-009",
+  "title": "Calculate Word Count",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Count words in a sentence after trimming whitespace.",
+  "code": "sentence = '  Learn Python every day  '\nprint(len(sentence.split()))",
+  "expected_output": "4",
+  "explanation": "split() without arguments handles repeated whitespace.",
+  "validation": "reviewed"
+}

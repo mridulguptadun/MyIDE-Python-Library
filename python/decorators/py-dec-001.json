@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-001",
+  "title": "Basic Decorator",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Print a message before calling a function.",
+  "code": "def announce(func):\n    def wrapper():\n        print('Starting')\n        return func()\n    return wrapper\n@announce\ndef greet(): print('Hello')\ngreet()",
+  "expected_output": "Starting\nHello",
+  "explanation": "A decorator wraps a function with additional behavior.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-003",
+  "title": "CSV from Text",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Read CSV rows from an in-memory string.",
+  "code": "import csv\nfrom io import StringIO\nreader = csv.DictReader(StringIO('name,score\\nAva,90\\n'))\nprint(list(reader))",
+  "expected_output": "[{'name': 'Ava', 'score': '90'}]",
+  "explanation": "DictReader maps each CSV row to a dictionary.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-006",
+  "title": "Cache Results",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Cache repeated calls to a pure function.",
+  "code": "from functools import lru_cache\n@lru_cache(maxsize=None)\ndef square(n): return n * n\nprint(square(5), square(5))",
+  "expected_output": "25 25",
+  "explanation": "lru_cache stores results for hashable argument combinations.",
+  "validation": "reviewed"
+}

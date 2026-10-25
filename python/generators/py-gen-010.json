@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-010",
+  "title": "Generator Exhaustion",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Show that a generator is exhausted after its values are consumed.",
+  "code": "items = (n for n in range(3))\nprint(list(items))\nprint(list(items))",
+  "expected_output": "[0, 1, 2]\n[]",
+  "explanation": "Generators are iterators that are normally consumed only once.",
+  "validation": "reviewed"
+}

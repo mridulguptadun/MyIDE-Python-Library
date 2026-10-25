@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-001",
+  "title": "Read JSON Text",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Parse JSON text into a Python dictionary.",
+  "code": "import json\nrecord = json.loads('{\"name\": \"Ava\", \"score\": 90}')\nprint(record['name'], record['score'])",
+  "expected_output": "Ava 90",
+  "explanation": "json.loads() parses JSON text.",
+  "validation": "reviewed"
+}

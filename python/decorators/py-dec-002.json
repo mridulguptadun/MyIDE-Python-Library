@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-002",
+  "title": "Preserve Function Metadata",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Use wraps to preserve a function's name.",
+  "code": "from functools import wraps\ndef decorate(func):\n    @wraps(func)\n    def wrapper(*args, **kwargs): return func(*args, **kwargs)\n    return wrapper\n@decorate\ndef greet(): return 'Hi'\nprint(greet.__name__)",
+  "expected_output": "greet",
+  "explanation": "functools.wraps preserves metadata from the wrapped function.",
+  "validation": "reviewed"
+}

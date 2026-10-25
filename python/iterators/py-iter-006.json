@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-006",
+  "title": "Use zip",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Pair names with their scores.",
+  "code": "names = ['Ava', 'Ben']\nscores = [90, 85]\nprint(list(zip(names, scores)))",
+  "expected_output": "[('Ava', 90), ('Ben', 85)]",
+  "explanation": "zip() combines corresponding items from iterables.",
+  "validation": "reviewed"
+}

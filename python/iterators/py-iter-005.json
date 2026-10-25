@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-005",
+  "title": "Use enumerate",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Print each item with a one-based position.",
+  "code": "for index, item in enumerate(['tea', 'coffee'], start=1):\n    print(index, item)",
+  "expected_output": "1 tea\n2 coffee",
+  "explanation": "enumerate() can start counting from a chosen number.",
+  "validation": "reviewed"
+}

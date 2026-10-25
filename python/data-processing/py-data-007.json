@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-007",
+  "title": "Count Missing Values",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Count None values in a list.",
+  "code": "values = [3, None, 7, None, 9]\nprint(sum(value is None for value in values))",
+  "expected_output": "2",
+  "explanation": "A boolean expression can be summed as an integer count.",
+  "validation": "reviewed"
+}

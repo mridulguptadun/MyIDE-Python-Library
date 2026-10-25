@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-002",
+  "title": "Find All Numbers",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Extract every integer from a string.",
+  "code": "import re\nprint(re.findall(r'\\d+', 'A12 B7 C300'))",
+  "expected_output": "['12', '7', '300']",
+  "explanation": "re.findall() returns all non-overlapping matches.",
+  "validation": "reviewed"
+}

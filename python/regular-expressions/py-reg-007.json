@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-007",
+  "title": "Capture Date Parts",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Capture year, month, and day from a date string.",
+  "code": "import re\nmatch = re.fullmatch(r'(\\d{4})-(\\d{2})-(\\d{2})', '2026-04-09')\nprint(match.groups())",
+  "expected_output": "('2026', '04', '09')",
+  "explanation": "Parentheses create capture groups.",
+  "validation": "reviewed"
+}

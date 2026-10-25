@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-004",
+  "title": "Generator with a Condition",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Yield only even numbers from a list.",
+  "code": "def evens(values):\n    for value in values:\n        if value % 2 == 0:\n            yield value\nprint(list(evens([1, 2, 3, 4, 6])))",
+  "expected_output": "[2, 4, 6]",
+  "explanation": "A generator can filter values before yielding them.",
+  "validation": "reviewed"
+}

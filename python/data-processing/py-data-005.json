@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-005",
+  "title": "Sort Dictionaries by a Key",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Sort records by their score.",
+  "code": "records = [{'name': 'Ava', 'score': 90}, {'name': 'Ben', 'score': 75}]\nprint([r['name'] for r in sorted(records, key=lambda r: r['score'])])",
+  "expected_output": "['Ben', 'Ava']",
+  "explanation": "sorted() accepts a key function to choose the sort value.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-002",
+  "title": "Provide a Default to next",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Avoid StopIteration by providing a default value.",
+  "code": "items = iter([7])\nprint(next(items, 0))\nprint(next(items, 0))",
+  "expected_output": "7\n0",
+  "explanation": "next(iterator, default) returns the default after exhaustion.",
+  "validation": "reviewed"
+}

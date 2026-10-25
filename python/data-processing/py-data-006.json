@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-006",
+  "title": "Merge Dictionaries",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Merge two dictionaries with the second taking priority.",
+  "code": "first = {'a': 1, 'b': 2}\nsecond = {'b': 9, 'c': 3}\nprint(first | second)",
+  "expected_output": "{'a': 1, 'b': 9, 'c': 3}",
+  "explanation": "The dictionary union operator creates a merged dictionary in Python 3.9+.",
+  "validation": "reviewed"
+}

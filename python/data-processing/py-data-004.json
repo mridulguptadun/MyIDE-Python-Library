@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-004",
+  "title": "Aggregate Values by Category",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Sum amounts grouped by category.",
+  "code": "from collections import defaultdict\nsales = [('book', 10), ('pen', 3), ('book', 5)]\ntotals = defaultdict(int)\nfor category, amount in sales: totals[category] += amount\nprint(dict(totals))",
+  "expected_output": "{'book': 15, 'pen': 3}",
+  "explanation": "A dictionary can accumulate totals for each category.",
+  "validation": "reviewed"
+}

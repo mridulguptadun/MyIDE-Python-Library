@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-002",
+  "title": "Character Frequency",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Count each character in a word.",
+  "code": "from collections import Counter\nprint(dict(Counter('banana')))",
+  "expected_output": "{'b': 1, 'a': 3, 'n': 2}",
+  "explanation": "Counter counts how often each character appears.",
+  "validation": "reviewed"
+}

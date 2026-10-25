@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-007",
+  "title": "Use a Property Decorator",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Compute a full name from two stored attributes.",
+  "code": "class Person:\n    def __init__(self, first, last): self.first, self.last = first, last\n    @property\n    def full_name(self): return f'{self.first} {self.last}'\nprint(Person('Ava', 'Shah').full_name)",
+  "expected_output": "Ava Shah",
+  "explanation": "@property exposes a method through attribute-style access.",
+  "validation": "reviewed"
+}

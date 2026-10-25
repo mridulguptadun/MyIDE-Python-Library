@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-003",
+  "title": "Decorator with Arguments",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Create a decorator that repeats a function a fixed number of times.",
+  "code": "def repeat(times):\n    def decorate(func):\n        def wrapper():\n            for _ in range(times): func()\n        return wrapper\n    return decorate\n@repeat(3)\ndef wave(): print('Hi')\nwave()",
+  "expected_output": "Hi\nHi\nHi",
+  "explanation": "A decorator factory accepts configuration before decorating.",
+  "validation": "reviewed"
+}

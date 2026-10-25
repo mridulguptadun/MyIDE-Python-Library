@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-010",
+  "title": "Replace Only First Match",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Replace only the first occurrence of a word.",
+  "code": "import re\nprint(re.sub('cat', 'dog', 'cat and cat', count=1))",
+  "expected_output": "dog and cat",
+  "explanation": "The count parameter limits the number of replacements.",
+  "validation": "reviewed"
+}

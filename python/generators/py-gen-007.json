@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-007",
+  "title": "Read Lines Lazily",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Yield non-empty stripped lines from supplied text.",
+  "code": "def lines(text):\n    for line in text.splitlines():\n        line = line.strip()\n        if line:\n            yield line\nprint(list(lines('red\\n\\nblue\\n')))",
+  "expected_output": "['red', 'blue']",
+  "explanation": "Generators process each line without building an intermediate list.",
+  "validation": "reviewed"
+}

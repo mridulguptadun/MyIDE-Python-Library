@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-004",
+  "title": "Build a Custom Iterator",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Create an iterator that counts from one to three.",
+  "code": "class CountToThree:\n    def __init__(self): self.value = 0\n    def __iter__(self): return self\n    def __next__(self):\n        if self.value == 3: raise StopIteration\n        self.value += 1\n        return self.value\nprint(list(CountToThree()))",
+  "expected_output": "[1, 2, 3]",
+  "explanation": "Custom iterators implement __iter__() and __next__().",
+  "validation": "reviewed"
+}

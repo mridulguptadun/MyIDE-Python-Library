@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-008",
+  "title": "Register Functions",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Register functions in a dictionary using a decorator.",
+  "code": "registry = {}\ndef register(func):\n    registry[func.__name__] = func\n    return func\n@register\ndef hello(): return 'Hello'\nprint(registry['hello']())",
+  "expected_output": "Hello",
+  "explanation": "A decorator can register functions without replacing them.",
+  "validation": "reviewed"
+}

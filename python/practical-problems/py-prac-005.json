@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-005",
+  "title": "Group Even and Odd",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Separate integers into even and odd lists.",
+  "code": "values = [1, 2, 3, 4, 5]\nprint({'even': [n for n in values if n % 2 == 0], 'odd': [n for n in values if n % 2 != 0]})",
+  "expected_output": "{'even': [2, 4], 'odd': [1, 3, 5]}",
+  "explanation": "The modulo operator identifies even and odd integers.",
+  "validation": "reviewed"
+}

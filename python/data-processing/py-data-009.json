@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-009",
+  "title": "Find Duplicate Values",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Find duplicate integers while preserving first duplicate order.",
+  "code": "values = [1, 2, 1, 3, 2, 2]\nseen, duplicates = set(), []\nfor value in values:\n    if value in seen and value not in duplicates: duplicates.append(value)\n    seen.add(value)\nprint(duplicates)",
+  "expected_output": "[1, 2]",
+  "explanation": "Track seen values to identify repeats.",
+  "validation": "reviewed"
+}

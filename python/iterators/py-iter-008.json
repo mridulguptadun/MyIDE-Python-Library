@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-008",
+  "title": "Chain Iterables",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Join two iterables into one stream.",
+  "code": "from itertools import chain\nprint(list(chain([1, 2], [3, 4])))",
+  "expected_output": "[1, 2, 3, 4]",
+  "explanation": "chain() iterates through each input in sequence.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-009",
+  "title": "Check Repeated Characters",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Detect three identical digits in a row.",
+  "code": "import re\nprint(bool(re.search(r'(\\d)\\1\\1', 'code 777')))",
+  "expected_output": "True",
+  "explanation": "A backreference matches the same text as an earlier capture group.",
+  "validation": "reviewed"
+}

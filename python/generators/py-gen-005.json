@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-005",
+  "title": "Flatten Nested Lists",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Yield items from each sublist in order.",
+  "code": "def flatten(groups):\n    for group in groups:\n        yield from group\nprint(list(flatten([[1, 2], [3], [4, 5]])))",
+  "expected_output": "[1, 2, 3, 4, 5]",
+  "explanation": "yield from delegates yielding to another iterable.",
+  "validation": "reviewed"
+}

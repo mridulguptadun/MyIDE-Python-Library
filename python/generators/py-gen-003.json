@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-003",
+  "title": "Infinite Counter Generator",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Generate increasing integers and take the first four.",
+  "code": "def counter():\n    n = 1\n    while True:\n        yield n\n        n += 1\nfrom itertools import islice\nprint(list(islice(counter(), 4)))",
+  "expected_output": "[1, 2, 3, 4]",
+  "explanation": "islice() safely takes a limited number of values.",
+  "validation": "reviewed"
+}

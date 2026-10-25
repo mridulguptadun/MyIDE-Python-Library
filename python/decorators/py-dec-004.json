@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-004",
+  "title": "Decorate a Function with Parameters",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Wrap a function while passing through its arguments.",
+  "code": "def log_call(func):\n    def wrapper(*args, **kwargs):\n        print('Called')\n        return func(*args, **kwargs)\n    return wrapper\n@log_call\ndef add(a, b): return a + b\nprint(add(2, 3))",
+  "expected_output": "Called\n5",
+  "explanation": "*args and **kwargs forward positional and keyword arguments.",
+  "validation": "reviewed"
+}

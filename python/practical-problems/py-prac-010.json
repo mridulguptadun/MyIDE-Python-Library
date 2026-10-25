@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-010",
+  "title": "Transpose a Matrix",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Transpose a two-row matrix using zip.",
+  "code": "matrix = [[1, 2, 3], [4, 5, 6]]\nprint([list(row) for row in zip(*matrix)])",
+  "expected_output": "[[1, 4], [2, 5], [3, 6]]",
+  "explanation": "zip(*matrix) combines values from matching columns.",
+  "validation": "reviewed"
+}

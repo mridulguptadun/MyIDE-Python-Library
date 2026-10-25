@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-010",
+  "title": "Time a Function with a Clock",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Use a decorator to return a function result unchanged.",
+  "code": "def identity_wrapper(func):\n    def wrapper(*args, **kwargs): return func(*args, **kwargs)\n    return wrapper\n@identity_wrapper\ndef multiply(a, b): return a * b\nprint(multiply(3, 4))",
+  "expected_output": "12",
+  "explanation": "A wrapper can preserve behavior while adding instrumentation later.",
+  "validation": "reviewed"
+}

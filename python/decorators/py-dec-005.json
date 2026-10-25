@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-005",
+  "title": "Measure Function Calls",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Print a simple message whenever a function runs.",
+  "code": "def trace(func):\n    def wrapper(*args, **kwargs):\n        print(func.__name__)\n        return func(*args, **kwargs)\n    return wrapper\n@trace\ndef double(n): return n * 2\nprint(double(4))",
+  "expected_output": "double\n8",
+  "explanation": "Decorators can add lightweight tracing around function calls.",
+  "validation": "reviewed"
+}

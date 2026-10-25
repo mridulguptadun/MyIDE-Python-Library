@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-008",
+  "title": "Create a Simple Slug",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Turn a title into a lowercase hyphen-separated slug.",
+  "code": "import re\ntitle = 'Python: Quick Start!'\nslug = re.sub(r'[^a-z0-9]+', '-', title.lower()).strip('-')\nprint(slug)",
+  "expected_output": "python-quick-start",
+  "explanation": "Replace groups of non-alphanumeric characters with a hyphen.",
+  "validation": "reviewed"
+}

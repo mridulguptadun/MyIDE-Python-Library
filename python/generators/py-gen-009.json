@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-009",
+  "title": "Fibonacci Generator",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Generate Fibonacci values up to a maximum.",
+  "code": "def fibonacci(limit):\n    a, b = 0, 1\n    while a <= limit:\n        yield a\n        a, b = b, a + b\nprint(list(fibonacci(10)))",
+  "expected_output": "[0, 1, 1, 2, 3, 5, 8]",
+  "explanation": "The generator retains the two previous sequence values.",
+  "validation": "reviewed"
+}

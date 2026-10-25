@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-001",
+  "title": "Validate a Palindrome",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Check whether text is a palindrome ignoring spaces and case.",
+  "code": "text = 'Never odd or even'\nclean = ''.join(ch.lower() for ch in text if ch.isalnum())\nprint(clean == clean[::-1])",
+  "expected_output": "True",
+  "explanation": "Normalize text before comparing it with its reverse.",
+  "validation": "reviewed"
+}

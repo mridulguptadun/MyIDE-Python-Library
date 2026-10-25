@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-006",
+  "title": "Split on Commas or Semicolons",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Split text using either comma or semicolon.",
+  "code": "import re\nprint(re.split(r'[,;]\\s*', 'red, blue; green'))",
+  "expected_output": "['red', 'blue', 'green']",
+  "explanation": "Character classes can match any listed separator.",
+  "validation": "reviewed"
+}

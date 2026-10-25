@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-003",
+  "title": "Anagram Check",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Check whether two words contain the same letters.",
+  "code": "a, b = 'listen', 'silent'\nprint(sorted(a) == sorted(b))",
+  "expected_output": "True",
+  "explanation": "Sorting characters makes letter composition easy to compare.",
+  "validation": "reviewed"
+}

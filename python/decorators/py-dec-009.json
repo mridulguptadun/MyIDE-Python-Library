@@ -1,0 +1,11 @@
+{
+  "id": "PY-DEC-009",
+  "title": "Validate Decorated Input",
+  "topic": "Decorators",
+  "difficulty": "Intermediate",
+  "question": "Reject negative arguments before calling a function.",
+  "code": "def non_negative(func):\n    def wrapper(value):\n        if value < 0: raise ValueError('Must be non-negative')\n        return func(value)\n    return wrapper\n@non_negative\ndef double(value): return value * 2\nprint(double(4))",
+  "expected_output": "8",
+  "explanation": "A decorator can enforce input rules consistently.",
+  "validation": "reviewed"
+}

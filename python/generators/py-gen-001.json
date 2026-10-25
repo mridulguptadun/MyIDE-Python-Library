@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-001",
+  "title": "Yield Values",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Create a generator that yields three numbers.",
+  "code": "def numbers():\n    yield 1\n    yield 2\n    yield 3\nprint(list(numbers()))",
+  "expected_output": "[1, 2, 3]",
+  "explanation": "yield produces values one at a time.",
+  "validation": "reviewed"
+}

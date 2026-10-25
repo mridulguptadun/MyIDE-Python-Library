@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-008",
+  "title": "Case-insensitive Search",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Search for a word regardless of capitalization.",
+  "code": "import re\nprint(bool(re.search('python', 'I LIKE PYTHON', re.IGNORECASE)))",
+  "expected_output": "True",
+  "explanation": "re.IGNORECASE makes matching case-insensitive.",
+  "validation": "reviewed"
+}

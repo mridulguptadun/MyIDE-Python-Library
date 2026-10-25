@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-007",
+  "title": "Use zip_longest",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Pair unequal lists and fill missing items with a dash.",
+  "code": "from itertools import zip_longest\nprint(list(zip_longest([1, 2, 3], ['a'], fillvalue='-')))",
+  "expected_output": "[(1, 'a'), (2, '-'), (3, '-')]",
+  "explanation": "zip_longest() continues until the longest iterable ends.",
+  "validation": "reviewed"
+}

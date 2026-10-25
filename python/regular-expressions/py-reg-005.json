@@ -1,0 +1,11 @@
+{
+  "id": "PY-REG-005",
+  "title": "Extract Email-like Text",
+  "topic": "Regular Expressions",
+  "difficulty": "Intermediate",
+  "question": "Find an email-like address in a sentence.",
+  "code": "import re\nprint(re.findall(r'[\\w.+-]+@[\\w.-]+\\.[A-Za-z]{2,}', 'Contact a.b@example.com today'))",
+  "expected_output": "['a.b@example.com']",
+  "explanation": "A practical regex can find common email-like strings but is not full email validation.",
+  "validation": "reviewed"
+}

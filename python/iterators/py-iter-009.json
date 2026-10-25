@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-009",
+  "title": "Take Every Second Item",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Select every second value from a sequence iterator.",
+  "code": "from itertools import islice\nprint(list(islice(range(10), 0, 10, 2)))",
+  "expected_output": "[0, 2, 4, 6, 8]",
+  "explanation": "islice() supports start, stop, and step.",
+  "validation": "reviewed"
+}

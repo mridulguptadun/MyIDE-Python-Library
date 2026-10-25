@@ -1,0 +1,11 @@
+{
+  "id": "PY-DATA-002",
+  "title": "Write JSON Text",
+  "topic": "Data Processing",
+  "difficulty": "Intermediate",
+  "question": "Serialize a dictionary to readable JSON.",
+  "code": "import json\nprint(json.dumps({'active': True, 'count': 2}, sort_keys=True))",
+  "expected_output": "{\"active\": true, \"count\": 2}",
+  "explanation": "json.dumps() converts Python data to a JSON string.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-003",
+  "title": "Manual Iteration",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Loop through an iterator with next() and StopIteration.",
+  "code": "items = iter([1, 2])\nwhile True:\n    try:\n        value = next(items)\n    except StopIteration:\n        break\n    print(value)",
+  "expected_output": "1\n2",
+  "explanation": "StopIteration signals that an iterator has no more values.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-PRAC-006",
+  "title": "Calculate a Shopping Total",
+  "topic": "Practical Problems",
+  "difficulty": "Intermediate",
+  "question": "Calculate the total price of a small basket.",
+  "code": "prices = [19.99, 5.00, 2.50]\nprint(round(sum(prices), 2))",
+  "expected_output": "27.49",
+  "explanation": "sum() adds the prices; round() limits displayed decimal places.",
+  "validation": "reviewed"
+}

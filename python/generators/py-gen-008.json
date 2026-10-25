@@ -1,0 +1,11 @@
+{
+  "id": "PY-GEN-008",
+  "title": "Generator with enumerate",
+  "topic": "Generators",
+  "difficulty": "Intermediate",
+  "question": "Yield each item with its zero-based index.",
+  "code": "def indexed(items):\n    for index, item in enumerate(items):\n        yield index, item\nprint(list(indexed(['a', 'b'])))",
+  "expected_output": "[(0, 'a'), (1, 'b')]",
+  "explanation": "enumerate() pairs each item with its index.",
+  "validation": "reviewed"
+}

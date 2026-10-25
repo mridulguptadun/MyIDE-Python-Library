@@ -1,0 +1,11 @@
+{
+  "id": "PY-ITER-010",
+  "title": "Pair Adjacent Values",
+  "topic": "Iterators",
+  "difficulty": "Intermediate",
+  "question": "Create overlapping pairs from a list.",
+  "code": "from itertools import pairwise\nprint(list(pairwise([10, 20, 30, 40])))",
+  "expected_output": "[(10, 20), (20, 30), (30, 40)]",
+  "explanation": "pairwise() yields overlapping adjacent pairs.",
+  "validation": "reviewed"
+}
