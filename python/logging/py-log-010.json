@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-010",
+  "title": "Use Debug Logging",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Configure a logger to accept debug messages.",
+  "code": "import logging\nlogger = logging.getLogger('debug_demo')\nlogger.setLevel(logging.DEBUG)\nprint(logger.isEnabledFor(logging.DEBUG))",
+  "expected_output": "True",
+  "explanation": "DEBUG is useful for detailed diagnostic information.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-004",
+  "title": "Test List Equality",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Compare two lists in a test assertion.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertEqual([1, 2], [1, 2])\nprint('Lists match')",
+  "expected_output": "Lists match",
+  "explanation": "assertEqual() compares expected and actual values.",
+  "validation": "reviewed"
+}

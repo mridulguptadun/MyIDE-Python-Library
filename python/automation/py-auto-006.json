@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-006",
+  "title": "Hash Text",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Calculate a SHA-256 digest for a short string.",
+  "code": "import hashlib\nprint(hashlib.sha256(b'hello').hexdigest()[:8])",
+  "expected_output": "2cf24dba",
+  "explanation": "Cryptographic hashes create fixed-length digests from bytes.",
+  "validation": "reviewed"
+}

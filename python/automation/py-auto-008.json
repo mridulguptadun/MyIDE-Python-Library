@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-008",
+  "title": "Create a Temporary File",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Create a temporary file and read back its contents.",
+  "code": "import tempfile\nfrom pathlib import Path\nwith tempfile.TemporaryDirectory() as folder:\n    p = Path(folder) / 'note.txt'\n    p.write_text('Hello', encoding='utf-8')\n    print(p.read_text(encoding='utf-8'))",
+  "expected_output": "Hello",
+  "explanation": "TemporaryDirectory cleans up its contents when the block ends.",
+  "validation": "reviewed"
+}

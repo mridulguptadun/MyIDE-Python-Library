@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-005",
+  "title": "Log with Variable Data",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Include a username in a log message.",
+  "code": "import logging\nlogging.basicConfig(level=logging.INFO, format='%(message)s')\nlogging.info('User %s signed in', 'Ava')",
+  "expected_output": "User Ava signed in",
+  "explanation": "Logging arguments defer string formatting until needed.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-005",
+  "title": "Change a File Suffix",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Change a markdown file suffix to HTML.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('guide.md').with_suffix('.html'))",
+  "expected_output": "guide.html",
+  "explanation": "with_suffix() returns a new path with the selected suffix.",
+  "validation": "reviewed"
+}

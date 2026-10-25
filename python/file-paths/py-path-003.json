@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-003",
+  "title": "Get a File Name",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Extract a file name from a path.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('docs/guide.md').name)",
+  "expected_output": "guide.md",
+  "explanation": "name returns the final path component.",
+  "validation": "reviewed"
+}

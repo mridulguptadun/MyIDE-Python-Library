@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-007",
+  "title": "Inspect Python Version",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Print the running Python major version.",
+  "code": "import sys\nprint(sys.version_info.major)",
+  "expected_output": "3",
+  "explanation": "sys.version_info provides the interpreter version components.",
+  "validation": "reviewed"
+}

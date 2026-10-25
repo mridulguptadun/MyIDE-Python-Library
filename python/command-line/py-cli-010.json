@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-010",
+  "title": "Use a Version Action",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Display a program version with argparse.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--version', action='version', version='Demo 1.0')\nprint(parser._actions[-1].version)",
+  "expected_output": "Demo 1.0",
+  "explanation": "argparse can provide a standard version option.",
+  "validation": "reviewed"
+}

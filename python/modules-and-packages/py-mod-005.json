@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-005",
+  "title": "Use a Main Guard",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Run code only when the file is executed directly.",
+  "code": "def main():\n    print('Program started')\n\nif __name__ == '__main__':\n    main()",
+  "expected_output": "Program started",
+  "explanation": "The main guard prevents the block from running during import.",
+  "validation": "reviewed"
+}

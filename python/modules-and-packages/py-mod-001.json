@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-001",
+  "title": "Import a Standard Module",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Use the math module to calculate a square root.",
+  "code": "import math\nprint(math.isqrt(81))",
+  "expected_output": "9",
+  "explanation": "Import a module to use its reusable functions.",
+  "validation": "reviewed"
+}

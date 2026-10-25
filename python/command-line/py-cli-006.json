@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-006",
+  "title": "Restrict Choices",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Allow only one of three output formats.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--format', choices=['text', 'json', 'csv'], default='text')\nprint(parser.parse_args(['--format', 'json']).format)",
+  "expected_output": "json",
+  "explanation": "choices rejects values outside the allowed options.",
+  "validation": "reviewed"
+}

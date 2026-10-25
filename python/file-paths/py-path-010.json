@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-010",
+  "title": "Use a File Name Pattern",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Check whether a filename matches a wildcard pattern.",
+  "code": "from pathlib import PurePath\nprint(PurePath('report.csv').match('*.csv'))",
+  "expected_output": "True",
+  "explanation": "match() tests a path against a glob-style pattern.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-002",
+  "title": "Import a Function Directly",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Import sqrt directly from math.",
+  "code": "from math import sqrt\nprint(sqrt(49))",
+  "expected_output": "7.0",
+  "explanation": "from module import name imports a specific object.",
+  "validation": "reviewed"
+}

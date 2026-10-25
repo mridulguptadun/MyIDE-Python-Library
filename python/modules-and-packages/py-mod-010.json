@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-010",
+  "title": "Import a Local Helper Pattern",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Define and call a reusable helper function.",
+  "code": "def format_name(name):\n    return name.strip().title()\n\nprint(format_name('  ava shah '))",
+  "expected_output": "Ava Shah",
+  "explanation": "Place reusable functions in modules when a project grows.",
+  "validation": "reviewed"
+}

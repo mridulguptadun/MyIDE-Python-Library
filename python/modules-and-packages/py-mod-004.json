@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-004",
+  "title": "Inspect a Module",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Print the name of an imported module.",
+  "code": "import math\nprint(math.__name__)",
+  "expected_output": "math",
+  "explanation": "A module's __name__ attribute stores its module name.",
+  "validation": "reviewed"
+}

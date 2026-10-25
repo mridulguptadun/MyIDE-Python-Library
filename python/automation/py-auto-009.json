@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-009",
+  "title": "Copy File Contents",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Copy text from one temporary file to another.",
+  "code": "import tempfile\nfrom pathlib import Path\nwith tempfile.TemporaryDirectory() as folder:\n    src, dst = Path(folder) / 'a.txt', Path(folder) / 'b.txt'\n    src.write_text('sample', encoding='utf-8')\n    dst.write_text(src.read_text(encoding='utf-8'), encoding='utf-8')\n    print(dst.read_text(encoding='utf-8'))",
+  "expected_output": "sample",
+  "explanation": "Path read_text() and write_text() simplify small text-file operations.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-009",
+  "title": "Test Empty Values",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Check that a list is empty.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertEqual([], [])\nprint('Empty list test passed')",
+  "expected_output": "Empty list test passed",
+  "explanation": "Tests should cover boundary cases such as empty collections.",
+  "validation": "reviewed"
+}

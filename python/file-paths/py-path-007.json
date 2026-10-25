@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-007",
+  "title": "Inspect a Path Name",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Get the stem without its final suffix.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('archive.tar.gz').stem)",
+  "expected_output": "archive.tar",
+  "explanation": "stem removes only the final suffix.",
+  "validation": "reviewed"
+}

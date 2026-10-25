@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-003",
+  "title": "Assert an Exception",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Check that converting invalid text raises ValueError.",
+  "code": "import unittest\ncase = unittest.TestCase()\nwith case.assertRaises(ValueError):\n    int('not a number')\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "assertRaises() verifies that an expected exception occurs.",
+  "validation": "reviewed"
+}

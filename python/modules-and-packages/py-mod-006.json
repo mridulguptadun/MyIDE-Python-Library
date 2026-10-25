@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-006",
+  "title": "Use a Package Path",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Show the separator used for platform-specific paths.",
+  "code": "import os\nprint(os.pathsep)",
+  "expected_output": ";",
+  "explanation": "os.pathsep separates entries in environment path lists on Windows; it is ':' on Unix.",
+  "validation": "reviewed"
+}

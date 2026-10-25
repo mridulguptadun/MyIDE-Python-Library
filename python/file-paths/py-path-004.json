@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-004",
+  "title": "Get a Parent Directory",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Get the parent of a nested path.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('docs/guide.md').parent)",
+  "expected_output": "docs",
+  "explanation": "parent returns the directory component above the path.",
+  "validation": "reviewed"
+}

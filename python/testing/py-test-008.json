@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-008",
+  "title": "Test Almost Equal",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Compare floating-point values with a tolerance.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertAlmostEqual(0.1 + 0.2, 0.3, places=7)\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "Floating-point values can have tiny representation differences.",
+  "validation": "reviewed"
+}

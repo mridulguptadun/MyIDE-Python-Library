@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-004",
+  "title": "Build a Safe Filename",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Replace spaces in a filename with underscores.",
+  "code": "name = 'weekly report.txt'\nprint(name.replace(' ', '_'))",
+  "expected_output": "weekly_report.txt",
+  "explanation": "String replacement can normalize simple filenames.",
+  "validation": "reviewed"
+}

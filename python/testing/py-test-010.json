@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-010",
+  "title": "Test a Dictionary Key",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Verify that a dictionary contains a required key.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertIn('name', {'name': 'Ava', 'score': 90})\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "assertIn() is useful for checking required dictionary keys.",
+  "validation": "reviewed"
+}

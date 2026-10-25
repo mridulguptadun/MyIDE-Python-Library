@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-002",
+  "title": "Use argparse for a Name",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Parse a name option from command-line arguments.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--name', default='Guest')\nargs = parser.parse_args([])\nprint(args.name)",
+  "expected_output": "Guest",
+  "explanation": "argparse handles argument parsing and help messages.",
+  "validation": "reviewed"
+}

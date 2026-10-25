@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-004",
+  "title": "Add a Boolean Flag",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Use a flag that enables verbose mode.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--verbose', action='store_true')\nprint(parser.parse_args(['--verbose']).verbose)",
+  "expected_output": "True",
+  "explanation": "store_true makes a flag true when it is present.",
+  "validation": "reviewed"
+}

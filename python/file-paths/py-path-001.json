@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-001",
+  "title": "Join Path Parts",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Join path components with pathlib.",
+  "code": "from pathlib import Path\nprint(Path('data') / 'notes.txt')",
+  "expected_output": "data/notes.txt",
+  "explanation": "Path joining uses the platform's path conventions; display may differ by OS.",
+  "validation": "reviewed"
+}

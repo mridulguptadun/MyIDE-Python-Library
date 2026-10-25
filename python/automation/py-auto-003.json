@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-003",
+  "title": "Get a File Extension",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Extract the suffix from a filename.",
+  "code": "from pathlib import Path\nprint(Path('report.csv').suffix)",
+  "expected_output": ".csv",
+  "explanation": "Path.suffix returns the final file extension including the dot.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-002",
+  "title": "Check a Path Suffix",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Check whether a path ends with a JSON extension.",
+  "code": "from pathlib import Path\nprint(Path('catalog.json').suffix == '.json')",
+  "expected_output": "True",
+  "explanation": "suffix returns the final extension including its leading dot.",
+  "validation": "reviewed"
+}

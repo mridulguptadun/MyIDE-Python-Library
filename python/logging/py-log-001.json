@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-001",
+  "title": "Basic Logging",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Write an informational log message.",
+  "code": "import logging\nlogging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')\nlogging.info('App started')",
+  "expected_output": "INFO: App started",
+  "explanation": "Logging levels help distinguish informational messages from problems.",
+  "validation": "reviewed"
+}

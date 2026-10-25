@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-007",
+  "title": "Use a Subcommand",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Parse a simple subcommand named list.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nsubs = parser.add_subparsers(dest='command', required=True)\nsubs.add_parser('list')\nprint(parser.parse_args(['list']).command)",
+  "expected_output": "list",
+  "explanation": "Subparsers are useful for command-line tools with multiple actions.",
+  "validation": "reviewed"
+}

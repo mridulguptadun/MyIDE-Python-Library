@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-004",
+  "title": "Use a Named Logger",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Create a logger named worker.",
+  "code": "import logging\nlogger = logging.getLogger('worker')\nprint(logger.name)",
+  "expected_output": "worker",
+  "explanation": "Named loggers make messages easier to organize by component.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-006",
+  "title": "Test a Collection Length",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Verify that a result has three items.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertEqual(len(['a', 'b', 'c']), 3)\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "Assertions make expected behavior explicit.",
+  "validation": "reviewed"
+}

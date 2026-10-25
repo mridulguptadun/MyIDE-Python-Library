@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-007",
+  "title": "Set a Logging Level",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Check whether INFO messages are enabled for a logger.",
+  "code": "import logging\nlogger = logging.getLogger('demo')\nlogger.setLevel(logging.INFO)\nprint(logger.isEnabledFor(logging.INFO))",
+  "expected_output": "True",
+  "explanation": "Logging levels control which messages are processed.",
+  "validation": "reviewed"
+}

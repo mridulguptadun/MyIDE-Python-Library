@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-009",
+  "title": "Use a Standard Constant",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Print the value of pi from math.",
+  "code": "import math\nprint(round(math.pi, 2))",
+  "expected_output": "3.14",
+  "explanation": "Standard library modules provide constants as well as functions.",
+  "validation": "reviewed"
+}

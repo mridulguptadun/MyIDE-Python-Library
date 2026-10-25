@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-003",
+  "title": "Parse an Integer Argument",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Define an integer command-line option with a default.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--count', type=int, default=3)\nprint(parser.parse_args([]).count)",
+  "expected_output": "3",
+  "explanation": "The type argument converts supplied text to the requested type.",
+  "validation": "reviewed"
+}

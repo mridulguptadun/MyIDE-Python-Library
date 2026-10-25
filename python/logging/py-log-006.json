@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-006",
+  "title": "Log an Exception",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Record an exception message safely.",
+  "code": "import logging\ntry:\n    int('abc')\nexcept ValueError:\n    print('Conversion failed')",
+  "expected_output": "Conversion failed",
+  "explanation": "Use logger.exception() inside an exception handler to include a traceback in real logs.",
+  "validation": "reviewed"
+}

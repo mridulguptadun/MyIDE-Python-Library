@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-002",
+  "title": "Assert a True Condition",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Use assertTrue in a unit test.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertTrue(4 > 1)\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "assertTrue() fails the test if its argument is false.",
+  "validation": "reviewed"
+}

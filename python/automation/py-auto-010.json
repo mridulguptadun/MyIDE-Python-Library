@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-010",
+  "title": "Compare File Contents",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Compare two strings as a simple content check.",
+  "code": "first, second = 'alpha', 'alpha'\nprint(first == second)",
+  "expected_output": "True",
+  "explanation": "Equality comparison can check whether two loaded text contents match.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-002",
+  "title": "Find Files by Extension",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "List Python files in a directory using a glob pattern.",
+  "code": "from pathlib import Path\nfiles = sorted(p.name for p in Path('.').glob('*.py'))\nprint(isinstance(files, list))",
+  "expected_output": "True",
+  "explanation": "glob() finds paths matching a pattern in the chosen directory.",
+  "validation": "reviewed"
+}

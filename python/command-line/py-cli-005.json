@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-005",
+  "title": "Parse a Positional Argument",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Parse a required filename argument.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('filename')\nprint(parser.parse_args(['notes.txt']).filename)",
+  "expected_output": "notes.txt",
+  "explanation": "Positional arguments are supplied without an option prefix.",
+  "validation": "reviewed"
+}

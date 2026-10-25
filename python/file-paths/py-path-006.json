@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-006",
+  "title": "Make a Relative Path",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Compute a relative path between two directories.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('project/docs/page.html').relative_to('project'))",
+  "expected_output": "docs/page.html",
+  "explanation": "relative_to() removes a matching leading path.",
+  "validation": "reviewed"
+}

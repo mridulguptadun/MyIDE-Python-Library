@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-003",
+  "title": "Create an Alias",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Import datetime with a short alias.",
+  "code": "import datetime as dt\nprint(dt.date(2026, 1, 1).year)",
+  "expected_output": "2026",
+  "explanation": "An alias provides a shorter local name for a module.",
+  "validation": "reviewed"
+}

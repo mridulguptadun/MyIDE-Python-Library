@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-002",
+  "title": "Log a Warning",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Log a warning message.",
+  "code": "import logging\nlogging.basicConfig(level=logging.WARNING, format='%(levelname)s: %(message)s')\nlogging.warning('Low disk space')",
+  "expected_output": "WARNING: Low disk space",
+  "explanation": "warning() reports an unexpected condition that is not necessarily fatal.",
+  "validation": "reviewed"
+}

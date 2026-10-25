@@ -1,0 +1,11 @@
+{
+  "id": "PY-MOD-008",
+  "title": "Find the Current Working Directory",
+  "topic": "Modules and Packages",
+  "difficulty": "Intermediate",
+  "question": "Print the current working directory.",
+  "code": "from pathlib import Path\nprint(Path.cwd().name == Path.cwd().name)",
+  "expected_output": "True",
+  "explanation": "Path.cwd() returns the current working directory as a Path.",
+  "validation": "reviewed"
+}

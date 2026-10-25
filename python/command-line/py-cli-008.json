@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-008",
+  "title": "Print Help Text",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Build a parser and print its program name.",
+  "code": "import argparse\nparser = argparse.ArgumentParser(prog='mytool')\nprint(parser.prog)",
+  "expected_output": "mytool",
+  "explanation": "ArgumentParser stores the configured program name.",
+  "validation": "reviewed"
+}

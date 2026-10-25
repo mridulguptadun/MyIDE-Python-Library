@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-005",
+  "title": "Calculate File Size in Bytes",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Get the size of an in-memory text encoded as UTF-8.",
+  "code": "text = 'Hello'\nprint(len(text.encode('utf-8')))",
+  "expected_output": "5",
+  "explanation": "File sizes in bytes can be measured after encoding text.",
+  "validation": "reviewed"
+}

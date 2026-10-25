@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-008",
+  "title": "Normalize a Path Lexically",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Collapse a current-directory component using pathlib's PurePath behavior.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('docs/./guide.md'))",
+  "expected_output": "docs/guide.md",
+  "explanation": "PurePath normalizes redundant current-directory components.",
+  "validation": "reviewed"
+}

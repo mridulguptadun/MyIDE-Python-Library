@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-005",
+  "title": "Test a Function",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Test a function with a known result.",
+  "code": "def double(n):\n    return n * 2\n\nassert double(4) == 8\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "An assert statement can check a simple condition in a small script.",
+  "validation": "reviewed"
+}

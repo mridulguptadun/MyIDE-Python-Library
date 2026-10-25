@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-008",
+  "title": "Use a Logging Formatter",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Create a formatter with level and message fields.",
+  "code": "import logging\nformatter = logging.Formatter('%(levelname)s:%(message)s')\nrecord = logging.LogRecord('demo', logging.WARNING, '', 0, 'Check input', (), None)\nprint(formatter.format(record))",
+  "expected_output": "WARNING:Check input",
+  "explanation": "Formatters define how a log record is displayed.",
+  "validation": "reviewed"
+}

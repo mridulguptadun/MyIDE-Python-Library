@@ -1,0 +1,11 @@
+{
+  "id": "PY-PATH-009",
+  "title": "Check a Path is Absolute",
+  "topic": "File Paths",
+  "difficulty": "Intermediate",
+  "question": "Check whether a Unix-style root path is absolute.",
+  "code": "from pathlib import PurePosixPath\nprint(PurePosixPath('/var/log/app.log').is_absolute())",
+  "expected_output": "True",
+  "explanation": "is_absolute() checks whether the path has a root.",
+  "validation": "reviewed"
+}

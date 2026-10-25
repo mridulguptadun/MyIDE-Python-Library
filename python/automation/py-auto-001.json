@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-001",
+  "title": "Create a Directory",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Create a directory path safely if it does not exist.",
+  "code": "from pathlib import Path\np = Path('demo_output')\np.mkdir(parents=True, exist_ok=True)\nprint(p.is_dir())\np.rmdir()",
+  "expected_output": "True",
+  "explanation": "exist_ok avoids an error when the directory already exists.",
+  "validation": "reviewed"
+}

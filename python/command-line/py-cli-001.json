@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-001",
+  "title": "Read Command-line Arguments",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Print arguments supplied after the script name.",
+  "code": "import sys\nprint(sys.argv[1:])",
+  "expected_output": "['red', 'blue']",
+  "explanation": "sys.argv contains command-line arguments; the example output assumes those two arguments.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-AUTO-007",
+  "title": "Read Environment Variable with Default",
+  "topic": "Automation",
+  "difficulty": "Intermediate",
+  "question": "Use a fallback when an environment variable is missing.",
+  "code": "import os\nprint(os.environ.get('MYIDE_DEMO_MISSING', 'default'))",
+  "expected_output": "default",
+  "explanation": "get() returns a fallback if the variable is not set.",
+  "validation": "reviewed"
+}

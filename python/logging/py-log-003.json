@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-003",
+  "title": "Log an Error",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Write an error-level log message.",
+  "code": "import logging\nlogging.basicConfig(level=logging.ERROR, format='%(levelname)s: %(message)s')\nlogging.error('Unable to load data')",
+  "expected_output": "ERROR: Unable to load data",
+  "explanation": "error() records a serious problem that prevented an operation.",
+  "validation": "reviewed"
+}

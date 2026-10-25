@@ -1,0 +1,11 @@
+{
+  "id": "PY-TEST-007",
+  "title": "Test a Substring",
+  "topic": "Testing",
+  "difficulty": "Intermediate",
+  "question": "Check that a message contains a word.",
+  "code": "import unittest\ncase = unittest.TestCase()\ncase.assertIn('ready', 'System ready')\nprint('Passed')",
+  "expected_output": "Passed",
+  "explanation": "assertIn() checks membership in strings and collections.",
+  "validation": "reviewed"
+}

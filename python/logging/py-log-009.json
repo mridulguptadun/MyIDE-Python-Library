@@ -1,0 +1,11 @@
+{
+  "id": "PY-LOG-009",
+  "title": "Log to a String Stream",
+  "topic": "Logging",
+  "difficulty": "Intermediate",
+  "question": "Capture a log message in an in-memory stream.",
+  "code": "import io, logging\nstream = io.StringIO()\nhandler = logging.StreamHandler(stream)\nhandler.setFormatter(logging.Formatter('%(message)s'))\nlogger = logging.getLogger('stream_demo')\nlogger.handlers = [handler]\nlogger.setLevel(logging.INFO)\nlogger.propagate = False\nlogger.info('Saved')\nprint(stream.getvalue().strip())",
+  "expected_output": "Saved",
+  "explanation": "Handlers decide where log records are sent.",
+  "validation": "reviewed"
+}

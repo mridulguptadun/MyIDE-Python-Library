@@ -1,0 +1,11 @@
+{
+  "id": "PY-CLI-009",
+  "title": "Parse Multiple Values",
+  "topic": "Command Line",
+  "difficulty": "Intermediate",
+  "question": "Parse a list of integer command-line values.",
+  "code": "import argparse\nparser = argparse.ArgumentParser()\nparser.add_argument('--values', nargs='+', type=int)\nprint(parser.parse_args(['--values', '2', '4', '6']).values)",
+  "expected_output": "[2, 4, 6]",
+  "explanation": "nargs='+' accepts one or more values.",
+  "validation": "reviewed"
+}
