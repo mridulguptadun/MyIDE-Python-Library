@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-029",
+  "title": "Read a Specific Line",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Print a one-based line number from a text file.",
+  "code": "from pathlib import Path\nlines = Path('notes.txt').read_text(encoding='utf-8').splitlines()\nline_number = int(input())\nprint(lines[line_number - 1] if 1 <= line_number <= len(lines) else 'Out of range')\n",
+  "expected_output": "Second line",
+  "explanation": "Convert the one-based line number to a zero-based index.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-024",
+  "title": "Read JSON Data",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Load JSON text and access a field.",
+  "code": "import json\ntext = '{\"name\": \"Ava\", \"score\": 90}'\ndata = json.loads(text)\nprint(data['name'], data['score'])\n",
+  "expected_output": "Ava 90",
+  "explanation": "json.loads() parses JSON text into Python objects.",
+  "validation": "reviewed"
+}

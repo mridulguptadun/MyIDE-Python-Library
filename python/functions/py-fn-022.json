@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-022",
+  "title": "Use Variable Positional Arguments",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Create a function that sums any number of arguments.",
+  "code": "def add_all(*numbers):\n    return sum(numbers)\n\nprint(add_all(2, 3, 4))\n",
+  "expected_output": "9",
+  "explanation": "*args collects positional arguments into a tuple.",
+  "validation": "reviewed"
+}

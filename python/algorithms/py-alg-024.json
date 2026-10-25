@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-024",
+  "title": "Breadth-First Search",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Visit a graph from a start node using breadth-first search.",
+  "code": "from collections import deque\ngraph = {'A': ['B', 'C'], 'B': ['D'], 'C': ['E'], 'D': [], 'E': []}\nqueue = deque(['A'])\nseen = {'A'}\norder = []\nwhile queue:\n    node = queue.popleft()\n    order.append(node)\n    for neighbor in graph[node]:\n        if neighbor not in seen:\n            seen.add(neighbor); queue.append(neighbor)\nprint(*order)\n",
+  "expected_output": "A B C D E",
+  "explanation": "A queue processes nodes in first-in-first-out order.",
+  "validation": "reviewed"
+}

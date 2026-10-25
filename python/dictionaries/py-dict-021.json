@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-021",
+  "title": "Merge Dictionaries with Newer Values",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Merge two dictionaries so the second dictionary wins on conflicts.",
+  "code": "defaults = {'theme': 'light', 'font': 12}\nsettings = {'theme': 'dark'}\nprint({**defaults, **settings})\n",
+  "expected_output": "{'theme': 'dark', 'font': 12}",
+  "explanation": "Later unpacked dictionaries override earlier matching keys.",
+  "validation": "reviewed"
+}

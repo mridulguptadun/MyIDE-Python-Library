@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-047",
+  "title": "Count Uppercase and Lowercase",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Count uppercase and lowercase letters in text.",
+  "code": "text = input()\nupper = sum(ch.isupper() for ch in text)\nlower = sum(ch.islower() for ch in text)\nprint('Upper:', upper, 'Lower:', lower)\n",
+  "expected_output": "Upper: 2 Lower: 3",
+  "explanation": "isupper() and islower() classify letters.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-041",
+  "title": "Find Missing Number",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Find the missing number from values 1 through n.",
+  "code": "nums = list(map(int, input().split()))\nn = int(input())\nprint(n * (n + 1) // 2 - sum(nums))\n",
+  "expected_output": "3",
+  "explanation": "The arithmetic series sum minus the present values gives the missing value.",
+  "validation": "reviewed"
+}

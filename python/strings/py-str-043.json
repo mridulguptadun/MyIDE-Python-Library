@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-043",
+  "title": "Find Longest Word",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Print the longest word in a sentence.",
+  "code": "words = input().split()\nprint(max(words, key=len) if words else '')\n",
+  "expected_output": "learning",
+  "explanation": "max() can choose an item using its length.",
+  "validation": "reviewed"
+}

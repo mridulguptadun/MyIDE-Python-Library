@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-030",
+  "title": "Use a Predicate Function",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Pass a predicate to keep values that match a condition.",
+  "code": "def select(values, predicate):\n    return [value for value in values if predicate(value)]\n\nprint(select([1, 2, 3, 4, 5], lambda n: n % 2 == 0))\n",
+  "expected_output": "[2, 4]",
+  "explanation": "Passing a function lets callers customize the selection rule.",
+  "validation": "reviewed"
+}

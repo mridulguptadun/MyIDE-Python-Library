@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-022",
+  "title": "Find the Longest Increasing Run",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the length of the longest strictly increasing contiguous run.",
+  "code": "nums = list(map(int, input().split()))\nbest = current = 0\nprevious = None\nfor number in nums:\n    current = current + 1 if previous is not None and number > previous else 1\n    best = max(best, current)\n    previous = number\nprint(best)\n",
+  "expected_output": "3",
+  "explanation": "Reset the run whenever the next value is not larger.",
+  "validation": "reviewed"
+}

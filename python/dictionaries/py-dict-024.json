@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-024",
+  "title": "Filter Dictionary by Threshold",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Keep entries whose value meets a minimum threshold.",
+  "code": "scores = {'Ava': 82, 'Leo': 95, 'Mia': 68}\nminimum = int(input())\nprint({name: score for name, score in scores.items() if score >= minimum})\n",
+  "expected_output": "{'Ava': 82, 'Leo': 95}",
+  "explanation": "A dictionary comprehension filters key-value pairs.",
+  "validation": "reviewed"
+}

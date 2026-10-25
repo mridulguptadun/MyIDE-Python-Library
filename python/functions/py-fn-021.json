@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-021",
+  "title": "Use a Keyword-Only Parameter",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Create a function with a keyword-only option.",
+  "code": "def greet(name, *, excited=False):\n    ending = '!' if excited else '.'\n    return f'Hello, {name}{ending}'\n\nprint(greet('Ava', excited=True))\n",
+  "expected_output": "Hello, Ava!",
+  "explanation": "Parameters after * must be supplied by keyword.",
+  "validation": "reviewed"
+}

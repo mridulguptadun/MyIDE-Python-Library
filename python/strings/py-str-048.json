@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-048",
+  "title": "Mask a Phone Number",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Hide all but the last four characters of a number string.",
+  "code": "number = input().strip()\nprint('*' * max(0, len(number) - 4) + number[-4:])\n",
+  "expected_output": "******1234",
+  "explanation": "String slicing preserves the final four characters.",
+  "validation": "reviewed"
+}

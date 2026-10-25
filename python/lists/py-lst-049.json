@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-049",
+  "title": "Find List Intersection and Difference",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Print unique intersection and left-only values.",
+  "code": "a = list(map(int, input().split()))\nb = set(map(int, input().split()))\nprint('Common:', sorted(set(a) & b))\nprint('Only left:', sorted(set(a) - b))\n",
+  "expected_output": "Common: [2, 3]\\nOnly left: [1]",
+  "explanation": "Set operators compute intersection and difference.",
+  "validation": "reviewed"
+}

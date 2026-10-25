@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-030",
+  "title": "Remove Dictionary Keys Safely",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Remove a key without raising an error if it is absent.",
+  "code": "data = {'a': 1, 'b': 2}\nkey = input()\nremoved = data.pop(key, None)\nprint('Removed' if removed is not None else 'Not found')\nprint(data)\n",
+  "expected_output": "Removed\\n{'b': 2}",
+  "explanation": "pop() accepts a default for absent keys.",
+  "validation": "reviewed"
+}

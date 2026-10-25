@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-026",
+  "title": "Find a Minimum in a Rotated Sorted List",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find the minimum value in a rotated sorted list.",
+  "code": "nums = list(map(int, input().split()))\nif not nums:\n    print('Empty')\nelse:\n    left, right = 0, len(nums) - 1\n    while left < right:\n        mid = (left + right) // 2\n        if nums[mid] > nums[right]: left = mid + 1\n        else: right = mid\n    print(nums[left])\n",
+  "expected_output": "1",
+  "explanation": "Binary search narrows the side containing the rotation point; assumes distinct values.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-025",
+  "title": "Use a Temporary Directory",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Create a temporary directory that is cleaned up automatically.",
+  "code": "import tempfile\nfrom pathlib import Path\nwith tempfile.TemporaryDirectory() as folder:\n    path = Path(folder) / 'note.txt'\n    path.write_text('Temporary', encoding='utf-8')\n    print(path.read_text(encoding='utf-8'))\n",
+  "expected_output": "Temporary",
+  "explanation": "TemporaryDirectory removes its contents when the context ends.",
+  "validation": "reviewed"
+}

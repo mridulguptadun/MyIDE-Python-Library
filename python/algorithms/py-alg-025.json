@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-025",
+  "title": "Depth-First Search",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Visit a graph using iterative depth-first search.",
+  "code": "graph = {'A': ['B', 'C'], 'B': ['D'], 'C': ['E'], 'D': [], 'E': []}\nstack = ['A']\nseen = set()\norder = []\nwhile stack:\n    node = stack.pop()\n    if node in seen: continue\n    seen.add(node); order.append(node)\n    stack.extend(reversed(graph[node]))\nprint(*order)\n",
+  "expected_output": "A B D C E",
+  "explanation": "A stack explores the most recently added node first.",
+  "validation": "reviewed"
+}

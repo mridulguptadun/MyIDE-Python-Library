@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-023",
+  "title": "Write JSON Data",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Save a Python dictionary to a JSON file.",
+  "code": "import json\nfrom pathlib import Path\ndata = {'name': 'Ava', 'score': 90}\nPath('data.json').write_text(json.dumps(data, indent=2), encoding='utf-8')\nprint('Saved')\n",
+  "expected_output": "Saved",
+  "explanation": "json.dumps() converts Python data into JSON text.",
+  "validation": "reviewed"
+}

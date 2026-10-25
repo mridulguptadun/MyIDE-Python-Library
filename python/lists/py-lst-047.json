@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-047",
+  "title": "Compare Lists as Multisets",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Check whether two lists contain the same values and counts.",
+  "code": "from collections import Counter\na = input().split()\nb = input().split()\nprint(Counter(a) == Counter(b))\n",
+  "expected_output": "True",
+  "explanation": "Counter compares frequencies, not just unique members.",
+  "validation": "reviewed"
+}

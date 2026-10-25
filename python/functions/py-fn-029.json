@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-029",
+  "title": "Return a Sorted Copy",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Return a sorted copy without modifying the original list.",
+  "code": "def sorted_copy(values):\n    return sorted(values)\n\nnumbers = [3, 1, 2]\nresult = sorted_copy(numbers)\nprint(result)\nprint(numbers)\n",
+  "expected_output": "[1, 2, 3]\\n[3, 1, 2]",
+  "explanation": "sorted() creates a new list.",
+  "validation": "reviewed"
+}

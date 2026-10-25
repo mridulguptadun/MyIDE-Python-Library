@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-027",
+  "title": "Sort Keys Case-Insensitively",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Print dictionary keys alphabetically without case sensitivity.",
+  "code": "data = {'banana': 2, 'Apple': 3, 'cherry': 1}\nprint(sorted(data, key=str.lower))\n",
+  "expected_output": "['Apple', 'banana', 'cherry']",
+  "explanation": "str.lower provides a lowercase sorting key.",
+  "validation": "reviewed"
+}

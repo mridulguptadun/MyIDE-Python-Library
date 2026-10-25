@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-023",
+  "title": "Count Islands in a Grid",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Count connected groups of 1s in a small grid using four directions.",
+  "code": "grid = [[1, 1, 0], [0, 1, 0], [1, 0, 1]]\nrows, cols = len(grid), len(grid[0])\nseen = set()\nislands = 0\nfor r in range(rows):\n    for c in range(cols):\n        if grid[r][c] and (r, c) not in seen:\n            islands += 1\n            stack = [(r, c)]\n            seen.add((r, c))\n            while stack:\n                x, y = stack.pop()\n                for dx, dy in ((1,0), (-1,0), (0,1), (0,-1)):\n                    nx, ny = x + dx, y + dy\n                    if 0 <= nx < rows and 0 <= ny < cols and grid[nx][ny] and (nx, ny) not in seen:\n                        seen.add((nx, ny)); stack.append((nx, ny))\nprint(islands)\n",
+  "expected_output": "3",
+  "explanation": "Depth-first search visits each connected group once.",
+  "validation": "reviewed"
+}

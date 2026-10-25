@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-025",
+  "title": "Build an Index from Records",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Create a dictionary indexed by each record's ID.",
+  "code": "records = [{'id': 10, 'name': 'Ava'}, {'id': 11, 'name': 'Leo'}]\nindex = {record['id']: record for record in records}\nprint(index[10]['name'])\n",
+  "expected_output": "Ava",
+  "explanation": "A comprehension can index records by a chosen field.",
+  "validation": "reviewed"
+}

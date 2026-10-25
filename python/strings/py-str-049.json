@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-049",
+  "title": "Find All Substring Positions",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Print every starting index where a substring occurs, including overlaps.",
+  "code": "text = input()\npart = input()\nif not part:\n    print([])\nelse:\n    positions = [i for i in range(len(text) - len(part) + 1) if text.startswith(part, i)]\n    print(positions)\n",
+  "expected_output": "[0, 2]",
+  "explanation": "Checking each index includes overlapping matches.",
+  "validation": "reviewed"
+}

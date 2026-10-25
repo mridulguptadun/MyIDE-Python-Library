@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-030",
+  "title": "Merge Overlapping Intervals",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Merge overlapping integer intervals.",
+  "code": "intervals = sorted([[1, 3], [2, 6], [8, 10], [9, 12]])\nmerged = []\nfor start, end in intervals:\n    if not merged or start > merged[-1][1]:\n        merged.append([start, end])\n    else:\n        merged[-1][1] = max(merged[-1][1], end)\nprint(merged)\n",
+  "expected_output": "[[1, 6], [8, 12]]",
+  "explanation": "Sort intervals, then extend the last merged interval when they overlap.",
+  "validation": "reviewed"
+}

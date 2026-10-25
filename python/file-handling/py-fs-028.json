@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-028",
+  "title": "Find Files Recursively",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "List Python files in a directory tree.",
+  "code": "from pathlib import Path\nroot = Path('.')\nfor path in sorted(root.rglob('*.py')):\n    print(path.as_posix())\n",
+  "expected_output": "app/main.py",
+  "explanation": "rglob() searches through subdirectories.",
+  "validation": "reviewed"
+}

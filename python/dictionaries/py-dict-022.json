@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-022",
+  "title": "Find the Maximum Dictionary Entry",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Print the key with the highest numeric value.",
+  "code": "scores = {'Ava': 82, 'Leo': 95, 'Mia': 88}\nprint(max(scores, key=scores.get))\n",
+  "expected_output": "Leo",
+  "explanation": "max() can compare keys by their associated values.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-028",
+  "title": "Dictionary from Two Columns",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Create a dictionary from two parallel lists.",
+  "code": "names = ['Ava', 'Leo', 'Mia']\nages = [20, 22, 19]\nprint(dict(zip(names, ages)))\n",
+  "expected_output": "{'Ava': 20, 'Leo': 22, 'Mia': 19}",
+  "explanation": "zip() pairs values at matching positions.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-050",
+  "title": "Convert Snake Case to Camel Case",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Convert a snake_case name into lower camelCase.",
+  "code": "parts = input().split('_')\nprint(parts[0] + ''.join(part.capitalize() for part in parts[1:]))\n",
+  "expected_output": "myFirstName",
+  "explanation": "Capitalize each segment after the first and join them.",
+  "validation": "reviewed"
+}

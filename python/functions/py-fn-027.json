@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-027",
+  "title": "Use Type Hints",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Annotate a function's parameter and return type.",
+  "code": "def area(width: float, height: float) -> float:\n    return width * height\n\nprint(area(3.0, 4.0))\n",
+  "expected_output": "12.0",
+  "explanation": "Type hints document expected types but do not enforce them automatically.",
+  "validation": "reviewed"
+}

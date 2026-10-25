@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-041",
+  "title": "Reverse Words in a Sentence",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Reverse the order of words in a sentence.",
+  "code": "words = input().split()\nprint(*reversed(words))\n",
+  "expected_output": "world Hello",
+  "explanation": "split() separates words and reversed() changes their order.",
+  "validation": "reviewed"
+}

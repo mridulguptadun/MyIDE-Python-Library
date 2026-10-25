@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-045",
+  "title": "Check Rotation of Strings",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Check whether one string is a rotation of another.",
+  "code": "a = input()\nb = input()\nprint(len(a) == len(b) and b in a + a)\n",
+  "expected_output": "True",
+  "explanation": "Every rotation of a string occurs in the doubled string.",
+  "validation": "reviewed"
+}

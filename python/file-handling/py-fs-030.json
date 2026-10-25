@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-030",
+  "title": "Write CSV with Headers",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Write records to a CSV file with column headers.",
+  "code": "import csv\nwith open('people.csv', 'w', newline='', encoding='utf-8') as file:\n    writer = csv.DictWriter(file, fieldnames=['name', 'age'])\n    writer.writeheader()\n    writer.writerow({'name': 'Ava', 'age': 20})\nprint('Saved')\n",
+  "expected_output": "Saved",
+  "explanation": "DictWriter maps dictionary keys to CSV columns.",
+  "validation": "reviewed"
+}

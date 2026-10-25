@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-025",
+  "title": "Use a Closure",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Return a function that remembers a multiplier.",
+  "code": "def make_multiplier(factor):\n    def multiply(value):\n        return value * factor\n    return multiply\n\ndouble = make_multiplier(2)\nprint(double(7))\n",
+  "expected_output": "14",
+  "explanation": "The inner function remembers factor from its enclosing scope.",
+  "validation": "reviewed"
+}

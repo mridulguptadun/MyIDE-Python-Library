@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-042",
+  "title": "Find Duplicate Values",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Print each duplicated value once in first duplicate order.",
+  "code": "nums = list(map(int, input().split()))\nseen, duplicates = set(), []\nfor value in nums:\n    if value in seen and value not in duplicates:\n        duplicates.append(value)\n    seen.add(value)\nprint(*duplicates)\n",
+  "expected_output": "2 3",
+  "explanation": "Sets track values already encountered.",
+  "validation": "reviewed"
+}

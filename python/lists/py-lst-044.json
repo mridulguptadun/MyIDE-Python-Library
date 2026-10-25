@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-044",
+  "title": "Find All Pair Sums",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Print pairs of values whose sum equals a target.",
+  "code": "nums = list(map(int, input().split()))\ntarget = int(input())\npairs = [(nums[i], nums[j]) for i in range(len(nums)) for j in range(i + 1, len(nums)) if nums[i] + nums[j] == target]\nprint(pairs)\n",
+  "expected_output": "[(1, 4), (2, 3)]",
+  "explanation": "Each pair is considered once using i less than j.",
+  "validation": "reviewed"
+}

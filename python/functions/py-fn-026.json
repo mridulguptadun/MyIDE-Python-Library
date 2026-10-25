@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-026",
+  "title": "Use a Decorator",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Write a decorator that prints before calling a function.",
+  "code": "def announce(func):\n    def wrapper(*args, **kwargs):\n        print('Starting')\n        return func(*args, **kwargs)\n    return wrapper\n\n@announce\ndef greet(name):\n    print(f'Hello, {name}!')\n\ngreet('Ava')\n",
+  "expected_output": "Starting\\nHello, Ava!",
+  "explanation": "A decorator wraps a function with extra behavior.",
+  "validation": "reviewed"
+}

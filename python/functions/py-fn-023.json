@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-023",
+  "title": "Use Variable Keyword Arguments",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Print keyword arguments passed to a function.",
+  "code": "def show_details(**details):\n    for key, value in details.items():\n        print(f'{key}: {value}')\n\nshow_details(city='Agra', level='Beginner')\n",
+  "expected_output": "city: Agra\\nlevel: Beginner",
+  "explanation": "**kwargs collects keyword arguments into a dictionary.",
+  "validation": "reviewed"
+}

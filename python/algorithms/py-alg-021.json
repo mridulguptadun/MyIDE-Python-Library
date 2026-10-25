@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-021",
+  "title": "Insertion Sort",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Sort numbers using insertion sort.",
+  "code": "nums = list(map(int, input().split()))\nfor i in range(1, len(nums)):\n    current = nums[i]\n    j = i - 1\n    while j >= 0 and nums[j] > current:\n        nums[j + 1] = nums[j]\n        j -= 1\n    nums[j + 1] = current\nprint(*nums)\n",
+  "expected_output": "1 2 3 5",
+  "explanation": "Insertion sort inserts each item into its sorted left portion.",
+  "validation": "reviewed"
+}

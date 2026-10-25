@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-043",
+  "title": "Interleave Two Lists",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Interleave two lists, then append any remaining values.",
+  "code": "a = input().split()\nb = input().split()\nresult = []\nfor i in range(max(len(a), len(b))):\n    if i < len(a): result.append(a[i])\n    if i < len(b): result.append(b[i])\nprint(*result)\n",
+  "expected_output": "a 1 b 2 c",
+  "explanation": "Index checks allow lists of different lengths.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-046",
+  "title": "Find the Most Frequent Number",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Print the most frequent number, choosing the smallest on ties.",
+  "code": "from collections import Counter\nnums = list(map(int, input().split()))\ncounts = Counter(nums)\nprint(min(counts, key=lambda value: (-counts[value], value)) if nums else 'Empty')\n",
+  "expected_output": "2",
+  "explanation": "The key sorts by descending frequency and then ascending value.",
+  "validation": "reviewed"
+}

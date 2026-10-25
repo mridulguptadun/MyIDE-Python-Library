@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-026",
+  "title": "Get File Size",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Print a file's size in bytes if it exists.",
+  "code": "from pathlib import Path\npath = Path('notes.txt')\nprint(path.stat().st_size if path.exists() else 0)\n",
+  "expected_output": "24",
+  "explanation": "stat().st_size reports file size in bytes.",
+  "validation": "reviewed"
+}

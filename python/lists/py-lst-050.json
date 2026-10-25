@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-050",
+  "title": "Sort Rows by a Column",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Sort rows of data by their second value.",
+  "code": "rows = [['Ava', 82], ['Leo', 95], ['Mia', 88]]\nprint(sorted(rows, key=lambda row: row[1]))\n",
+  "expected_output": "[['Ava', 82], ['Mia', 88], ['Leo', 95]]",
+  "explanation": "The key function selects the column used for sorting.",
+  "validation": "reviewed"
+}

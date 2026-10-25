@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-044",
+  "title": "Replace Multiple Spaces",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Normalize repeated whitespace to single spaces.",
+  "code": "text = input()\nprint(' '.join(text.split()))\n",
+  "expected_output": "Hello Python world",
+  "explanation": "split() without a separator handles repeated whitespace.",
+  "validation": "reviewed"
+}

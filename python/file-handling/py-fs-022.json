@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-022",
+  "title": "Count Words in a File",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Count whitespace-separated words in a text file.",
+  "code": "from pathlib import Path\npath = Path('notes.txt')\ntry:\n    print(len(path.read_text(encoding='utf-8').split()))\nexcept FileNotFoundError:\n    print(0)\n",
+  "expected_output": "12",
+  "explanation": "split() separates words on whitespace.",
+  "validation": "reviewed"
+}

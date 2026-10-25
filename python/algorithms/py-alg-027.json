@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-027",
+  "title": "Evaluate a Simple Postfix Expression",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Evaluate a postfix expression containing integer operands and operators.",
+  "code": "tokens = input().split()\nstack = []\nfor token in tokens:\n    if token in '+-*/':\n        b, a = stack.pop(), stack.pop()\n        if token == '+': stack.append(a + b)\n        elif token == '-': stack.append(a - b)\n        elif token == '*': stack.append(a * b)\n        else: stack.append(int(a / b))\n    else:\n        stack.append(int(token))\nprint(stack[-1])\n",
+  "expected_output": "14",
+  "explanation": "Postfix notation uses a stack; division here truncates toward zero.",
+  "validation": "reviewed"
+}

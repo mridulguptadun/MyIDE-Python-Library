@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-048",
+  "title": "Create Adjacent Pairs",
+  "topic": "Lists",
+  "difficulty": "Intermediate",
+  "question": "Create pairs of each item and the next item.",
+  "code": "items = input().split()\nprint(list(zip(items, items[1:])))\n",
+  "expected_output": "[('a', 'b'), ('b', 'c')]",
+  "explanation": "A shifted slice pairs neighboring values.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-028",
+  "title": "Use Any Iterable",
+  "topic": "Functions",
+  "difficulty": "Intermediate",
+  "question": "Write a function that totals values from any iterable.",
+  "code": "def total_values(values):\n    total = 0\n    for value in values:\n        total += value\n    return total\n\nprint(total_values((1, 2, 3)))\n",
+  "expected_output": "6",
+  "explanation": "Iteration supports lists, tuples, generators, and many other collections.",
+  "validation": "reviewed"
+}

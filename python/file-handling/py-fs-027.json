@@ -1,0 +1,11 @@
+{
+  "id": "PY-FS-027",
+  "title": "Rename a File",
+  "topic": "File Handling",
+  "difficulty": "Intermediate",
+  "question": "Rename a file if the source exists.",
+  "code": "from pathlib import Path\nsource = Path('old.txt')\ntarget = Path('new.txt')\nif source.exists():\n    source.rename(target)\n    print('Renamed')\nelse:\n    print('Source not found')\n",
+  "expected_output": "Renamed",
+  "explanation": "Path.rename() changes the path of a file.",
+  "validation": "reviewed"
+}

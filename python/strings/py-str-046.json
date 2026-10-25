@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-046",
+  "title": "Remove Duplicate Characters",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Keep only the first occurrence of each character.",
+  "code": "text = input()\nresult = ''.join(dict.fromkeys(text))\nprint(result)\n",
+  "expected_output": "banana -> ban",
+  "explanation": "Dictionary keys preserve insertion order in modern Python.",
+  "validation": "reviewed"
+}

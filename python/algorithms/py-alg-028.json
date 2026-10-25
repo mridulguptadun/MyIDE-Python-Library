@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-028",
+  "title": "Find a Majority Element",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Find a value occurring more than half the time, or -1.",
+  "code": "nums = list(map(int, input().split()))\ncandidate, count = None, 0\nfor value in nums:\n    if count == 0: candidate = value\n    count += 1 if value == candidate else -1\nprint(candidate if candidate is not None and nums.count(candidate) > len(nums) // 2 else -1)\n",
+  "expected_output": "2",
+  "explanation": "Boyer-Moore finds a candidate, then a count verifies it.",
+  "validation": "reviewed"
+}

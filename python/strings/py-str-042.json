@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-042",
+  "title": "Check Pangram",
+  "topic": "Strings",
+  "difficulty": "Intermediate",
+  "question": "Check whether a sentence contains every English letter.",
+  "code": "import string\ntext = set(input().lower())\nprint('Pangram' if set(string.ascii_lowercase) <= text else 'Not pangram')\n",
+  "expected_output": "Pangram",
+  "explanation": "A pangram includes all 26 letters of the English alphabet.",
+  "validation": "reviewed"
+}

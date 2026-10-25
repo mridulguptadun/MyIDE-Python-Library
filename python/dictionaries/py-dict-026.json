@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-026",
+  "title": "Safely Increment a Counter",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Count items using dict.get().",
+  "code": "items = input().split()\ncounts = {}\nfor item in items:\n    counts[item] = counts.get(item, 0) + 1\nprint(counts)\n",
+  "expected_output": "{'cat': 2, 'dog': 1}",
+  "explanation": "get() starts unseen counts at zero.",
+  "validation": "reviewed"
+}

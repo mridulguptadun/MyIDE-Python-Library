@@ -1,0 +1,11 @@
+{
+  "id": "PY-ALG-029",
+  "title": "Compute a Running Average",
+  "topic": "Algorithms",
+  "difficulty": "Intermediate",
+  "question": "Print the average after each new number.",
+  "code": "nums = list(map(float, input().split()))\ntotal = 0.0\nfor i, value in enumerate(nums, 1):\n    total += value\n    print(f'{total / i:.2f}')\n",
+  "expected_output": "2.00\\n3.00\\n4.00",
+  "explanation": "Divide the running sum by the number of values processed.",
+  "validation": "reviewed"
+}

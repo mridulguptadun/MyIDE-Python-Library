@@ -1,0 +1,11 @@
+{
+  "id": "PY-DICT-023",
+  "title": "Sum Numeric Dictionary Values",
+  "topic": "Dictionaries",
+  "difficulty": "Intermediate",
+  "question": "Add all numeric values in a dictionary.",
+  "code": "prices = {'pen': 10, 'book': 45, 'bag': 300}\nprint(sum(prices.values()))\n",
+  "expected_output": "355",
+  "explanation": "values() returns the values that sum() adds.",
+  "validation": "reviewed"
+}
