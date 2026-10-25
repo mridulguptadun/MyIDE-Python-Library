@@ -5230,7 +5230,7 @@
       "validation": "reviewed"
     },
     {
-      "id": "PY-TEST-006",
+      "id": "PY-TOOL-056",
       "title": "Test a Collection Length",
       "topic": "Testing",
       "difficulty": "Intermediate",
@@ -5241,7 +5241,7 @@
       "validation": "reviewed"
     },
     {
-      "id": "PY-TEST-007",
+      "id": "PY-TOOL-057",
       "title": "Test a Substring",
       "topic": "Testing",
       "difficulty": "Intermediate",
@@ -5252,7 +5252,7 @@
       "validation": "reviewed"
     },
     {
-      "id": "PY-TEST-008",
+      "id": "PY-TOOL-058",
       "title": "Test Almost Equal",
       "topic": "Testing",
       "difficulty": "Intermediate",
@@ -5263,7 +5263,7 @@
       "validation": "reviewed"
     },
     {
-      "id": "PY-TEST-009",
+      "id": "PY-TOOL-059",
       "title": "Test Empty Values",
       "topic": "Testing",
       "difficulty": "Intermediate",
@@ -5274,7 +5274,7 @@
       "validation": "reviewed"
     },
     {
-      "id": "PY-TEST-010",
+      "id": "PY-TOOL-060",
       "title": "Test a Dictionary Key",
       "topic": "Testing",
       "difficulty": "Intermediate",
