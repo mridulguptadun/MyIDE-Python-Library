@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-010",
+  "title": "Sum Numbers from 1 to N",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a positive integer n and use a loop to calculate the sum from 1 through n.",
+  "code": "n = int(input(\"Enter a positive integer: \"))\ntotal = 0\nfor number in range(1, n + 1):\n    total += number\nprint(\"Sum:\", total)\n",
+  "expected_output": "For input 5:\nEnter a positive integer: 5\nSum: 15",
+  "explanation": "The loop adds each integer from 1 through n to the running total.",
+  "validation": "reviewed"
+}

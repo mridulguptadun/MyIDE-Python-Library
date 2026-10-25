@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-003",
+  "title": "Swap Two Variables",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Swap the values of two variables without using a temporary variable.",
+  "code": "first = input(\"First value: \")\nsecond = input(\"Second value: \")\nfirst, second = second, first\nprint(\"First:\", first)\nprint(\"Second:\", second)\n",
+  "expected_output": "For inputs red and blue:\nFirst value: red\nSecond value: blue\nFirst: blue\nSecond: red",
+  "explanation": "Python tuple unpacking lets you assign multiple values in one statement.",
+  "validation": "reviewed"
+}

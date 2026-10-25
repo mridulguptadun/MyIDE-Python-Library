@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-002",
+  "title": "Merge Two Dictionaries",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Create two dictionaries and merge them into a new dictionary.",
+  "code": "first = {\"name\": \"Asha\", \"age\": 20}\nsecond = {\"city\": \"Agra\", \"course\": \"Python\"}\nmerged = first | second\nprint(merged)\n",
+  "expected_output": "{'name': 'Asha', 'age': 20, 'city': 'Agra', 'course': 'Python'}",
+  "explanation": "The | operator creates a merged dictionary in Python 3.9 and later; keys from the right dictionary take precedence.",
+  "validation": "reviewed"
+}

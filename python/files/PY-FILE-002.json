@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-002",
+  "title": "Count Lines in a Text File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Read a text file named notes.txt and print how many lines it contains. Create the file first with at least one line.",
+  "code": "with open(\"notes.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"First line\\nSecond line\\nThird line\\n\")\n\nwith open(\"notes.txt\", \"r\", encoding=\"utf-8\") as file:\n    line_count = sum(1 for line in file)\n\nprint(\"Lines:\", line_count)\n",
+  "expected_output": "Lines: 3",
+  "explanation": "The with statement closes the file automatically; iterating over a file reads it line by line.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-011",
+  "title": "Check a Character Type",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read one character and report whether it is a letter, a digit, or another character.",
+  "code": "character = input(\"Enter one character: \")\nif len(character) != 1:\n    print(\"Enter exactly one character.\")\nelif character.isalpha():\n    print(\"Letter\")\nelif character.isdigit():\n    print(\"Digit\")\nelse:\n    print(\"Other character\")\n",
+  "expected_output": "For input 7:\nEnter one character: 7\nDigit",
+  "explanation": "isalpha() checks for letters and isdigit() checks for digit characters.",
+  "validation": "reviewed"
+}

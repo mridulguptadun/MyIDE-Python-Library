@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-007",
+  "title": "Calculate the Average of a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Calculate and print the average of a list of three numbers.",
+  "code": "numbers = [10, 20, 30]\naverage = sum(numbers) / len(numbers)\nprint(f\"Average: {average:g}\")\n",
+  "expected_output": "Average: 20",
+  "explanation": "sum() adds the list values and len() returns how many values are present.",
+  "validation": "reviewed"
+}

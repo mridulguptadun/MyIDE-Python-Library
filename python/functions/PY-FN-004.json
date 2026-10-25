@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-004",
+  "title": "Calculate a Rectangle Area with a Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that accepts length and width and returns the rectangle's area.",
+  "code": "def rectangle_area(length, width):\n    return length * width\n\nprint(rectangle_area(6, 4))\n",
+  "expected_output": "24",
+  "explanation": "Functions can accept multiple parameters and return one calculated result.",
+  "validation": "reviewed"
+}

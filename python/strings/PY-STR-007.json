@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-007",
+  "title": "Count Words in a Sentence",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a sentence and print the number of words separated by whitespace.",
+  "code": "sentence = input(\"Sentence: \")\nwords = sentence.split()\nprint(\"Word count:\", len(words))\n",
+  "expected_output": "For input Python is easy to learn:\nSentence: Python is easy to learn\nWord count: 5",
+  "explanation": "split() separates a string at whitespace and len() counts the resulting words.",
+  "validation": "reviewed"
+}
