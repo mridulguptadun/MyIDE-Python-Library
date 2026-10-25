@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-001",
+  "title": "Swap Two Variables",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Swap the values of two variables and print them.",
+  "code": "a = 10\nb = 20\na, b = b, a\nprint(\"a =\", a)\nprint(\"b =\", b)\n",
+  "expected_output": "a = 20\nb = 10",
+  "explanation": "Tuple unpacking swaps the two values without a temporary variable.",
+  "validation": "reviewed"
+}
