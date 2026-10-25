@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-001",
+  "title": "Print a Greeting",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Write a Python program that prints the text Hello, World!.",
+  "code": "print(\"Hello, World!\")\n",
+  "expected_output": "Hello, World!",
+  "explanation": "The print() function displays text in the console.",
+  "validation": "reviewed"
+}
