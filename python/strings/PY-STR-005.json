@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-005",
+  "title": "Check a Palindrome String",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read text and check whether it is a palindrome when case and spaces are ignored.",
+  "code": "text = input(\"Text: \")\nnormalized = \"\".join(text.lower().split())\nif normalized == normalized[::-1]:\n    print(\"Palindrome\")\nelse:\n    print(\"Not a palindrome\")\n",
+  "expected_output": "For input Never odd or even:\nText: Never odd or even\nPalindrome",
+  "explanation": "The code removes whitespace, converts to lowercase, then compares the text with its reverse.",
+  "validation": "reviewed"
+}

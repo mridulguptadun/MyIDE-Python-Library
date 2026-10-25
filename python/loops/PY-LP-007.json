@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-007",
+  "title": "Calculate a Factorial",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a non-negative integer and calculate its factorial using a loop.",
+  "code": "n = int(input(\"Non-negative integer: \"))\nresult = 1\nfor value in range(2, n + 1):\n    result *= value\nprint(\"Factorial:\", result)\n",
+  "expected_output": "For input 5:\nNon-negative integer: 5\nFactorial: 120",
+  "explanation": "Factorial multiplies all integers from 1 through n; 0! is 1.",
+  "validation": "reviewed"
+}

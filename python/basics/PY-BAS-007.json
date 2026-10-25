@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-007",
+  "title": "Convert Minutes to Hours and Minutes",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a non-negative number of minutes and convert it into hours and remaining minutes.",
+  "code": "total_minutes = int(input(\"Minutes: \"))\nhours = total_minutes // 60\nminutes = total_minutes % 60\nprint(f\"{hours} hour(s), {minutes} minute(s)\")\n",
+  "expected_output": "For input 135:\nMinutes: 135\n2 hour(s), 15 minute(s)",
+  "explanation": "Integer division gives full hours; modulo gives the remaining minutes.",
+  "validation": "reviewed"
+}

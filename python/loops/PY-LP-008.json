@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-008",
+  "title": "Reverse the Digits of an Integer",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a non-negative integer and print its digits in reverse order.",
+  "code": "number = input(\"Non-negative integer: \")\nprint(\"Reversed:\", number[::-1])\n",
+  "expected_output": "For input 12340:\nNon-negative integer: 12340\nReversed: 04321",
+  "explanation": "String slicing with a step of -1 reverses the characters and preserves trailing zeroes as leading zeroes.",
+  "validation": "reviewed"
+}

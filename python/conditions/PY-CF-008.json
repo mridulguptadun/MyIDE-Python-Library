@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-008",
+  "title": "Check Divisibility by Both 3 and 5",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read an integer and check whether it is divisible by both 3 and 5.",
+  "code": "number = int(input(\"Integer: \"))\nif number % 3 == 0 and number % 5 == 0:\n    print(\"Divisible by both\")\nelse:\n    print(\"Not divisible by both\")\n",
+  "expected_output": "For input 30:\nInteger: 30\nDivisible by both",
+  "explanation": "The and operator requires both divisibility tests to be true.",
+  "validation": "reviewed"
+}

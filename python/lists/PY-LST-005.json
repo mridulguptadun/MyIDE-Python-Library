@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-005",
+  "title": "Remove Duplicates While Preserving Order",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read space-separated values and remove duplicates while keeping their first-seen order.",
+  "code": "values = input(\"Values: \").split()\nunique_values = list(dict.fromkeys(values))\nprint(\"Unique:\", \" \".join(unique_values))\n",
+  "expected_output": "For input red blue red green blue:\nValues: red blue red green blue\nUnique: red blue green",
+  "explanation": "Dictionaries preserve insertion order, so dict.fromkeys() keeps each value's first occurrence.",
+  "validation": "reviewed"
+}

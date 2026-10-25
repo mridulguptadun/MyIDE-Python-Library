@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-007",
+  "title": "Check Positive, Negative, or Zero",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read a number and classify it as positive, negative, or zero.",
+  "code": "number = float(input(\"Number: \"))\nif number > 0:\n    print(\"Positive\")\nelif number < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")\n",
+  "expected_output": "For input -3:\nNumber: -3\nNegative",
+  "explanation": "The if/elif/else branches select the result based on comparisons.",
+  "validation": "reviewed"
+}

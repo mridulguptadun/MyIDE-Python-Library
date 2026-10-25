@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-006",
+  "title": "Calculate Simple Interest",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read principal, annual rate, and time in years; calculate simple interest.",
+  "code": "principal = float(input(\"Principal: \"))\nrate = float(input(\"Annual rate (%): \"))\nyears = float(input(\"Years: \"))\ninterest = principal * rate * years / 100\nprint(f\"Simple interest: {interest:g}\")\n",
+  "expected_output": "For inputs 1000, 5, and 2:\nPrincipal: 1000\nAnnual rate (%): 5\nYears: 2\nSimple interest: 100",
+  "explanation": "Simple interest is principal multiplied by annual rate and time, divided by 100.",
+  "validation": "reviewed"
+}
