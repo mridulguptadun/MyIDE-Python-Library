@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-008",
+  "title": "Calculate Factorial with a Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Define a function that returns the factorial of a non-negative integer using a loop.",
+  "code": "def factorial(number):\n    if number < 0:\n        raise ValueError(\"number must be non-negative\")\n    result = 1\n    for value in range(2, number + 1):\n        result *= value\n    return result\n\nprint(factorial(5))\n",
+  "expected_output": "120",
+  "explanation": "Factorial multiplies every integer from 1 through n; by definition, 0! is 1.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-016",
+  "title": "Check Whether a Number Is a Perfect Square",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read a non-negative integer and check whether it is a perfect square.",
+  "code": "import math\nnumber = int(input(\"Non-negative integer: \"))\nif number < 0:\n    print(\"Invalid input\")\nelse:\n    root = math.isqrt(number)\n    if root * root == number:\n        print(\"Perfect square\")\n    else:\n        print(\"Not a perfect square\")\n",
+  "expected_output": "For input 49:\nNon-negative integer: 49\nPerfect square",
+  "explanation": "math.isqrt() returns the integer square root; squaring it checks for a perfect square.",
+  "validation": "reviewed"
+}

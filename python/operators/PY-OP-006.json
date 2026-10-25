@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-006",
+  "title": "Calculate a Number's Square and Cube",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Read a number and print its square and cube using exponentiation.",
+  "code": "number = float(input(\"Number: \"))\nprint(f\"Square: {number ** 2:g}\")\nprint(f\"Cube: {number ** 3:g}\")\n",
+  "expected_output": "For input 3:\nNumber: 3\nSquare: 9\nCube: 27",
+  "explanation": "The exponentiation operator ** raises a value to a power.",
+  "validation": "reviewed"
+}

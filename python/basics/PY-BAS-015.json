@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-015",
+  "title": "Calculate the Area of a Circle",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a circle's radius and print its area using math.pi.",
+  "code": "import math\nradius = float(input(\"Radius: \"))\narea = math.pi * radius ** 2\nprint(f\"Area: {area:.2f}\")\n",
+  "expected_output": "For input 2:\nRadius: 2\nArea: 12.57",
+  "explanation": "The area of a circle is π multiplied by the radius squared.",
+  "validation": "reviewed"
+}

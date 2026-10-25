@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-012",
+  "title": "Reverse a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Create a list and print its items in reverse order without changing the original list.",
+  "code": "numbers = [10, 20, 30, 40]\nprint(numbers[::-1])\n",
+  "expected_output": "[40, 30, 20, 10]",
+  "explanation": "A slice with a step of -1 returns the list items in reverse order.",
+  "validation": "reviewed"
+}

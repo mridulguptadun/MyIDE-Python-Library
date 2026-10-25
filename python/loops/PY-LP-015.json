@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-015",
+  "title": "Print a Right-Angled Star Pattern",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a positive number of rows and print a left-aligned triangle of stars.",
+  "code": "rows = int(input(\"Rows: \"))\nfor row in range(1, rows + 1):\n    print(\"*\" * row)\n",
+  "expected_output": "For input 4:\nRows: 4\n*\n**\n***\n****",
+  "explanation": "Each loop iteration prints a string containing one more star than the previous row.",
+  "validation": "reviewed"
+}

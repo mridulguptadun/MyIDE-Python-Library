@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-006",
+  "title": "Update a Dictionary Value",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Update one existing dictionary value and add a new key-value pair, then print the dictionary.",
+  "code": "student = {\"name\": \"Aman\", \"score\": 75}\nstudent[\"score\"] = 90\nstudent[\"city\"] = \"Agra\"\nprint(student)\n",
+  "expected_output": "{'name': 'Aman', 'score': 90, 'city': 'Agra'}",
+  "explanation": "Assigning to an existing key changes its value; assigning to a new key adds an entry.",
+  "validation": "reviewed"
+}

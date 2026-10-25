@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-012",
+  "title": "Check Whether Two Words Are Anagrams",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read two words and check whether they contain the same letters with the same frequencies, ignoring case.",
+  "code": "first = input(\"First word: \").replace(\" \", \"\").lower()\nsecond = input(\"Second word: \").replace(\" \", \"\").lower()\nif sorted(first) == sorted(second):\n    print(\"Anagrams\")\nelse:\n    print(\"Not anagrams\")\n",
+  "expected_output": "For inputs Listen and Silent:\nFirst word: Listen\nSecond word: Silent\nAnagrams",
+  "explanation": "Sorting the lowercase characters allows a direct comparison of letter counts for simple words or phrases.",
+  "validation": "reviewed"
+}
