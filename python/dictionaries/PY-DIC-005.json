@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-005",
+  "title": "Print Dictionary Keys and Values",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Loop through a dictionary and print each key with its value.",
+  "code": "prices = {\"Pen\": 10, \"Book\": 50, \"Bag\": 300}\nfor item, price in prices.items():\n    print(f\"{item}: {price}\")\n",
+  "expected_output": "Pen: 10\nBook: 50\nBag: 300",
+  "explanation": "items() returns key-value pairs, which can be unpacked in a for loop.",
+  "validation": "reviewed"
+}

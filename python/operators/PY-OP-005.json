@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-005",
+  "title": "Calculate the Remainder",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Read two integers and print the remainder after division, handling a zero divisor.",
+  "code": "number = int(input(\"Number: \"))\ndivisor = int(input(\"Divisor: \"))\nif divisor == 0:\n    print(\"Cannot divide by zero\")\nelse:\n    print(\"Remainder:\", number % divisor)\n",
+  "expected_output": "For inputs 17 and 5:\nNumber: 17\nDivisor: 5\nRemainder: 2",
+  "explanation": "The modulo operator (%) gives the remainder after integer division.",
+  "validation": "reviewed"
+}

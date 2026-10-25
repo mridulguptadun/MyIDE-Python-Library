@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-015",
+  "title": "Check Whether a Number Is a Multiple of Another",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read two integers and check whether the first is a multiple of the second. Handle a zero second number safely.",
+  "code": "number = int(input(\"Number: \"))\ndivisor = int(input(\"Divisor: \"))\nif divisor == 0:\n    print(\"Cannot divide by zero\")\nelif number % divisor == 0:\n    print(\"Multiple\")\nelse:\n    print(\"Not a multiple\")\n",
+  "expected_output": "For inputs 20 and 5:\nNumber: 20\nDivisor: 5\nMultiple",
+  "explanation": "A number is a multiple of another non-zero number when the remainder is zero.",
+  "validation": "reviewed"
+}

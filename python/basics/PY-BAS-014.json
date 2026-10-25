@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-014",
+  "title": "Calculate the Average of Three Numbers",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read three numbers and print their arithmetic average.",
+  "code": "a = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\nc = float(input(\"Third number: \"))\nprint(f\"Average: {(a + b + c) / 3:g}\")\n",
+  "expected_output": "For inputs 3, 6, and 9:\nFirst number: 3\nSecond number: 6\nThird number: 9\nAverage: 6",
+  "explanation": "The arithmetic average is the sum of the values divided by the number of values.",
+  "validation": "reviewed"
+}

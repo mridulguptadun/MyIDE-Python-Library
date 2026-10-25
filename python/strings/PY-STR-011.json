@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-011",
+  "title": "Remove Leading and Trailing Spaces",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a line and remove whitespace from its beginning and end.",
+  "code": "text = input(\"Text: \")\nprint(text.strip())\n",
+  "expected_output": "For input with spaces around hello:\nText:    hello   \nhello",
+  "explanation": "strip() returns a copy of a string with leading and trailing whitespace removed.",
+  "validation": "reviewed"
+}

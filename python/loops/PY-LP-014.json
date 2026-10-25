@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-014",
+  "title": "Calculate the Product of Digits",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read an integer and calculate the product of its digits using a loop.",
+  "code": "number = abs(int(input(\"Integer: \")))\nproduct = 1\nwhile number > 0:\n    product *= number % 10\n    number //= 10\nprint(\"Product of digits:\", product)\n",
+  "expected_output": "For input 234:\nInteger: 234\nProduct of digits: 24",
+  "explanation": "Modulo extracts the last digit, and integer division removes it; zero is handled as a product of 1 in this simple implementation.",
+  "validation": "reviewed"
+}

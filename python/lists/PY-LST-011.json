@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-011",
+  "title": "Find Common Items in Two Lists",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Print the unique values that appear in both lists, preserving the order of the first list.",
+  "code": "first = [1, 2, 3, 4, 2]\nsecond = [2, 4, 6]\ncommon = []\nfor item in first:\n    if item in second and item not in common:\n        common.append(item)\nprint(common)\n",
+  "expected_output": "[2, 4]",
+  "explanation": "Check membership in the second list and avoid adding the same common item more than once.",
+  "validation": "reviewed"
+}

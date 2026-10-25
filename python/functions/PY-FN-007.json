@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-007",
+  "title": "Convert Celsius with a Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that converts a Celsius temperature to Fahrenheit.",
+  "code": "def celsius_to_fahrenheit(celsius):\n    return (celsius * 9 / 5) + 32\n\nprint(celsius_to_fahrenheit(25))\n",
+  "expected_output": "77.0",
+  "explanation": "The function applies the standard conversion formula and returns the result.",
+  "validation": "reviewed"
+}
