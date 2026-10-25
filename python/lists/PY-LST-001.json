@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-001",
+  "title": "Find the Largest List Item",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read space-separated integers and print the largest value.",
+  "code": "numbers = [int(item) for item in input(\"Numbers: \").split()]\nif numbers:\n    print(\"Largest:\", max(numbers))\nelse:\n    print(\"No numbers entered\")\n",
+  "expected_output": "For input 4 9 2 7:\nNumbers: 4 9 2 7\nLargest: 9",
+  "explanation": "split() separates the input; max() finds the largest number.",
+  "validation": "reviewed"
+}
