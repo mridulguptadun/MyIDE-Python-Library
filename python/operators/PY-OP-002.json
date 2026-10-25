@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-002",
+  "title": "Convert Minutes to Hours",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Convert a non-negative number of minutes to hours and remaining minutes.",
+  "code": "total_minutes = int(input(\"Minutes: \"))\nif total_minutes >= 0:\n    print(\"Hours:\", total_minutes // 60)\n    print(\"Remaining minutes:\", total_minutes % 60)\nelse:\n    print(\"Enter a non-negative value\")\n",
+  "expected_output": "For input 135:\nMinutes: 135\nHours: 2\nRemaining minutes: 15",
+  "explanation": "Integer division finds whole hours; modulo finds leftover minutes.",
+  "validation": "reviewed"
+}
