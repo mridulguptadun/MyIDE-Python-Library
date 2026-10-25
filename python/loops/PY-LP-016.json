@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-016",
+  "title": "Print a Number Pyramid",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read a positive number of rows and print rows containing repeated row numbers, such as 1, then 22, then 333.",
+  "code": "rows = int(input(\"Rows: \"))\nfor row in range(1, rows + 1):\n    print(str(row) * row)\n",
+  "expected_output": "For input 4:\nRows: 4\n1\n22\n333\n4444",
+  "explanation": "Convert the row number to text and repeat it row-number times.",
+  "validation": "reviewed"
+}

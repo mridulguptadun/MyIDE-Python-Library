@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-007",
+  "title": "Calculate Integer Division and Remainder",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Read two integers and display the floor-division result and remainder, handling a zero divisor.",
+  "code": "number = int(input(\"Number: \"))\ndivisor = int(input(\"Divisor: \"))\nif divisor == 0:\n    print(\"Cannot divide by zero\")\nelse:\n    print(\"Quotient:\", number // divisor)\n    print(\"Remainder:\", number % divisor)\n",
+  "expected_output": "For inputs 17 and 5:\nNumber: 17\nDivisor: 5\nQuotient: 3\nRemainder: 2",
+  "explanation": "// performs floor division and % returns the remainder; both require a non-zero divisor.",
+  "validation": "reviewed"
+}

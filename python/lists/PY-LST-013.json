@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-013",
+  "title": "Count Occurrences in a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Count how many times a chosen number appears in a list.",
+  "code": "numbers = [2, 4, 2, 6, 2, 8]\ntarget = int(input(\"Number to count: \"))\nprint(\"Occurrences:\", numbers.count(target))\n",
+  "expected_output": "For input 2:\nNumber to count: 2\nOccurrences: 3",
+  "explanation": "The list count() method returns the number of occurrences of a value.",
+  "validation": "reviewed"
+}

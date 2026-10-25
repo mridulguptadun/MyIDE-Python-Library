@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-013",
+  "title": "Find the Last Character",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a string and print its last character, or a message if it is empty.",
+  "code": "text = input(\"Text: \")\nif text:\n    print(\"Last character:\", text[-1])\nelse:\n    print(\"The text is empty.\")\n",
+  "expected_output": "For input Python:\nText: Python\nLast character: n",
+  "explanation": "Negative index -1 refers to the last character of a non-empty string.",
+  "validation": "reviewed"
+}

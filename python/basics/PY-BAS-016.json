@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-016",
+  "title": "Calculate the Volume of a Box",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read the length, width, and height of a box and calculate its volume.",
+  "code": "length = float(input(\"Length: \"))\nwidth = float(input(\"Width: \"))\nheight = float(input(\"Height: \"))\nprint(f\"Volume: {length * width * height:g}\")\n",
+  "expected_output": "For inputs 2, 3, and 4:\nLength: 2\nWidth: 3\nHeight: 4\nVolume: 24",
+  "explanation": "The volume of a rectangular box is length multiplied by width and height.",
+  "validation": "reviewed"
+}

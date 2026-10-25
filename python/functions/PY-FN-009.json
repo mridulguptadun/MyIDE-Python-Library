@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-009",
+  "title": "Return the Sum of a List",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that accepts a list of numbers and returns their sum.",
+  "code": "def list_sum(numbers):\n    return sum(numbers)\n\nprint(list_sum([3, 5, 7]))\n",
+  "expected_output": "15",
+  "explanation": "The function accepts a list and uses sum() to return the total of its items.",
+  "validation": "reviewed"
+}

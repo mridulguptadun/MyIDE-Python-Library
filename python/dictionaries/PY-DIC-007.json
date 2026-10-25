@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-007",
+  "title": "Check Whether a Key Exists",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Check whether a requested key exists in a dictionary and print a suitable message.",
+  "code": "student = {\"name\": \"Nisha\", \"grade\": \"B\"}\nkey = input(\"Key to check: \")\nif key in student:\n    print(\"Key exists\")\nelse:\n    print(\"Key not found\")\n",
+  "expected_output": "For input name:\nKey to check: name\nKey exists",
+  "explanation": "The in operator checks whether a key is present in a dictionary.",
+  "validation": "reviewed"
+}

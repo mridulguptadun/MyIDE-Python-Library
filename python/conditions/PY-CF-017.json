@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-017",
+  "title": "Check Whether a Number Is Divisible by 7",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read an integer and report whether it is divisible by 7.",
+  "code": "number = int(input(\"Integer: \"))\nif number % 7 == 0:\n    print(\"Divisible by 7\")\nelse:\n    print(\"Not divisible by 7\")\n",
+  "expected_output": "For input 49:\nInteger: 49\nDivisible by 7",
+  "explanation": "A number is divisible by 7 when its remainder after division by 7 is zero.",
+  "validation": "reviewed"
+}
