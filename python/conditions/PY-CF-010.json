@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-010",
+  "title": "Find the Smallest of Three Numbers",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read three numbers and print the smallest value using if/elif/else.",
+  "code": "first = float(input(\"First number: \"))\nsecond = float(input(\"Second number: \"))\nthird = float(input(\"Third number: \"))\nif first <= second and first <= third:\n    smallest = first\nelif second <= first and second <= third:\n    smallest = second\nelse:\n    smallest = third\nprint(f\"Smallest: {smallest:g}\")\n",
+  "expected_output": "For inputs 7, 2, and 5:\nFirst number: 7\nSecond number: 2\nThird number: 5\nSmallest: 2",
+  "explanation": "Compare each value with the other two to determine which one is smallest.",
+  "validation": "reviewed"
+}

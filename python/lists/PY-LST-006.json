@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-006",
+  "title": "Find the Largest List Value",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read three integers into a list and print the largest value.",
+  "code": "numbers = []\nfor index in range(3):\n    numbers.append(int(input(f\"Number {index + 1}: \")))\nprint(\"Largest:\", max(numbers))\n",
+  "expected_output": "For inputs 4, 9, and 2:\nNumber 1: 4\nNumber 2: 9\nNumber 3: 2\nLargest: 9",
+  "explanation": "The max() function returns the largest item in a list.",
+  "validation": "reviewed"
+}

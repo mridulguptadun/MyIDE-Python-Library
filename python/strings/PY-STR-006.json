@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-006",
+  "title": "Count Vowels in a String",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a line of text and count its vowels (a, e, i, o, u), ignoring case.",
+  "code": "text = input(\"Text: \")\nvowels = \"aeiou\"\ncount = sum(1 for character in text.lower() if character in vowels)\nprint(\"Vowels:\", count)\n",
+  "expected_output": "For input Hello World:\nText: Hello World\nVowels: 3",
+  "explanation": "Convert the text to lowercase, then count characters that occur in the vowel string.",
+  "validation": "reviewed"
+}

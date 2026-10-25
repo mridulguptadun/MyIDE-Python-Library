@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-009",
+  "title": "Check Voting Eligibility",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read an age and print Eligible if it is at least 18; otherwise print Not eligible.",
+  "code": "age = int(input(\"Age: \"))\nif age >= 18:\n    print(\"Eligible\")\nelse:\n    print(\"Not eligible\")\n",
+  "expected_output": "For input 20:\nAge: 20\nEligible",
+  "explanation": "The >= operator checks whether age is greater than or equal to 18.",
+  "validation": "reviewed"
+}

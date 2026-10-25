@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-003",
+  "title": "Create a Square Function",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Define a function named square that returns the square of a number, then print square(5).",
+  "code": "def square(number):\n    return number * number\n\nprint(square(5))\n",
+  "expected_output": "25",
+  "explanation": "A function groups reusable logic; return sends the calculated value back to the caller.",
+  "validation": "reviewed"
+}

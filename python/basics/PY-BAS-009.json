@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-009",
+  "title": "Convert Kilometers to Meters",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a distance in kilometers and convert it to meters.",
+  "code": "kilometers = float(input(\"Kilometers: \"))\nmeters = kilometers * 1000\nprint(f\"Meters: {meters:g}\")\n",
+  "expected_output": "For input 2.5:\nKilometers: 2.5\nMeters: 2500",
+  "explanation": "One kilometer equals 1,000 meters, so multiply kilometers by 1,000.",
+  "validation": "reviewed"
+}
