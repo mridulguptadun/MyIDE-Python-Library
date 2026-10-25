@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-001",
+  "title": "Handle Division by Zero",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Divide 10 by 0 and handle the ZeroDivisionError by printing a friendly message.",
+  "code": "try:\n    print(10 / 0)\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero.\")\n",
+  "expected_output": "Cannot divide by zero.",
+  "explanation": "try runs code that may fail. except handles the specified error instead of stopping the program with an unhandled exception.",
+  "validation": "reviewed"
+}

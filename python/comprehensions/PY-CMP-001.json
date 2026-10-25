@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-001",
+  "title": "Create a List of Squares",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to create and print the squares of numbers from 1 to 5.",
+  "code": "squares = [number ** 2 for number in range(1, 6)]\nprint(squares)\n",
+  "expected_output": "[1, 4, 9, 16, 25]",
+  "explanation": "A list comprehension creates a list by evaluating an expression for each item in an iterable.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-EXC-002",
+  "title": "Convert Text to an Integer Safely",
+  "topic": "Exceptions",
+  "difficulty": "Beginner",
+  "question": "Try to convert the text hello to an integer and print a message if conversion fails.",
+  "code": "text = \"hello\"\ntry:\n    number = int(text)\n    print(number)\nexcept ValueError:\n    print(\"Please use a whole number.\")\n",
+  "expected_output": "Please use a whole number.",
+  "explanation": "int() raises ValueError when text does not represent a valid integer. except ValueError handles that case.",
+  "validation": "reviewed"
+}

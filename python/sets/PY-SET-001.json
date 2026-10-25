@@ -1,0 +1,11 @@
+{
+  "id": "PY-SET-001",
+  "title": "Create a Set of Numbers",
+  "topic": "Sets",
+  "difficulty": "Beginner",
+  "question": "Create a set containing the numbers 1, 2, and 3, then print it.",
+  "code": "numbers = {1, 2, 3}\nprint(sorted(numbers))\n",
+  "expected_output": "[1, 2, 3]",
+  "explanation": "A set stores unique values. sorted() is used here to display the values in a predictable order.",
+  "validation": "reviewed"
+}

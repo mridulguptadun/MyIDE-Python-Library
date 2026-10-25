@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-001",
+  "title": "Create and Print a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Write a Python program that stores three colors in a tuple and prints the tuple.",
+  "code": "colors = (\"red\", \"green\", \"blue\")\nprint(colors)\n",
+  "expected_output": "('red', 'green', 'blue')",
+  "explanation": "A tuple stores multiple values in one ordered collection. Parentheses are commonly used to write a tuple.",
+  "validation": "reviewed"
+}

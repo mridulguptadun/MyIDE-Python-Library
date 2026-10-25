@@ -1,0 +1,11 @@
+{
+  "id": "PY-CMP-002",
+  "title": "Filter Even Numbers with a Comprehension",
+  "topic": "Comprehensions",
+  "difficulty": "Beginner",
+  "question": "Use a list comprehension to select even numbers from 1 through 10 and print the result.",
+  "code": "evens = [number for number in range(1, 11) if number % 2 == 0]\nprint(evens)\n",
+  "expected_output": "[2, 4, 6, 8, 10]",
+  "explanation": "The if condition in a list comprehension keeps only items that satisfy the condition.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-TUP-002",
+  "title": "Access an Item in a Tuple",
+  "topic": "Tuples",
+  "difficulty": "Beginner",
+  "question": "Create a tuple of three fruits and print the second fruit.",
+  "code": "fruits = (\"apple\", \"banana\", \"mango\")\nprint(fruits[1])\n",
+  "expected_output": "banana",
+  "explanation": "Tuple indexing starts at 0, so index 1 selects the second item.",
+  "validation": "reviewed"
+}
