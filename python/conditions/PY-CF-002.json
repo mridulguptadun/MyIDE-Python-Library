@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-002",
+  "title": "Find the Larger Number",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read two numbers and print the larger number, or Equal if they match.",
+  "code": "a = float(input(\"First number: \"))\nb = float(input(\"Second number: \"))\nif a > b:\n    print(\"Larger:\", a)\nelif b > a:\n    print(\"Larger:\", b)\nelse:\n    print(\"Equal\")\n",
+  "expected_output": "For inputs 8 and 3:\nFirst number: 8\nSecond number: 3\nLarger: 8.0",
+  "explanation": "if and elif compare both values; else handles equal values.",
+  "validation": "reviewed"
+}
