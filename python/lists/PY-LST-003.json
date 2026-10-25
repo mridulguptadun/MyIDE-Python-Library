@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-003",
+  "title": "Calculate List Average",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Read space-separated numbers and print their average.",
+  "code": "numbers = [float(item) for item in input(\"Numbers: \").split()]\nif numbers:\n    print(\"Average:\", sum(numbers) / len(numbers))\nelse:\n    print(\"No numbers entered\")\n",
+  "expected_output": "For input 2 4 6:\nNumbers: 2 4 6\nAverage: 4.0",
+  "explanation": "Average equals the sum divided by the number of items.",
+  "validation": "reviewed"
+}
