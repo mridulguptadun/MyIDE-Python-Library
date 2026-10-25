@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-014",
+  "title": "Count Vowels in a Word",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Count how many vowels appear in the word education and print the count.",
+  "code": "word = \"education\"\nvowels = \"aeiou\"\ncount = sum(1 for letter in word if letter in vowels)\nprint(count)\n",
+  "expected_output": "5",
+  "explanation": "The generator expression produces 1 for each vowel. sum() adds those values to get the total count.",
+  "validation": "reviewed"
+}

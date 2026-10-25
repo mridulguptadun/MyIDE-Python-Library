@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-009",
+  "title": "Count Items in a Dictionary",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Create a dictionary with three entries and print the number of entries.",
+  "code": "student = {\"name\": \"Asha\", \"age\": 16, \"grade\": \"A\"}\nprint(len(student))\n",
+  "expected_output": "3",
+  "explanation": "len() returns the number of key-value pairs stored in a dictionary.",
+  "validation": "reviewed"
+}

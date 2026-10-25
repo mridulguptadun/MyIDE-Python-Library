@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-015",
+  "title": "Reverse a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Reverse a list of three numbers and print the reversed list.",
+  "code": "numbers = [1, 2, 3]\nprint(numbers[::-1])\n",
+  "expected_output": "[3, 2, 1]",
+  "explanation": "The slice [::-1] creates a reversed copy of the list without changing the original list.",
+  "validation": "reviewed"
+}

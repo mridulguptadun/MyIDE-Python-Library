@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-015",
+  "title": "Replace Spaces with Hyphens",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Replace every space in a sentence with a hyphen and print the new sentence.",
+  "code": "sentence = \"learn python every day\"\nprint(sentence.replace(\" \", \"-\"))\n",
+  "expected_output": "learn-python-every-day",
+  "explanation": "The replace() method returns a new string with each matching substring replaced.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-014",
+  "title": "Find the Smallest Number in a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Print the smallest number from a list of four numbers.",
+  "code": "numbers = [8, 3, 12, 5]\nprint(min(numbers))\n",
+  "expected_output": "3",
+  "explanation": "The min() function returns the smallest item in a non-empty list of comparable values.",
+  "validation": "reviewed"
+}

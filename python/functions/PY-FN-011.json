@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-011",
+  "title": "Check Whether a Number Is Even",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that returns True when a number is even and False otherwise.",
+  "code": "def is_even(number):\n    return number % 2 == 0\n\nprint(is_even(8))\nprint(is_even(5))\n",
+  "expected_output": "True\nFalse",
+  "explanation": "A number is even when its remainder after division by 2 is zero. The function returns the result of that comparison.",
+  "validation": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PY-DIC-008",
+  "title": "Print Dictionary Keys",
+  "topic": "Dictionaries",
+  "difficulty": "Beginner",
+  "question": "Print the keys of a dictionary in alphabetical order.",
+  "code": "student = {\"name\": \"Asha\", \"city\": \"Agra\", \"grade\": \"A\"}\nprint(sorted(student.keys()))\n",
+  "expected_output": "['city', 'grade', 'name']",
+  "explanation": "keys() provides the dictionary keys, and sorted() returns those keys in alphabetical order.",
+  "validation": "reviewed"
+}

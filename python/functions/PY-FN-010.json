@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-010",
+  "title": "Return the Largest Number",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that accepts a list of numbers and returns the largest number.",
+  "code": "def find_largest(numbers):\n    return max(numbers)\n\nprint(find_largest([4, 9, 2, 7]))\n",
+  "expected_output": "9",
+  "explanation": "The max() function returns the largest item in a non-empty collection. The function returns that value to its caller.",
+  "validation": "reviewed"
+}
