@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-013",
+  "title": "Check Whether Three Sides Form a Triangle",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read three side lengths and check whether they can form a triangle.",
+  "code": "a = float(input(\"Side A: \"))\nb = float(input(\"Side B: \"))\nc = float(input(\"Side C: \"))\nif a > 0 and b > 0 and c > 0 and a + b > c and a + c > b and b + c > a:\n    print(\"Valid triangle\")\nelse:\n    print(\"Invalid triangle\")\n",
+  "expected_output": "For inputs 3, 4, and 5:\nSide A: 3\nSide B: 4\nSide C: 5\nValid triangle",
+  "explanation": "All sides must be positive, and the sum of any two sides must be greater than the third.",
+  "validation": "reviewed"
+}

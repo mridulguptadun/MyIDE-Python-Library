@@ -1,0 +1,11 @@
+{
+  "id": "PY-FN-005",
+  "title": "Return the Larger of Two Values",
+  "topic": "Functions",
+  "difficulty": "Beginner",
+  "question": "Write a function that accepts two numbers and returns the larger one.",
+  "code": "def larger(first, second):\n    if first >= second:\n        return first\n    return second\n\nprint(larger(12, 9))\n",
+  "expected_output": "12",
+  "explanation": "A function can compare parameters and return the result to the caller.",
+  "validation": "reviewed"
+}

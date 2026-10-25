@@ -1,0 +1,11 @@
+{
+  "id": "PY-LST-009",
+  "title": "Remove an Item from a List",
+  "topic": "Lists",
+  "difficulty": "Beginner",
+  "question": "Remove the first occurrence of a requested value from a list if it exists.",
+  "code": "numbers = [2, 4, 6, 4, 8]\nvalue = int(input(\"Value to remove: \"))\nif value in numbers:\n    numbers.remove(value)\n    print(\"Updated list:\", numbers)\nelse:\n    print(\"Value not found\")\n",
+  "expected_output": "For input 4:\nValue to remove: 4\nUpdated list: [2, 6, 4, 8]",
+  "explanation": "The in operator checks membership, and remove() deletes the first matching item.",
+  "validation": "reviewed"
+}

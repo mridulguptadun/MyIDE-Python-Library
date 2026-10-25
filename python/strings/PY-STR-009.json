@@ -1,0 +1,11 @@
+{
+  "id": "PY-STR-009",
+  "title": "Find the First Character",
+  "topic": "Strings",
+  "difficulty": "Beginner",
+  "question": "Read a string and print its first character, or a message if the string is empty.",
+  "code": "text = input(\"Text: \")\nif text:\n    print(\"First character:\", text[0])\nelse:\n    print(\"The text is empty.\")\n",
+  "expected_output": "For input Python:\nText: Python\nFirst character: P",
+  "explanation": "Strings support indexing from 0; checking the string first avoids indexing an empty string.",
+  "validation": "reviewed"
+}

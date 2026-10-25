@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-012",
+  "title": "Count Digits in an Integer",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Read an integer and count its digits using a loop.",
+  "code": "number = abs(int(input(\"Integer: \")))\ncount = 1\nwhile number >= 10:\n    number //= 10\n    count += 1\nprint(\"Digits:\", count)\n",
+  "expected_output": "For input -482:\nInteger: -482\nDigits: 3",
+  "explanation": "Repeated integer division by 10 removes the last digit until one digit remains; zero is handled as one digit.",
+  "validation": "reviewed"
+}

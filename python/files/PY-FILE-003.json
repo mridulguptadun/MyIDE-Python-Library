@@ -1,0 +1,11 @@
+{
+  "id": "PY-FILE-003",
+  "title": "Append Text to a File",
+  "topic": "Files",
+  "difficulty": "Beginner",
+  "question": "Create a file with one line, append a second line, then print the complete file contents.",
+  "code": "with open(\"notes.txt\", \"w\", encoding=\"utf-8\") as file:\n    file.write(\"First line\\n\")\n\nwith open(\"notes.txt\", \"a\", encoding=\"utf-8\") as file:\n    file.write(\"Second line\\n\")\n\nwith open(\"notes.txt\", \"r\", encoding=\"utf-8\") as file:\n    print(file.read(), end=\"\")\n",
+  "expected_output": "First line\nSecond line",
+  "explanation": "Write mode replaces file contents, append mode adds to the end, and read mode retrieves the contents.",
+  "validation": "reviewed"
+}

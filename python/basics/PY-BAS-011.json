@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-011",
+  "title": "Convert Seconds to Minutes and Seconds",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Read a non-negative number of seconds and display the equivalent minutes and remaining seconds.",
+  "code": "total_seconds = int(input(\"Seconds: \"))\nminutes = total_seconds // 60\nseconds = total_seconds % 60\nprint(f\"{minutes} minute(s), {seconds} second(s)\")\n",
+  "expected_output": "For input 135:\nSeconds: 135\n2 minute(s), 15 second(s)",
+  "explanation": "Integer division finds whole minutes; modulo gives the remaining seconds.",
+  "validation": "reviewed"
+}
