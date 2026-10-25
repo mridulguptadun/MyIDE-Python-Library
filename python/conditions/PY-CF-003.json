@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-003",
+  "title": "Check Leap Year",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Read a year and determine whether it is a leap year.",
+  "code": "year = int(input(\"Year: \"))\nif year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):\n    print(\"Leap year\")\nelse:\n    print(\"Not a leap year\")\n",
+  "expected_output": "For input 2024:\nYear: 2024\nLeap year",
+  "explanation": "A leap year is divisible by 400, or divisible by 4 but not by 100.",
+  "validation": "reviewed"
+}
