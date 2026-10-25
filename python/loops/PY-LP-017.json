@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-017",
+  "title": "Calculate the Factorial of a Number",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Use a loop to calculate and print the factorial of 5.",
+  "code": "number = 5\nfactorial = 1\nfor value in range(1, number + 1):\n    factorial *= value\nprint(factorial)\n",
+  "expected_output": "120",
+  "explanation": "The factorial is the product of all positive integers from 1 through the given number. The loop multiplies each value into the running result.",
+  "validation": "reviewed"
+}

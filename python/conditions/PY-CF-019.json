@@ -1,0 +1,11 @@
+{
+  "id": "PY-CF-019",
+  "title": "Find the Largest of Three Numbers",
+  "topic": "Conditions",
+  "difficulty": "Beginner",
+  "question": "Use if and elif to find the largest of 12, 7, and 19.",
+  "code": "a = 12\nb = 7\nc = 19\nif a >= b and a >= c:\n    largest = a\nelif b >= a and b >= c:\n    largest = b\nelse:\n    largest = c\nprint(largest)\n",
+  "expected_output": "19",
+  "explanation": "The conditions compare each value with the other two to identify the largest number.",
+  "validation": "reviewed"
+}

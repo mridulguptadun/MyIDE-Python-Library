@@ -1,0 +1,11 @@
+{
+  "id": "PY-VAR-005",
+  "title": "Swap Two Variables",
+  "topic": "Variables",
+  "difficulty": "Beginner",
+  "question": "Swap the values of two variables and print both values after swapping.",
+  "code": "first = 10\nsecond = 20\nfirst, second = second, first\nprint(first)\nprint(second)\n",
+  "expected_output": "20\n10",
+  "explanation": "Python supports multiple assignment, allowing two variables to exchange values in one statement.",
+  "validation": "reviewed"
+}

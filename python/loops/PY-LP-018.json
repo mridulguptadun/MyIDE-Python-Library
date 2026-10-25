@@ -1,0 +1,11 @@
+{
+  "id": "PY-LP-018",
+  "title": "Print a Multiplication Table",
+  "topic": "Loops",
+  "difficulty": "Beginner",
+  "question": "Print the multiplication table of 4 from 1 to 5.",
+  "code": "number = 4\nfor multiplier in range(1, 6):\n    print(f'{number} x {multiplier} = {number * multiplier}')\n",
+  "expected_output": "4 x 1 = 4\n4 x 2 = 8\n4 x 3 = 12\n4 x 4 = 16\n4 x 5 = 20",
+  "explanation": "range(1, 6) generates the multipliers 1 through 5. An f-string inserts calculated values into each output line.",
+  "validation": "reviewed"
+}

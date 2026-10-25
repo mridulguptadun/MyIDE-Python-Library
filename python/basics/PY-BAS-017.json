@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-017",
+  "title": "Convert Celsius to Fahrenheit",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Convert 25 degrees Celsius to Fahrenheit and print the result.",
+  "code": "celsius = 25\nfahrenheit = (celsius * 9 / 5) + 32\nprint(fahrenheit)\n",
+  "expected_output": "77.0",
+  "explanation": "The Fahrenheit temperature is calculated by multiplying Celsius by 9/5 and adding 32.",
+  "validation": "reviewed"
+}

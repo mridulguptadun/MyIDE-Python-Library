@@ -1,0 +1,11 @@
+{
+  "id": "PY-OP-008",
+  "title": "Calculate a Percentage",
+  "topic": "Operators",
+  "difficulty": "Beginner",
+  "question": "Calculate what percentage 45 is of 60 and print the result with a percent sign.",
+  "code": "part = 45\ntotal = 60\npercentage = part / total * 100\nprint(f\"{percentage}%\")\n",
+  "expected_output": "75.0%",
+  "explanation": "Divide the part by the total and multiply by 100 to convert the ratio into a percentage.",
+  "validation": "reviewed"
+}

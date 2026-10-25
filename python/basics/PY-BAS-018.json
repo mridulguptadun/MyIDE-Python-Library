@@ -1,0 +1,11 @@
+{
+  "id": "PY-BAS-018",
+  "title": "Calculate the Area of a Circle",
+  "topic": "Basics",
+  "difficulty": "Beginner",
+  "question": "Calculate and print the area of a circle with radius 3 using 3.14 for pi.",
+  "code": "radius = 3\npi = 3.14\narea = pi * radius ** 2\nprint(area)\n",
+  "expected_output": "28.26",
+  "explanation": "The area of a circle is pi multiplied by the radius squared. The ** operator raises a number to a power.",
+  "validation": "reviewed"
+}
